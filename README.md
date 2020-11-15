@@ -1,44 +1,28 @@
+## Cherry KDE
+Yet-another Minimal flat theme for KDE Plasma desktop
 
-Layan kde is a flat Design theme for KDE Plasma desktop.
+![theme-preview](plasma/look-and-feel/com.github.nullxception.cherry/contents/previews/preview.png)
 
-In this repository you'll find:
-
-- Aurorae Themes
-- Kvantum Themes
-- Plasma Color Schemes
-- Plasma Desktop Themes
-- Plasma Look-and-Feel Themes
+This theme consist of several components including :
+* aurorae theme
+* konsole colorscheme
+* kvantum theme
+* plasma colorscheme
+* plasma desktop theme
+* splash screen
 
 ## Installation
 
-```sh
-./install.sh
+```bash
+$ cd cherry-kde-theme
+$ ./install.sh
 ```
 
-## Uninstallation
+This theme uses [**Kvantum engine**](https://github.com/tsujan/Kvantum) for it's Application style.
 
-```sh
-./uninstall.sh
-```
-
-## Recommendations
-
-- For better looking please use this pack with [Kvantum engine](https://github.com/tsujan/Kvantum/tree/master/Kvantum).
-
-  Run `kvantummanager` to choose and apply **Layan** theme.
-
-- Install [Tela icon theme](https://github.com/vinceliuice/Tela-icon-theme) for a more consistent and beautiful experience.
-
-## Donate
-
-If you like my project, you can donate at:
-
-<span class="paypal"><a href="https://www.paypal.me/vinceliuice" title="Donate to this project using Paypal"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal donate button" /></a></span>
+So in order to completely apply this theme, you have to open **Kvantum Manager** (command : `kvantummanager`), and then select **cherry** on **Change/Delete Theme** section.
 
 ## License
 
-GNU GPL v3
-
-## preview
-
-![1](../master/plasma/look-and-feel/com.github.vinceliuice.Layan/contents/previews/fullscreenpreview.jpg)
+This theme is based on Layan-KDE theme by [Vinceliuice](https://github.com/vinceliuice).
+And licensed under [GNU GPL v3](LICENSE).
