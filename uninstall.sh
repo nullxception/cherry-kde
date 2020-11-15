@@ -35,6 +35,7 @@ uninstall() {
   local LOOKFEEL_THEME="${LOOKFEEL_DIR}/com.github.nullxception.${name}"
 
   [[ -d ${AURORAE_THEME} ]] && rm -rfv ${AURORAE_THEME}
+  [[ -d ${AURORAE_THEME}-square ]] && rm -rfv ${AURORAE_THEME}-square
   [[ -d ${KONSOLE_DIR}/${name}.colorscheme ]] && rm -rfv ${SCHEMES_DIR}/${name}.colorscheme
   [[ -d ${KVANTUM_THEME}/${name} ]] && rm -rfv ${KVANTUM_THEME}/${name}
   [[ -d ${LOOKFEEL_THEME} ]] && rm -rfv ${LOOKFEEL_THEME}
