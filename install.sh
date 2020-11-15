@@ -46,13 +46,14 @@ install() {
 
   cp -r ${SRC_DIR}/aurorae/themes/*                                                  ${AURORAE_DIR}
   cp -r ${SRC_DIR}/color-schemes/*.colors                                            ${SCHEMES_DIR}
-  cp -r ${SRC_DIR}/color-schemes/${name}.colors                                      ${PLASMA_DIR}/${name}/colors
   cp -r ${SRC_DIR}/konsole/*                                                         ${KONSOLE_DIR}
   cp -r ${SRC_DIR}/kvantum/*                                                         ${KVANTUM_DIR}
-  cp -r ${SRC_DIR}/plasma/desktoptheme/${name}                                       ${PLASMA_DIR}
-  cp -r ${SRC_DIR}/plasma/desktoptheme/icons                                         ${PLASMA_DIR}/${name}
   cp -r ${SRC_DIR}/plasma/look-and-feel/*                                            ${LOOKFEEL_DIR}
   cp -r ${SRC_DIR}/wallpaper/*                                                       ${WALLPAPER_DIR}
+
+  cp -r ${SRC_DIR}/plasma/desktoptheme/${name}                                       ${PLASMA_DIR}
+  cp -r ${SRC_DIR}/plasma/desktoptheme/icons                                         ${PLASMA_DIR}/${name}
+  cp -r ${SRC_DIR}/color-schemes/${name}.colors                                      ${PLASMA_DIR}/${name}/colors
 }
 
 echo "Installing ${THEME_NAME}..."
