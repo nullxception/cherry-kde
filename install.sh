@@ -52,7 +52,9 @@ install() {
   cp -r ${SRC_DIR}/wallpaper/*                                                       ${WALLPAPER_DIR}
 
   cp -r ${SRC_DIR}/plasma/desktoptheme/${name}                                       ${PLASMA_DIR}
+  cp -r ${SRC_DIR}/plasma/desktoptheme/${name}-solid                                 ${PLASMA_DIR}
   cp -r ${SRC_DIR}/plasma/desktoptheme/icons                                         ${PLASMA_DIR}/${name}
+  cp -r ${SRC_DIR}/plasma/desktoptheme/icons                                         ${PLASMA_DIR}/${name}-solid
   cp -r ${SRC_DIR}/color-schemes/${name}.colors                                      ${PLASMA_DIR}/${name}/colors
 }
 
