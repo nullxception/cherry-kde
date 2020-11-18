@@ -28,8 +28,8 @@
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
+     pagecolor="#fafafa"
+     bordercolor="#696969"
      borderopacity="1"
      objecttolerance="10"
      gridtolerance="10"
@@ -57,24 +57,24 @@
   <style
      id="current-color-scheme"
      type="text/css">.ColorScheme-Text {
-        color:#31363b;
-        stop-color:#31363b;
+        color:#2a2a38;
+        stop-color:#2a2a38;
       }
       .ColorScheme-Background {
-        color:#eff0f1;
-        stop-color:#eff0f1;
+        color:#e4e6e8;
+        stop-color:#e4e6e8;
       }
       .ColorScheme-Highlight {
         color:#3daee9;
         stop-color:#3daee9;
       }
       .ColorScheme-ViewText {
-        color:#31363b;
-        stop-color:#31363b;
+        color:#2a2a38;
+        stop-color:#2a2a38;
       }
       .ColorScheme-ViewBackground {
-        color:#fcfcfc;
-        stop-color:#fcfcfc;
+        color:#fafafa;
+        stop-color:#fafafa;
       }
       .ColorScheme-ViewHover {
         color:#93cee9;
@@ -85,12 +85,12 @@
         stop-color:#3daee9;
       }
       .ColorScheme-ButtonText {
-        color:#31363b;
-        stop-color:#31363b;
+        color:#2a2a38;
+        stop-color:#2a2a38;
       }
       .ColorScheme-ButtonBackground {
-        color:#eff0f1;
-        stop-color:#eff0f1;
+        color:#e4e6e8;
+        stop-color:#e4e6e8;
       }
       .ColorScheme-ButtonHover {
         color:#93cee9;
@@ -105,19 +105,19 @@
     <style
        type="text/css"
        id="style24">.ColorScheme-Text {
-        color:#31363b;
+        color:#2a2a38;
       }
       .ColorScheme-Background {
-        color:#eff0f1;
+        color:#e4e6e8;
       }
       .ColorScheme-Highlight {
         color:#3daee9;
       }
       .ColorScheme-ViewText {
-        color:#31363b;
+        color:#2a2a38;
       }
       .ColorScheme-ViewBackground {
-        color:#fcfcfc;
+        color:#fafafa;
       }
       .ColorScheme-ViewHover {
         color:#93cee9;
@@ -126,10 +126,10 @@
         color:#3daee9;
       }
       .ColorScheme-ButtonText {
-        color:#31363b;
+        color:#2a2a38;
       }
       .ColorScheme-ButtonBackground {
-        color:#eff0f1;
+        color:#e4e6e8;
       }
       .ColorScheme-ButtonHover {
         color:#93cee9;
@@ -252,7 +252,7 @@
        height="32"
        width="6"
        id="rect4152"
-       style="color:#eff0f1;opacity:0.8;fill:#25252d;fill-opacity:1;stroke:none"
+       style="color:#e4e6e8;opacity:0.8;fill:#232629;fill-opacity:1;stroke:none"
        transform="matrix(0,-1,-1,0,0,0)"
        class="ColorScheme-Background" />
   </g>
@@ -260,7 +260,7 @@
      id="topleft"
      transform="translate(19,-904.36219)">
     <path
-       style="opacity:0.8;fill:#25252d;fill-opacity:1;stroke:none;stroke-width:2"
+       style="opacity:0.8;fill:#232629;fill-opacity:1;stroke:none;stroke-width:2"
        d="M 38 6 C 34.676 6 32 8.676 32 12 L 32 18 L 44 18 L 44 6 L 38 6 z "
        transform="translate(-19,904.36219)"
        id="rect4159" />
@@ -270,7 +270,7 @@
      transform="matrix(0.62500095,0,0,2.0000038,32.124961,-1858.728)">
     <rect
        transform="rotate(90)"
-       style="color:#eff0f1;opacity:0.8;fill:#25252d;fill-opacity:1;stroke:none"
+       style="color:#e4e6e8;opacity:0.8;fill:#232629;fill-opacity:1;stroke:none"
        id="rect4148"
        width="6"
        height="32"
@@ -283,7 +283,7 @@
      transform="matrix(1.9999994,0,0,0.62499857,6.0000031,-554.72504)">
     <rect
        transform="scale(-1,1)"
-       style="color:#eff0f1;opacity:0.8;fill:#25252d;fill-opacity:1;stroke:none"
+       style="color:#e4e6e8;opacity:0.8;fill:#232629;fill-opacity:1;stroke:none"
        id="rect4144"
        width="5.9999995"
        height="32"
@@ -300,7 +300,7 @@
        height="32"
        width="5.9999995"
        id="rect4140"
-       style="color:#eff0f1;opacity:0.8;fill:#25252d;fill-opacity:1;stroke:none"
+       style="color:#e4e6e8;opacity:0.8;fill:#232629;fill-opacity:1;stroke:none"
        class="ColorScheme-Background" />
   </g>
   <rect
@@ -310,7 +310,7 @@
      height="19.999992"
      width="19.999992"
      id="center"
-     style="color:#eff0f1;opacity:0.8;fill:#25252d;fill-opacity:1;stroke:none;stroke-width:0.62499976" />
+     style="color:#e4e6e8;opacity:0.8;fill:#232629;fill-opacity:1;stroke:none;stroke-width:0.62499976" />
   <rect
      style="fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:0.99999601"
      id="hint-top-margin"
@@ -522,7 +522,7 @@
      x="128.99998"
      y="17.999939" />
   <rect
-     style="color:#eff0f1;opacity:0;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.62499976"
+     style="color:#e4e6e8;opacity:0;fill:#19191f;fill-opacity:1;stroke:none;stroke-width:0.62499976"
      id="shadow-center"
      width="19.999992"
      height="19.999992"
@@ -533,7 +533,7 @@
      id="topright"
      transform="matrix(-1,0,0,1,89,-904.36219)">
     <path
-       style="opacity:0.8;fill:#25252d;fill-opacity:1;stroke:none;stroke-width:2"
+       style="opacity:0.8;fill:#232629;fill-opacity:1;stroke:none;stroke-width:2"
        d="m 38,6 c -3.324,0 -6,2.676 -6,6 v 6 H 44 V 6 Z"
        transform="translate(-19,904.36219)"
        id="path902" />
@@ -542,7 +542,7 @@
      id="bottomleft"
      transform="matrix(1,0,0,-1,19.000001,960.36221)">
     <path
-       style="opacity:0.8;fill:#25252d;fill-opacity:1;stroke:none;stroke-width:2"
+       style="opacity:0.8;fill:#232629;fill-opacity:1;stroke:none;stroke-width:2"
        d="m 38,6 c -3.324,0 -6,2.676 -6,6 v 6 H 44 V 6 Z"
        transform="translate(-19,904.36219)"
        id="path910" />
@@ -551,7 +551,7 @@
      id="bottomright"
      transform="rotate(180,44.500001,480.18111)">
     <path
-       style="opacity:0.8;fill:#25252d;fill-opacity:1;stroke:none;stroke-width:2"
+       style="opacity:0.8;fill:#232629;fill-opacity:1;stroke:none;stroke-width:2"
        d="m 38,6 c -3.324,0 -6,2.676 -6,6 v 6 H 44 V 6 Z"
        transform="translate(-19,904.36219)"
        id="path906" />

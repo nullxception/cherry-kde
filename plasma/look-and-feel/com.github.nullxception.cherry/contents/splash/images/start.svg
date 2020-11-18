@@ -15,8 +15,8 @@
    height="200"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
   <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
+     pagecolor="#fafafa"
+     bordercolor="#696969"
      borderopacity="1"
      objecttolerance="10"
      gridtolerance="10"
@@ -53,7 +53,7 @@
        type="text/css"
        id="current-color-scheme">
       .ColorScheme-Text {
-        color:#31363b;
+        color:#2a2a38;
       }
       </style>
   </defs>

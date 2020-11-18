@@ -26,8 +26,8 @@
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
-     pagecolor="#464646"
-     bordercolor="#666666"
+     pagecolor="#4b4e55"
+     bordercolor="#696969"
      borderopacity="1"
      objecttolerance="10"
      gridtolerance="10"
@@ -53,7 +53,7 @@
         color:#7B7C7E;
       }
       .ColorScheme-Background{
-        color:#EFF0F1;
+        color:#e4e6e8;
       }
       .ColorScheme-Highlight{
         color:#3DAEE6;
@@ -62,7 +62,7 @@
         color:#7B7C7E;
       }
       .ColorScheme-ViewBackground{
-        color:#FCFCFC;
+        color:#fafafa;
       }
       .ColorScheme-ViewHover {
         color:#3DAEE6;
@@ -74,7 +74,7 @@
         color:#7B7C7E;
       }
       .ColorScheme-ButtonBackground{
-        color:#EFF0F1;
+        color:#e4e6e8;
       }
       .ColorScheme-ButtonHover {
         color:#3DAEE6;

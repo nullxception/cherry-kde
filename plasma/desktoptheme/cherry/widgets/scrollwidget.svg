@@ -4,11 +4,11 @@
    <rect style="opacity:0.01" width="747.709" height="1" x="16" y="-109" transform="scale(1,-1)"/>
    <rect style="opacity:0" width="747.709" height="1" x="16" y="-110" transform="scale(1,-1)"/>
   </g>
-  <rect id="border-center" style="opacity:0.6;fill:#ffffff;fill-opacity:0" width="64.25" height="61.5" x="33.5" y="33.5"/>
-  <rect id="border-topleft" style="opacity:0.6;fill:#ffffff;fill-opacity:0" width="8.582" height="9.211" x="-10.87" y="-11.23" transform="scale(-1,-1)"/>
-  <rect id="border-bottomleft" style="opacity:0.59999999999999998;fill:#8b8b8b;fill-opacity:0" width="8.582" height="9.211" x="-10.87" y="-126.84" transform="scale(-1,-1)"/>
-  <rect id="border-topright" style="opacity:0.6;fill:#ffffff;fill-opacity:0" width="8.582" height="9.211" x="-126.13" y="-11.23" transform="scale(-1,-1)"/>
-  <rect id="border-bottomright" style="opacity:0.59999999999999998;fill:#8b8b8b;fill-opacity:0" width="8.582" height="9.211" x="-126.13" y="-126.84" transform="scale(-1,-1)"/>
+  <rect id="border-center" style="opacity:0.6;fill:#fafafa;fill-opacity:0" width="64.25" height="61.5" x="33.5" y="33.5"/>
+  <rect id="border-topleft" style="opacity:0.6;fill:#fafafa;fill-opacity:0" width="8.582" height="9.211" x="-10.87" y="-11.23" transform="scale(-1,-1)"/>
+  <rect id="border-bottomleft" style="opacity:0.6;fill:#989898;fill-opacity:0" width="8.582" height="9.211" x="-10.87" y="-126.84" transform="scale(-1,-1)"/>
+  <rect id="border-topright" style="opacity:0.6;fill:#fafafa;fill-opacity:0" width="8.582" height="9.211" x="-126.13" y="-11.23" transform="scale(-1,-1)"/>
+  <rect id="border-bottomright" style="opacity:0.6;fill:#989898;fill-opacity:0" width="8.582" height="9.211" x="-126.13" y="-126.84" transform="scale(-1,-1)"/>
   <g id="border-left" transform="matrix(0,-0.1444413,1,0,-100.15432,123.01818)">
    <rect style="opacity:0.01" width="747.709" height="1" x="16" y="-109" transform="scale(1,-1)"/>
    <rect style="opacity:0" width="747.709" height="1" x="16" y="-110" transform="scale(1,-1)"/>

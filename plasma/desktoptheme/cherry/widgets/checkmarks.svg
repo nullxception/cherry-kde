@@ -26,8 +26,8 @@
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
+     pagecolor="#fafafa"
+     bordercolor="#696969"
      borderopacity="1"
      objecttolerance="10"
      gridtolerance="10"
@@ -54,24 +54,24 @@
     <style
        id="current-color-scheme"
        type="text/css">.ColorScheme-Text {
-        color:#31363b;
-        stop-color:#31363b;
+        color:#2a2a38;
+        stop-color:#2a2a38;
       }
       .ColorScheme-Background {
-        color:#eff0f1;
-        stop-color:#eff0f1;
+        color:#e4e6e8;
+        stop-color:#e4e6e8;
       }
       .ColorScheme-Highlight {
         color:#3daee9;
         stop-color:#3daee9;
       }
       .ColorScheme-ViewText {
-        color:#31363b;
-        stop-color:#31363b;
+        color:#2a2a38;
+        stop-color:#2a2a38;
       }
       .ColorScheme-ViewBackground {
-        color:#fcfcfc;
-        stop-color:#fcfcfc;
+        color:#fafafa;
+        stop-color:#fafafa;
       }
       .ColorScheme-ViewHover {
         color:#93cee9;
@@ -82,12 +82,12 @@
         stop-color:#3daee9;
       }
       .ColorScheme-ButtonText {
-        color:#31363b;
-        stop-color:#31363b;
+        color:#2a2a38;
+        stop-color:#2a2a38;
       }
       .ColorScheme-ButtonBackground {
-        color:#eff0f1;
-        stop-color:#eff0f1;
+        color:#e4e6e8;
+        stop-color:#e4e6e8;
       }
       .ColorScheme-ButtonHover {
         color:#93cee9;
@@ -108,7 +108,7 @@
     <path
        id="path820"
        d="M 29.625,3 C 28.17075,3 27,4.17075 27,5.625 v 8.75 C 27,15.82925 28.17075,17 29.625,17 h 8.75 C 39.82925,17 41,15.82925 41,14.375 V 5.625 C 41,4.17075 39.82925,3 38.375,3 Z"
-       style="fill:#ffffff;stroke-width:0.77777779"
+       style="fill:#fafafa;stroke-width:0.77777779"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sssssssss" />
     <path
@@ -126,7 +126,7 @@
     <path
        id="path822"
        d="m 10,2 c -4.416,0 -8,3.584 -8,8 0,4.416 3.584,8 8,8 4.416,0 8,-3.584 8,-8 0,-4.416 -3.584,-8 -8,-8 z"
-       style="fill:#ffffff;stroke-width:0.79999995"
+       style="fill:#fafafa;stroke-width:0.79999995"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sssss" />
     <path

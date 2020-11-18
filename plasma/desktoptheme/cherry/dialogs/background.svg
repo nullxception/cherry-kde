@@ -27,8 +27,8 @@
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
+     pagecolor="#fafafa"
+     bordercolor="#696969"
      borderopacity="1"
      objecttolerance="10"
      gridtolerance="10"
@@ -337,7 +337,7 @@
        d="m 190,252 h 50 v 6.9999 h -50 z"
        id="path58"
        inkscape:connector-curvature="0"
-       style="opacity:0.6;fill:#25252d;fill-opacity:1" />
+       style="opacity:0.6;fill:#232629;fill-opacity:1" />
   </g>
   <g
      transform="matrix(0,-1.1176497,-1.1176497,0,222.93312,112.82072)"
@@ -483,7 +483,7 @@
        d="m 183,259 v 50 l 7,10e-6 v -50 z"
        id="path52"
        inkscape:connector-curvature="0"
-       style="opacity:0.6;fill:#25252d;fill-opacity:1" />
+       style="opacity:0.6;fill:#232629;fill-opacity:1" />
   </g>
   <g
      style="fill:#050505;fill-opacity:0.85882"
@@ -493,7 +493,7 @@
        d="m 247,259 v 50 l -7,10e-6 v -50 z"
        id="path55"
        inkscape:connector-curvature="0"
-       style="opacity:0.6;fill:#25252d;fill-opacity:1" />
+       style="opacity:0.6;fill:#232629;fill-opacity:1" />
   </g>
   <g
      style="fill:#050505;fill-opacity:0.85882"
@@ -503,7 +503,7 @@
        d="m 190,252 h 50 v 6.9999 h -50 z"
        id="path67"
        inkscape:connector-curvature="0"
-       style="opacity:0.6;fill:#25252d;fill-opacity:1" />
+       style="opacity:0.6;fill:#232629;fill-opacity:1" />
   </g>
   <g
      style="fill:#050505;fill-opacity:0.85882"
@@ -511,7 +511,7 @@
      transform="matrix(-2,0,0,2,85,-74.879)">
     <path
        d="m 7,47.939 a 4,4 0 0 0 -4,4 h 4 z"
-       style="color:#000000;opacity:0.6;isolation:auto;mix-blend-mode:normal;solid-color:#000000;fill:#25252d;fill-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto"
+       style="color:#000000;opacity:0.6;isolation:auto;mix-blend-mode:normal;solid-color:#000000;fill:#232629;fill-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto"
        id="path61"
        inkscape:connector-curvature="0" />
   </g>
@@ -521,7 +521,7 @@
      transform="matrix(2,0,0,-2,15,174.878)">
     <path
        d="m 7,47.939 a 4,4 0 0 0 -4,4 h 4 z"
-       style="color:#000000;opacity:0.6;isolation:auto;mix-blend-mode:normal;solid-color:#000000;fill:#25252d;fill-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto"
+       style="color:#000000;opacity:0.6;isolation:auto;mix-blend-mode:normal;solid-color:#000000;fill:#232629;fill-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto"
        id="path70"
        inkscape:connector-curvature="0" />
   </g>
@@ -531,12 +531,12 @@
      transform="matrix(0,-2.00025,-2.00025,0,174.89098,85.00075)">
     <path
        d="M 3.0004976,51.939 A 3.9995024,3.9995024 0 0 1 7,47.939498 V 51.939 Z"
-       style="color:#000000;opacity:0.6;isolation:auto;mix-blend-mode:normal;solid-color:#000000;fill:#25252d;fill-opacity:1;stroke-width:0.99987561;color-rendering:auto;image-rendering:auto;shape-rendering:auto"
+       style="color:#000000;opacity:0.6;isolation:auto;mix-blend-mode:normal;solid-color:#000000;fill:#232629;fill-opacity:1;stroke-width:0.99987561;color-rendering:auto;image-rendering:auto;shape-rendering:auto"
        id="path73"
        inkscape:connector-curvature="0" />
   </g>
   <rect
-     style="opacity:0.6;fill:#25252d;stroke-width:0.83999997"
+     style="opacity:0.6;fill:#232629;stroke-width:0.83999997"
      height="42"
      width="42"
      y="-71.000092"
@@ -578,7 +578,7 @@
      inkscape:transform-center-x="-7.7901595">
     <path
        d="m 7,47.939 a 4,4 0 0 0 -4,4 h 4 z"
-       style="color:#000000;opacity:0.6;isolation:auto;mix-blend-mode:normal;solid-color:#000000;fill:#25252d;fill-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto"
+       style="color:#000000;opacity:0.6;isolation:auto;mix-blend-mode:normal;solid-color:#000000;fill:#232629;fill-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto"
        id="path64"
        inkscape:connector-curvature="0" />
   </g>
