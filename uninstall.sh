@@ -36,8 +36,11 @@ uninstall() {
 
   [[ -d ${AURORAE_THEME} ]] && rm -rfv ${AURORAE_THEME}
   [[ -d ${AURORAE_THEME}-square ]] && rm -rfv ${AURORAE_THEME}-square
+  [[ -d ${AURORAE_THEME}-solid ]] && rm -rfv ${AURORAE_THEME}-solid
+  [[ -d ${AURORAE_THEME}-square-solid ]] && rm -rfv ${AURORAE_THEME}-square-solid
   [[ -d ${KONSOLE_DIR}/${name}.colorscheme ]] && rm -rfv ${SCHEMES_DIR}/${name}.colorscheme
   [[ -d ${KVANTUM_THEME}/${name} ]] && rm -rfv ${KVANTUM_THEME}/${name}
+  [[ -d ${KVANTUM_THEME}/${name}-solid ]] && rm -rfv ${KVANTUM_THEME}/${name}-solid
   [[ -d ${LOOKFEEL_THEME} ]] && rm -rfv ${LOOKFEEL_THEME}
   [[ -d ${PLASMA_THEME} ]] && rm -rfv ${PLASMA_THEME}
   [[ -d ${SCHEMES_DIR}/${name}.colors ]] && rm -rfv ${SCHEMES_DIR}/${name}.colors

@@ -95,7 +95,7 @@ ForegroundPositive=0,110,40
 ForegroundVisited=61,251,115
 
 [General]
-ColorScheme=VimixDarkDoder
+ColorScheme=cherry
 Name=cherry
 shadeSortColumn=true
 
