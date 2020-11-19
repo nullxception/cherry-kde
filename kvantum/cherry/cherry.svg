@@ -3355,15 +3355,15 @@
   </g>
   <g
      id="tabBarFrame-normal-bottom"
-     transform="matrix(0 -1 .66667 0 -542.42 846.52)">
+     transform="matrix(0,-1,0.66667,0,-542.42,846.52)">
     <path
        id="path272"
-       d="m174 921.5h-4l1.3e-4 -6h3.9999z"
+       d="m 174,921.5 h -4 l 1.3e-4,-6 h 3.9999 z"
        opacity="0" />
     <path
        id="path274"
-       d="m172 921.5h-2l1e-4 -6h2z"
-       fill="#19191f" />
+       d="m 172,921.5 h -2 l 1e-4,-6 h 2 z"
+       style="fill:#666666;fill-opacity:1;opacity:0" />
   </g>
   <use
      id="tabBarFrame-normal-bottomright"
@@ -3458,27 +3458,27 @@
      fill="#2a2a38" />
   <g
      id="tabframe-normal-left"
-     transform="matrix(.8 0 0 .98462 258.68 618.77)">
+     transform="matrix(0.8,0,0,0.98462,258.68,618.77)">
     <path
        id="path213"
-       d="m26.25 81.251v-32.5h-5v32.5z"
+       d="m 26.25,81.251 v -32.5 h -5 v 32.5 z"
        fill="#2a2a38" />
     <path
        id="path215"
-       d="m21.25 48.752v32.5h2.4998v-32.5z"
-       opacity=".36" />
+       d="m 21.25,48.752 v 32.5 h 2.4998 v -32.5 z"
+       style="opacity:0.3;fill:#666666;fill-opacity:1" />
   </g>
   <g
      id="tabframe-normal-topleft"
-     transform="matrix(.8 0 0 .8 258.68 629.77)">
+     transform="matrix(0.8,0,0,0.8,258.68,629.77)">
     <path
        id="path218"
-       d="m26.25 41.252h-5v5h5z"
+       d="m 26.25,41.252 h -5 v 5 h 5 z"
        fill="#2a2a38" />
     <path
        id="path220"
-       d="m26.25 41.252h-5v5h2.4999l-3e-4 -2.5h2.5001z"
-       opacity=".35" />
+       d="m 26.25,41.252 h -5 v 5 h 2.4999 l -3e-4,-2.5 h 2.5001 z"
+       style="opacity:0.3;fill:#666666;fill-opacity:1" />
   </g>
   <use
      id="tabframe-normal-right"
