@@ -39,10 +39,11 @@ uninstall() {
   [[ -d ${AURORAE_THEME}-solid ]] && rm -rfv ${AURORAE_THEME}-solid
   [[ -d ${AURORAE_THEME}-square-solid ]] && rm -rfv ${AURORAE_THEME}-square-solid
   [[ -d ${KONSOLE_DIR}/${name}.colorscheme ]] && rm -rfv ${SCHEMES_DIR}/${name}.colorscheme
-  [[ -d ${KVANTUM_THEME}/${name} ]] && rm -rfv ${KVANTUM_THEME}/${name}
-  [[ -d ${KVANTUM_THEME}/${name}-solid ]] && rm -rfv ${KVANTUM_THEME}/${name}-solid
+  [[ -d ${KVANTUM_DIR}/${name} ]] && rm -rfv ${KVANTUM_DIR}/${name}
+  [[ -d ${KVANTUM_DIR}/${name}-solid ]] && rm -rfv ${KVANTUM_DIR}/${name}-solid
   [[ -d ${LOOKFEEL_THEME} ]] && rm -rfv ${LOOKFEEL_THEME}
   [[ -d ${PLASMA_THEME} ]] && rm -rfv ${PLASMA_THEME}
+  [[ -d ${PLASMA_THEME}-solid ]] && rm -rfv ${PLASMA_THEME}-solid
   [[ -d ${SCHEMES_DIR}/${name}.colors ]] && rm -rfv ${SCHEMES_DIR}/${name}.colors
   [[ -d ${WALLPAPER_DIR}/cherry ]] && rm -rfv ${WALLPAPER_DIR}/cherry
 }
