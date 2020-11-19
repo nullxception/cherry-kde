@@ -1,0 +1,23 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "enuma.alrizky@gmail.com",
+                "Name": "Nauval Rizky"
+            }
+        ],
+        "Category": "",
+        "Description": "Cherry Theme",
+        "Id": "com.github.nullxception.cherry",
+        "License": "GPLv3",
+        "Name": "Cherry",
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "Version": "2.0",
+        "Website": "https://github.com/nullxception/cherry-kde-theme"
+    },
+    "Keywords": "Appearance;Look and Feel;",
+    "X-KDE-ParentApp": "",
+    "X-Plasma-MainScript": "defaults"
+}

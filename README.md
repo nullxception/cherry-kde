@@ -1,12 +1,9 @@
-## Cherry KDE
-Yet-another Minimal flat theme for KDE Plasma desktop
-
-![theme-preview](plasma/look-and-feel/com.github.nullxception.cherry/contents/previews/preview.png)
+![theme-preview](preview.jpg)
 
 This theme consist of several components including :
-* aurorae theme
+* aurorae themes (regular, solid, square, square-solid)
 * konsole colorscheme
-* kvantum theme
+* kvantum theme (regular, solid)
 * plasma colorscheme
 * plasma desktop theme
 * splash screen
