@@ -57,8 +57,8 @@
   <style
      id="current-color-scheme"
      type="text/css">.ColorScheme-Text {
-        color:#2a2a38;
-        stop-color:#2a2a38;
+        color:#23232F;
+        stop-color:#23232F;
       }
       .ColorScheme-Background {
         color:#e4e6e8;
@@ -69,8 +69,8 @@
         stop-color:#3daee9;
       }
       .ColorScheme-ViewText {
-        color:#2a2a38;
-        stop-color:#2a2a38;
+        color:#23232F;
+        stop-color:#23232F;
       }
       .ColorScheme-ViewBackground {
         color:#fafafa;
@@ -85,8 +85,8 @@
         stop-color:#3daee9;
       }
       .ColorScheme-ButtonText {
-        color:#2a2a38;
-        stop-color:#2a2a38;
+        color:#23232F;
+        stop-color:#23232F;
       }
       .ColorScheme-ButtonBackground {
         color:#e4e6e8;
@@ -105,7 +105,7 @@
     <style
        type="text/css"
        id="style24">.ColorScheme-Text {
-        color:#2a2a38;
+        color:#23232F;
       }
       .ColorScheme-Background {
         color:#e4e6e8;
@@ -114,7 +114,7 @@
         color:#3daee9;
       }
       .ColorScheme-ViewText {
-        color:#2a2a38;
+        color:#23232F;
       }
       .ColorScheme-ViewBackground {
         color:#fafafa;
@@ -126,7 +126,7 @@
         color:#3daee9;
       }
       .ColorScheme-ButtonText {
-        color:#2a2a38;
+        color:#23232F;
       }
       .ColorScheme-ButtonBackground {
         color:#e4e6e8;
