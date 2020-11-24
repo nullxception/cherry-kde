@@ -484,7 +484,7 @@
      id="top"
      transform="translate(0,-904.36)">
     <rect
-       style="color:#e4e6e8;opacity:0.94;fill:#232629;fill-opacity:1"
+       style="color:#e4e6e8;opacity:0.94;fill:#23232F;fill-opacity:1"
        id="rect42"
        height="32"
        width="6"
@@ -516,7 +516,7 @@
     </g>
     <path
        inkscape:connector-curvature="0"
-       style="color:#e4e6e8;opacity:0.94;fill:#232629;fill-opacity:1"
+       style="color:#e4e6e8;opacity:0.94;fill:#23232F;fill-opacity:1"
        d="m 19,6 c -3.324,0 -6,2.676 -6,6 h 4 1 1 V 11 7 Z"
        transform="translate(0,904.36)"
        id="path55" />
@@ -525,7 +525,7 @@
      id="bottom"
      transform="translate(0,-904.36)">
     <rect
-       style="color:#e4e6e8;opacity:0.94;fill:#232629;fill-opacity:1"
+       style="color:#e4e6e8;opacity:0.94;fill:#23232F;fill-opacity:1"
        id="rect69"
        height="32"
        width="6"
@@ -546,7 +546,7 @@
      id="left"
      transform="translate(0,-904.36)">
     <rect
-       style="color:#e4e6e8;opacity:0.94;fill:#232629;fill-opacity:1"
+       style="color:#e4e6e8;opacity:0.94;fill:#23232F;fill-opacity:1"
        id="rect96"
        height="32"
        width="6"
@@ -567,7 +567,7 @@
      id="right"
      transform="translate(0,-904.36)">
     <rect
-       style="color:#e4e6e8;opacity:0.94;fill:#232629;fill-opacity:1"
+       style="color:#e4e6e8;opacity:0.94;fill:#23232F;fill-opacity:1"
        id="rect101"
        height="32"
        width="6"
@@ -593,7 +593,7 @@
        y="916.35999"
        x="19" />
     <rect
-       style="color:#e4e6e8;opacity:0.94;fill:#232629;fill-opacity:1"
+       style="color:#e4e6e8;opacity:0.94;fill:#23232F;fill-opacity:1"
        id="rect108"
        height="32"
        width="32"

@@ -76,21 +76,21 @@
        r="96.606"
        gradientUnits="userSpaceOnUse">
       <stop
-         stop-color="#232629"
+         stop-color="#23232F"
          offset="0"
          id="stop10" />
       <stop
-         stop-color="#232629"
+         stop-color="#23232F"
          stop-opacity=".52349"
          offset=".9"
          id="stop12" />
       <stop
-         stop-color="#232629"
+         stop-color="#23232F"
          stop-opacity=".10738"
          offset=".96"
          id="stop14" />
       <stop
-         stop-color="#232629"
+         stop-color="#23232F"
          stop-opacity="0"
          offset="1"
          id="stop16" />
@@ -108,19 +108,19 @@
     <linearGradient
        id="linearGradient4011">
       <stop
-         style="stop-color:#232629;stop-opacity:1;"
+         style="stop-color:#23232F;stop-opacity:1;"
          offset="0"
          id="stop4013" />
       <stop
          id="stop4019"
          offset="0.89999998"
-         style="stop-color:#232629;stop-opacity:0.52348995;" />
+         style="stop-color:#23232F;stop-opacity:0.52348995;" />
       <stop
-         style="stop-color:#232629;stop-opacity:0.10738255;"
+         style="stop-color:#23232F;stop-opacity:0.10738255;"
          offset="0.95999998"
          id="stop4021" />
       <stop
-         style="stop-color:#232629;stop-opacity:0;"
+         style="stop-color:#23232F;stop-opacity:0;"
          offset="1"
          id="stop4015" />
     </linearGradient>
@@ -204,13 +204,13 @@
            transform="translate(-283.73228,123.31062)"
            id="g5157">
           <g
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Oxygen;-inkscape-font-specification:Oxygen;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#232629;fill-opacity:0.44270833;stroke:none;filter:url(#filter5354-4)"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Oxygen;-inkscape-font-specification:Oxygen;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#23232F;fill-opacity:0.44270833;stroke:none;filter:url(#filter5354-4)"
              id="text4522" />
           <g
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Oxygen;-inkscape-font-specification:Oxygen;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#3daee9;fill-opacity:1;stroke:none"
              id="text5149" />
           <g
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Oxygen;-inkscape-font-specification:Oxygen;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#232629;fill-opacity:0.44270833;stroke:none;filter:url(#filter5358-1)"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Oxygen;-inkscape-font-specification:Oxygen;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#23232F;fill-opacity:0.44270833;stroke:none;filter:url(#filter5358-1)"
              id="text4526" />
           <g
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Oxygen;-inkscape-font-specification:Oxygen;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#3daee9;fill-opacity:1;stroke:none"
@@ -293,7 +293,7 @@
        y="91"
        width="18"
        height="64"
-       fill="#232629"
+       fill="#23232F"
        fill-opacity=".60392"
        opacity=".01"
        id="rect56" />
@@ -316,7 +316,7 @@
        y="94"
        width="12"
        height="85"
-       fill="#232629"
+       fill="#23232F"
        fill-opacity=".60392"
        opacity=".01"
        id="rect63" />
@@ -353,13 +353,13 @@
        y="96"
        width="8"
        height="7"
-       fill="#232629"
+       fill="#23232F"
        fill-opacity=".60392"
        opacity=".01"
        id="rect74" />
   </g>
   <g
-     fill="#232629"
+     fill="#23232F"
      id="g91">
     <g
        id="SecondHandShadow"
@@ -410,7 +410,7 @@
   <g
      id="HourHandShadow"
      transform="rotate(233.13 416.29 581.26)"
-     fill="#232629"
+     fill="#23232F"
      opacity="0">
     <rect
        transform="rotate(126.87 409.43 584.47)"

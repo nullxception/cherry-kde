@@ -30,17 +30,17 @@
      inkscape:document-rotation="0"
      inkscape:guide-bbox="true"
      showguides="true"
-     inkscape:current-layer="svg200"
+     inkscape:current-layer="topleft"
      inkscape:window-maximized="1"
-     inkscape:window-y="30"
+     inkscape:window-y="32"
      inkscape:window-x="0"
-     inkscape:cy="34.718265"
-     inkscape:cx="111.85201"
-     inkscape:zoom="3.4566473"
+     inkscape:cy="19.981352"
+     inkscape:cx="91.792352"
+     inkscape:zoom="4.8884375"
      showgrid="true"
      id="namedview202"
-     inkscape:window-height="1022"
-     inkscape:window-width="1920"
+     inkscape:window-height="708"
+     inkscape:window-width="1366"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0"
      guidetolerance="10"
@@ -251,7 +251,7 @@
     <rect
        class="ColorScheme-Background"
        transform="matrix(0,-1,-1,0,0,0)"
-       style="color:#e4e6e8;opacity:0.6;fill:#232629;fill-opacity:1;stroke:none"
+       style="color:#e4e6e8;opacity:0.8;fill:#23232F;fill-opacity:1;stroke:none"
        id="rect4152"
        width="6"
        height="32"
@@ -265,7 +265,7 @@
        inkscape:connector-curvature="0"
        id="rect4159"
        d="m 25,910.36218 c -6.647974,0 -12,5.35203 -12,12 h 8 2 2 v -2 -8 z"
-       style="opacity:0.6;fill:#232629;fill-opacity:1;stroke:none;stroke-width:2" />
+       style="opacity:0.8;fill:#23232F;fill-opacity:1;stroke:none;stroke-width:2" />
   </g>
   <g
      transform="matrix(1.3333378,0,0,1.3333378,11.999747,-1207.8202)"
@@ -274,7 +274,7 @@
        inkscape:connector-curvature="0"
        id="rect4177"
        d="m 45.00004,910.36218 v 1.99999 7.99998 1.99999 h 1.999994 1.999993 5.99998 H 57 c 0,-6.64795 -5.352008,-11.99996 -11.99996,-11.99996 z"
-       style="opacity:0.6;fill:#232629;fill-opacity:1;stroke:none;stroke-width:1.99999332" />
+       style="opacity:0.8;fill:#23232F;fill-opacity:1;stroke:none;stroke-width:1.99999332" />
   </g>
   <g
      transform="matrix(0.37500096,0,0,2.6666653,52.874957,-2494.9645)"
@@ -286,7 +286,7 @@
        height="32"
        width="6"
        id="rect4148"
-       style="color:#e4e6e8;opacity:0.6;fill:#232629;fill-opacity:1;stroke:none"
+       style="color:#e4e6e8;opacity:0.8;fill:#23232F;fill-opacity:1;stroke:none"
        transform="rotate(90)" />
   </g>
   <g
@@ -296,7 +296,7 @@
        inkscape:connector-curvature="0"
        id="path5048"
        d="m 13,942.36216 c 0,6.64798 5.352035,12.00002 12.00002,12.00002 v -2 -8.00002 -2 h -2.000003 -2.000004 -6.00001 z"
-       style="opacity:0.6;fill:#232629;fill-opacity:1;stroke:none;stroke-width:2.00000334" />
+       style="opacity:0.8;fill:#23232F;fill-opacity:1;stroke:none;stroke-width:2.00000334" />
   </g>
   <g
      transform="matrix(1.3333311,0,0,1.3333311,12.000127,-1222.4807)"
@@ -305,7 +305,7 @@
        inkscape:connector-curvature="0"
        id="rect4177-6"
        d="m 44.99998,942.36216 v 2 8.00002 2 C 51.647965,954.36218 57,949.01014 57,942.36216 h -2.000003 -6.00001 -2.000004 z"
-       style="opacity:0.6;fill:#232629;fill-opacity:1;stroke:none;stroke-width:2.00000334" />
+       style="opacity:0.8;fill:#23232F;fill-opacity:1;stroke:none;stroke-width:2.00000334" />
   </g>
   <g
      transform="matrix(2.6666662,0,0,0.37500318,9.3333311,-321.63873)"
@@ -317,7 +317,7 @@
        height="32"
        width="5.9999995"
        id="rect4144"
-       style="color:#e4e6e8;opacity:0.6;fill:#232629;fill-opacity:1;stroke:none"
+       style="color:#e4e6e8;opacity:0.8;fill:#23232F;fill-opacity:1;stroke:none"
        transform="scale(-1,1)" />
   </g>
   <g
@@ -325,7 +325,7 @@
      id="right">
     <rect
        class="ColorScheme-Background"
-       style="color:#e4e6e8;opacity:0.6;fill:#232629;fill-opacity:1;stroke:none"
+       style="color:#e4e6e8;opacity:0.8;fill:#23232F;fill-opacity:1;stroke:none"
        id="rect4140"
        width="5.9999995"
        height="32"
@@ -333,7 +333,7 @@
        y="916.36218" />
   </g>
   <rect
-     style="color:#e4e6e8;opacity:0.6;fill:#232629;fill-opacity:1;stroke:none;stroke-width:0.3750031"
+     style="color:#e4e6e8;opacity:0.8;fill:#23232F;fill-opacity:1;stroke:none;stroke-width:0.3750031"
      id="center"
      width="12.000099"
      height="12.000099"
