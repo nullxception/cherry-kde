@@ -1,7 +1,8 @@
 <p align="center"><img src="https://raw.githubusercontent.com/nullxception/cherry-kde-theme/main/cherry.png"/></p>
 <h2><p align="center">Cherry KDE Plasma</p></h2>
 <p align="center">Clean, Flat, <i>Fervent Tempo battlesuit-inspired</i> Theme for KDE Plasma Desktop</p>
-<p align="center"><img src="https://raw.githubusercontent.com/nullxception/cherry-kde-theme/main/preview.jpg"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/nullxception/cherry-kde-theme/main/preview-full.png"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/nullxception/cherry-kde-theme/main/preview-variants.png"/></p>
 </center>
 
 ## Background
