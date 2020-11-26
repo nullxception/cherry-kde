@@ -1,52 +1,41 @@
 #!/bin/bash
 
-ROOT_UID=0
-
-# Destination directory
-if [ "$UID" -eq "$ROOT_UID" ]; then
-  AURORAE_DIR="/usr/share/aurorae/themes"
-  KONSOLE_DIR="/usr/share/konsole"
-  KVANTUM_DIR="/usr/share/Kvantum"
-  LAYOUT_DIR="/usr/share/plasma/layout-templates"
-  LOOKFEEL_DIR="/usr/share/plasma/look-and-feel"
-  PLASMA_DIR="/usr/share/plasma/desktoptheme"
-  SCHEMES_DIR="/usr/share/color-schemes"
-  WALLPAPER_DIR="/usr/share/wallpapers"
-else
-  AURORAE_DIR="$HOME/.local/share/aurorae/themes"
-  KONSOLE_DIR="$HOME/.local/share/konsole"
-  KVANTUM_DIR="$HOME/.config/Kvantum"
-  LAYOUT_DIR="$HOME/.local/share/plasma/layout-templates"
-  LOOKFEEL_DIR="$HOME/.local/share/plasma/look-and-feel"
-  PLASMA_DIR="$HOME/.local/share/plasma/desktoptheme"
-  SCHEMES_DIR="$HOME/.local/share/color-schemes"
-  WALLPAPER_DIR="$HOME/.local/share/wallpapers"
-fi
-
-SRC_DIR=$(cd $(dirname $0) && pwd)
-
 THEME_NAME=cherry
 
-uninstall() {
-  local name=${1}
+if [[ $EUID -ne 0 ]]; then
+  PREFIX="$HOME/.local"
+elif [[ -z "$PREFIX" ]]; then
+  PREFIX=/usr
+fi
 
-  local AURORAE_THEME="${AURORAE_DIR}/${name}"
-  local PLASMA_THEME="${PLASMA_DIR}/${name}"
-  local LOOKFEEL_THEME="${LOOKFEEL_DIR}/com.github.nullxception.${name}"
+# Destination directory
+AURORAE="$PREFIX/share/aurorae/themes"
+KONSOLE="$PREFIX/share/konsole"
+KVANTUM="$PREFIX/share/Kvantum"
+LOOKFEEL="$PREFIX/share/plasma/look-and-feel"
+PLASMA="$PREFIX/share/plasma/desktoptheme"
+SCHEMES="$PREFIX/share/color-schemes"
+WALLPAPER="$PREFIX/share/wallpapers"
+# Special Kvantum dest for user-specific install
+[[ $EUID -ne 0 ]] && KVANTUM="$HOME/.config/Kvantum"
 
-  [[ -d ${AURORAE_THEME} ]] && rm -rfv ${AURORAE_THEME}
-  [[ -d ${AURORAE_THEME}-square ]] && rm -rfv ${AURORAE_THEME}-square
-  [[ -d ${AURORAE_THEME}-solid ]] && rm -rfv ${AURORAE_THEME}-solid
-  [[ -d ${AURORAE_THEME}-square-solid ]] && rm -rfv ${AURORAE_THEME}-square-solid
-  [[ -d ${KONSOLE_DIR}/${name}.colorscheme ]] && rm -rfv ${SCHEMES_DIR}/${name}.colorscheme
-  [[ -d ${KVANTUM_DIR}/${name} ]] && rm -rfv ${KVANTUM_DIR}/${name}
-  [[ -d ${KVANTUM_DIR}/${name}-solid ]] && rm -rfv ${KVANTUM_DIR}/${name}-solid
-  [[ -d ${LOOKFEEL_THEME} ]] && rm -rfv ${LOOKFEEL_THEME}
-  [[ -d ${PLASMA_THEME} ]] && rm -rfv ${PLASMA_THEME}
-  [[ -d ${PLASMA_THEME}-solid ]] && rm -rfv ${PLASMA_THEME}-solid
-  [[ -d ${SCHEMES_DIR}/${name}.colors ]] && rm -rfv ${SCHEMES_DIR}/${name}.colors
-  [[ -d ${WALLPAPER_DIR}/cherry ]] && rm -rfv ${WALLPAPER_DIR}/cherry
+del() {
+  if [[ -e "$1" ]]; then
+    echo "path found, removing $1"
+    rm -r "$1"
+  else
+    echo "path not found: $1"
+  fi
 }
 
-echo "Uninstalling ${THEME_NAME}..."
-uninstall "${name:-${THEME_NAME}}"
+del ${AURORAE}/${THEME_NAME}
+del ${AURORAE}/${THEME_NAME}-solid
+del ${AURORAE}/${THEME_NAME}-square
+del ${AURORAE}/${THEME_NAME}-square-solid
+del ${KVANTUM}/${THEME_NAME}
+del ${KVANTUM}/${THEME_NAME}-solid
+del ${LOOKFEEL}/com.github.nullxception.${THEME_NAME}
+del ${PLASMA}/${THEME_NAME}
+del ${PLASMA}/${THEME_NAME}-solid
+del ${SCHEMES}/${THEME_NAME}.colors
+del ${WALLPAPER}/${THEME_NAME}
