@@ -12,6 +12,7 @@ kickoff.writeConfig("global", "Alt+F1")
 if (knownWidgetTypes.indexOf('org.kde.windowtitle') > -1) {
     var wTitle = panel.addWidget("org.kde.windowtitle")
     wTitle.writeConfig("boldFont", true)
+    wTitle.writeConfig("filterActivityInfo", "false")
     wTitle.writeConfig("filterByScreen", true)
     wTitle.writeConfig("placeHolder", "Cherry Desktop")
     wTitle.writeConfig("showIcon", false)
