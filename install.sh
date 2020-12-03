@@ -2,7 +2,7 @@
 THEME_NAME=cherry
 SRC=$(realpath "$(dirname "$0")")
 
-if [[ $EUID -ne 0 ]]; then
+if [[ -z "$PREFIX" && $EUID -ne 0 ]]; then
   PREFIX="$HOME/.local"
 elif [[ -z "$PREFIX" ]]; then
   PREFIX=/usr
@@ -21,38 +21,91 @@ WALLPAPER="$PREFIX/share/wallpapers"
 
 [[ ! -d ${AURORAE} ]] && mkdir -p ${AURORAE}
 [[ ! -d ${KVANTUM} ]] && mkdir -p ${KVANTUM}
+[[ ! -d ${KONSOLE} ]] && mkdir -p ${KONSOLE}
 [[ ! -d ${LOOKFEEL} ]] && mkdir -p ${LOOKFEEL}
 [[ ! -d ${PLASMA} ]] && mkdir -p ${PLASMA}
 [[ ! -d ${SCHEMES} ]] && mkdir -p ${SCHEMES}
 [[ ! -d ${WALLPAPER} ]] && mkdir -p ${WALLPAPER}
 
-install() {
+in_aurorae() {
   local name=${1}
+  local variants=("solid"
+                  "square"
+                  "square-solid")
 
-  [[ -d ${AURORAE}/${name} ]] && rm -rf ${AURORAE}/${name}*
-  [[ -d ${KVANTUM}/${name} ]] && rm -rf ${KVANTUM}/${name}*
-  [[ -d ${LOOKFEEL}/com.github.nullxception.${name} ]] && rm -rf ${LOOKFEEL}/com.github.nullxception.${name}*
-  [[ -d ${PLASMA}/${name} ]] && rm -rf ${PLASMA}/${name}*
-  [[ -d ${WALLPAPER}/${name} ]] && rm -rf ${WALLPAPER}/${name}*
-  [[ -f ${SCHEMES}/${name}.colors ]] && rm -rf ${SCHEMES}/${name}*.colors
+  [[ -d ${AURORAE}/${name} ]] && rm -rf ${AURORAE}/${name}
+  cp -r ${SRC}/aurorae/${name} ${AURORAE}
 
-  cp -r ${SRC}/aurorae/themes/*                                                  ${AURORAE}
-  cp -r ${SRC}/color-schemes/*.colors                                            ${SCHEMES}
-  cp -r ${SRC}/konsole/*                                                         ${KONSOLE}
-  cp -r ${SRC}/kvantum/*                                                         ${KVANTUM}
-  cp -r ${SRC}/plasma/look-and-feel/*                                            ${LOOKFEEL}
-  cp -r ${SRC}/wallpaper/*                                                       ${WALLPAPER}
-
-  cp -r ${SRC}/plasma/desktoptheme/${name}                                       ${PLASMA}
-  cp -r ${SRC}/plasma/desktoptheme/${name}-solid                                 ${PLASMA}
-  cp -r ${SRC}/plasma/desktoptheme/icons                                         ${PLASMA}/${name}
-  cp -r ${SRC}/plasma/desktoptheme/icons                                         ${PLASMA}/${name}-solid
-  cp -r ${SRC}/color-schemes/${name}.colors                                      ${PLASMA}/${name}/colors
+  for variant in "${variants[@]}"; do
+    [[ -d ${AURORAE}/${name}-${variant} ]] && rm -rf ${AURORAE}/${name}-${variant}
+    cp -r ${SRC}/aurorae/${name} ${AURORAE}/${name}-${variant}
+    cp -r ${SRC}/aurorae/${name}-${variant}/. ${AURORAE}/${name}-${variant}
+    rm ${AURORAE}/${name}-${variant}/${name}rc
+  done
 }
 
-echo "Installing ${THEME_NAME}..."
-install "${THEME_NAME}"
+in_kvantum() {
+  local name=${1}
+  local variants=("solid")
 
-echo "Clearing KDE caches..."
+  [[ -d ${KVANTUM}/${name} ]] && rm -rf ${KVANTUM}/${name}
+  cp -r ${SRC}/kvantum/${name} ${KVANTUM}
+
+  for variant in "${variants[@]}"; do
+    [[ -d ${KVANTUM}/${name}-${variant} ]] && rm -rf ${KVANTUM}/${name}-${variant}
+    cp -r ${SRC}/kvantum/${name}-${variant} ${KVANTUM}
+  done
+}
+
+in_plasma() {
+  local name=${1}
+  local variants=("solid")
+
+  [[ -d ${PLASMA}/${name} ]] && rm -rf ${PLASMA}/${name}
+  cp -r ${SRC}/plasma/desktoptheme/${name} ${PLASMA}
+  cp -r ${SRC}/color-schemes/${name}.colors ${PLASMA}/${name}/colors
+
+  for variant in "${variants[@]}"; do
+    [[ -d ${PLASMA}/${name} ]] && rm -rf ${PLASMA}/${name}-${variant}
+    cp -r ${SRC}/plasma/desktoptheme/${name} ${PLASMA}/${name}-${variant}
+    cp -r ${SRC}/plasma/desktoptheme/${name}-${variant}/. ${PLASMA}/${name}-${variant}
+
+    if [[ -f ${SRC}/color-schemes/${name}-${variant}.colors ]]; then
+      cp -r ${SRC}/color-schemes/${name}-${variant}.colors ${PLASMA}/${name}/colors
+    fi
+  done
+}
+
+in_global() {
+  local name=${1}
+  local domain=com.github.nullxception
+
+  [[ -d ${LOOKFEEL}/${domain}.${name} ]] && rm -rf ${LOOKFEEL}/${domain}.${name}
+  cp -r ${SRC}/plasma/look-and-feel/${domain}.${name} ${LOOKFEEL}
+}
+
+in_colors() {
+  local name=${1}
+
+  cp -r ${SRC}/color-schemes/${name}.colors ${SCHEMES}
+  cp -r ${SRC}/konsole/${name}.colorscheme ${KONSOLE}
+}
+
+in_wallpaper() {
+  local name=${1}
+
+  [[ -d ${WALLPAPER}/${name} ]] && rm -rf ${WALLPAPER}/${name}
+  cp -r ${SRC}/wallpaper/${name} ${WALLPAPER}
+}
+
+echo "Installing ${THEME_NAME}"
+in_aurorae    "${THEME_NAME}"
+in_colors     "${THEME_NAME}"
+in_global     "${THEME_NAME}"
+in_kvantum    "${THEME_NAME}"
+in_plasma     "${THEME_NAME}"
+in_wallpaper  "${THEME_NAME}"
+
+echo "Clearing KDE caches"
 find ~/.cache -type f -iname '*.kcache' -delete > /dev/null 2>&1
 find ~/.cache -type f -iname '*sma-svgel*' -delete > /dev/null 2>&1
