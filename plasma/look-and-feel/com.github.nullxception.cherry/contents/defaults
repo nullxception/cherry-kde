@@ -1,3 +1,6 @@
+[kcminputrc][Mouse]
+cursorTheme=breeze_cursors
+
 [kdeglobals][General]
 ColorScheme=cherry
 
