@@ -27,5 +27,9 @@ tar -czvf $dist/$name-look-and-feel-$tag.tar.gz . >/dev/null
 cd $tmp/share/wallpapers
 tar -czvf $dist/$name-wallpaper-$tag.tar.gz . >/dev/null
 
+# Pack kvantum theme directly
+cd $src/kvantum
+tar -czvf $dist/$name-kvantum-$tag.tar.gz . >/dev/null
+
 # cleaning up
 rm -rf $tmp
