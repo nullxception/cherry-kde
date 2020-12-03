@@ -14,5 +14,5 @@ X-KDE-PluginInfo-Version=0.1
 X-KDE-PluginInfo-Website=https://github.com/nullxception/cherry-kde
 X-KDE-ServiceTypes=Plasma/LookAndFeel
 X-KDE-fallbackPackage=org.kde.breeze.desktop
-X-KPackage-Dependencies=kns://colorschemes.knsrc/api.kde-look.org/1325239,kns://plasma-themes.knsrc/api.kde-look.org/1325241,kns://aurorae.knsrc/api.kde-look.org/1325238,kns://icons.knsrc/api.kde-look.org/1279924,kns://wallpaper.knsrc/api.kde-look.org/1309218,kns://sddmtheme.knsrc/api.kde-look.org/1325235,kns://xcursor.knsrc/api.kde-look.org/1365214
+X-KPackage-Dependencies=kns://aurorae.knsrc/api.kde-look.org/1450863,kns://colorschemes.knsrc/api.kde-look.org/1450863,kns://icons.knsrc/api.kde-look.org/1359276,kns://konsole.knsrc/api.kde-look.org/1450886,kns://plasma-themes.knsrc/api.kde-look.org/1450878,kns://wallpaper.knsrc/api.kde-look.org/1450892
 X-Plasma-MainScript=defaults
