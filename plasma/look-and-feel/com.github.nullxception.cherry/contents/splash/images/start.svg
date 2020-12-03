@@ -1,72 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="0 0 200 200"
-   id="svg2"
-   version="1.1"
-   sodipodi:docname="start.svg"
-   width="200"
-   height="200"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
-  <sodipodi:namedview
-     pagecolor="#fafafa"
-     bordercolor="#696969"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="698"
-     id="namedview17"
-     showgrid="false"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="-57.330328"
-     inkscape:cy="97.998207"
-     inkscape:window-x="0"
-     inkscape:window-y="42"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="start-here-kde"
-     inkscape:document-rotation="0" />
-  <metadata
-     id="metadata21">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs3051">
-    <style
-       type="text/css"
-       id="current-color-scheme">
-      .ColorScheme-Text {
+<svg id="svg2" width="200" height="200" version="1.1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata id="metadata21">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs3051">
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
         color:#23232F;
-      }
-      </style>
-  </defs>
-  <g
-     transform="matrix(5.5047781,0,0,5.5047781,-362.40136,6.4187729)"
-     id="start-here-kde">
-    <path
-       id="rect3343"
-       style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1.13538px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 65.981722,-1.0182779 H 102.3138 V 35.313795 H 65.981722 Z" />
-    <path
-       id="path855"
-       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#efefef;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.93756;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
-       d="m 84.004436,5.3737393 a 1.9689815,1.9689815 0 0 0 -0.989421,0.264733 L 74.651527,10.46726 a 1.9689815,1.9689815 0 0 0 -0.983506,1.705234 v 9.452 l 4.309675,-2.48908 c 0.821028,-0.474023 1.864204,-0.193954 2.338226,0.627075 0.474024,0.821032 0.193953,1.862729 -0.627074,2.336752 l -3.760985,2.171104 7.087152,4.092267 a 1.9689815,1.9689815 0 0 0 1.96849,0 l 8.363489,-4.828787 a 1.9689815,1.9689815 0 0 0 0.984984,-1.705234 v -3.484418 l -4.945625,2.855862 c -0.821031,0.474023 -1.862727,0.193953 -2.336749,-0.627077 -0.474023,-0.82103 -0.195433,-1.862726 0.625597,-2.336748 l 6.656777,-3.843806 v -2.21991 A 1.9689815,1.9689815 0 0 0 93.346994,10.46726 L 91.48795,9.3935392 84.387485,13.494681 c -0.821029,0.474022 -1.864205,0.193954 -2.338228,-0.627079 -0.474021,-0.821029 -0.193952,-1.862725 0.627077,-2.336747 L 88.065646,7.4176551 84.983505,5.6384723 a 1.9689815,1.9689815 0 0 0 -0.979069,-0.264733 z" />
-  </g>
+      }</style>
+ </defs>
+ <g id="start-here-kde" transform="matrix(5.5048 0 0 5.5048 -362.4 6.4188)">
+  <path id="rect3343" d="m65.982-1.0183h36.332v36.332h-36.332z" fill="none"/>
+  <path id="path855" d="m84.004 5.3737a1.969 1.969 0 0 0-0.98942 0.26473l-8.3635 4.8288a1.969 1.969 0 0 0-0.98351 1.7052v9.452l4.3097-2.4891c0.82103-0.47402 1.8642-0.19395 2.3382 0.62708 0.47402 0.82103 0.19395 1.8627-0.62707 2.3368l-3.761 2.1711 7.0872 4.0923a1.969 1.969 0 0 0 1.9685 0l8.3635-4.8288a1.969 1.969 0 0 0 0.98498-1.7052v-3.4844l-4.9456 2.8559c-0.82103 0.47402-1.8627 0.19395-2.3367-0.62708-0.47402-0.82103-0.19543-1.8627 0.6256-2.3367l6.6568-3.8438v-2.2199a1.969 1.969 0 0 0-0.98498-1.7052l-1.859-1.0737-7.1005 4.1011c-0.82103 0.47402-1.8642 0.19395-2.3382-0.62708-0.47402-0.82103-0.19395-1.8627 0.62708-2.3367l5.3893-3.1132-3.0821-1.7792a1.969 1.969 0 0 0-0.97907-0.26473z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#efefef" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;paint-order:stroke fill markers;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+ </g>
 </svg>
