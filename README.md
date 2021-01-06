@@ -10,20 +10,24 @@
 Cherry is a theme inspired by Fervent Tempo battlesuit from a games called Honkai Impact 3.
 
 This theme consist of several components including :
-* aurorae themes (regular, solid, square, square-solid)
-* konsole colorscheme
-* kvantum theme (regular, solid)
-* plasma colorscheme
-* plasma desktop theme
-* splash screen
 
+- aurorae themes (regular, solid, square, square-solid)
+- konsole colorscheme
+- kvantum theme (regular, solid)
+- plasma colorscheme
+- plasma desktop theme
+- splash screen
 
 ## Installation
 
-```bash
-$ cd cherry-kde-theme
-$ ./install.sh
-```
+- Archlinux - [AUR](https://aur.archlinux.org/packages/cherry-kde-theme) by [RMTT](https://github.com/RMTT)
+
+- Manual
+
+  ```bash
+  $ cd cherry-kde-theme
+  $ ./install.sh
+  ```
 
 This theme uses [**Kvantum engine**](https://github.com/tsujan/Kvantum) for it's Application style.
 
@@ -33,19 +37,19 @@ So in order to completely apply this theme, you have to open **Kvantum Manager**
 
 If you use in-built layout (`Global Theme > Use desktop layout from theme`), it's recommended to have several additional applet before for better setup :
 
-* [Better Inline Clock](https://store.kde.org/p/1245902/)
-* [Window Appmenu Applet](https://store.kde.org/p/1274975/)
-* [Window Title Applet](https://store.kde.org/p/1274218/)
+- [Better Inline Clock](https://store.kde.org/p/1245902/)
+- [Window Appmenu Applet](https://store.kde.org/p/1274975/)
+- [Window Title Applet](https://store.kde.org/p/1274218/)
 
 After installing all of them, you can just re-apply the Global Theme to reload layout.
 
 Also, it's recommended that using Latte Dock for your task manager to get better setup!
 
 ## Related stuff
+
 There is also a cherry theme for VSCode/VSCodium, check it out 🚀
 
 https://github.com/nullxception/cherry-vscode
-
 
 ## License
 
