@@ -12,7 +12,7 @@ Cherry is a theme inspired by Fervent Tempo battlesuit from a games called Honka
 This theme consist of several components including :
 
 - aurorae themes (regular, solid, square, square-solid)
-- konsole colorscheme
+- konsole and kitty colorscheme
 - kvantum theme (regular, solid)
 - plasma colorscheme
 - plasma desktop theme
@@ -44,6 +44,15 @@ If you use in-built layout (`Global Theme > Use desktop layout from theme`), it'
 After installing all of them, you can just re-apply the Global Theme to reload layout.
 
 Also, it's recommended that using Latte Dock for your task manager to get better setup!
+
+### Color theme for Kitty Terminal
+
+You can copy the [cherry.conf](kitty/cherry.conf) into kitty theme dir, and then apply it as usual.
+
+```bash
+$ cp kitty/cherry.conf ~/.config/kitty/themes/
+$ kitty +kitten themes Cherry
+```
 
 ## Related stuff
 
