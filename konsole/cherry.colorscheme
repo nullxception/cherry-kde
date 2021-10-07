@@ -14,13 +14,13 @@ RandomHueRange=360
 RandomSaturationRange=100
 
 [Color0]
-Color=80,80,95
+Color=63,63,79
 
 [Color0Faint]
-Color=80,80,95
+Color=63,63,79
 
 [Color0Intense]
-Color=121,121,143
+Color=71,71,86
 
 [Color1]
 Color=255,86,142
