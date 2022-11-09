@@ -1,0 +1,37 @@
+<svg id="svg4306" width="22" height="22" enable-background="new" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata id="metadata26">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="active-center">
+  <rect id="rect4266" width="22" height="22" opacity=".001"/>
+  <circle id="path4206" cx="11" cy="11" r="4" fill="#e4e6e8" fill-rule="evenodd"/>
+ </g>
+ <g id="hover-center">
+  <g id="g4206" transform="translate(23)">
+   <rect id="rect4208" width="22" height="22" opacity=".001"/>
+  </g>
+  <circle id="circle4212" cx="34" cy="11" r="11" fill="#fafafa" opacity=".08"/>
+  <circle id="circle4213" cx="34" cy="11" r="4" fill="#e4e6e8" fill-rule="evenodd"/>
+ </g>
+ <g id="pressed-center">
+  <g id="g4172" transform="translate(46)">
+   <rect id="rect4164" width="22" height="22" opacity=".001"/>
+  </g>
+  <circle id="path4202" cx="57" cy="11" r="11" fill="#fafafa" opacity=".19"/>
+  <circle id="circle4215" cx="57" cy="11" r="4" fill="#e4e6e8" fill-rule="evenodd"/>
+ </g>
+ <g id="inactive-center" opacity=".5">
+  <rect id="rect4180" x="69" width="22" height="22" opacity=".001"/>
+  <circle id="circle4217" cx="80" cy="11" r="4" fill="#e4e6e8" fill-rule="evenodd" opacity=".3"/>
+ </g>
+ <g id="deactivated-center" opacity=".5">
+  <rect id="rect4278" x="92" width="22" height="22" opacity=".001"/>
+  <circle id="circle4219" cx="103" cy="11" r="4" fill="#e4e6e8" fill-rule="evenodd" opacity=".3"/>
+ </g>
+</svg>
