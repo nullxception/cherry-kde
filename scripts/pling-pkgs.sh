@@ -3,7 +3,17 @@ name="cherry"
 src="$(realpath "$(dirname "$0")/..")"
 dist="$src/dist"
 tmp="$(mktemp -d /tmp/nullxception.kde-$name-XXX)"
-tag="$(git describe --tags --abbrev=0)"
+
+get_version() {
+  local fmeta="$1/metadata.desktop"
+  local fversion="$1/.version"
+
+  if [[ -f "$fmeta" ]]; then
+    grep "PluginInfo-Version=" $fmeta | cut -d= -f2
+  elif [[ -f "$fversion" ]]; then 
+    cat $fversion
+  fi
+}
 
 rm -rf $dist; mkdir $dist
 chmod +x "$src/install.sh"
@@ -13,23 +23,35 @@ PREFIX="$tmp" $src/install.sh >/dev/null
 
 # Packaging all the components
 cd "$tmp/share/aurorae/themes"
-tar -czvf "$dist/$name-aurorae-$tag.tar.gz" . >/dev/null
+ver=$(get_version $src/aurorae/cherry)
+tar -czvf "$dist/$name-aurorae-$ver.tar.gz" . >/dev/null
+
 cd "$tmp/share/konsole"
-tar -czvf "$dist/$name-konsole-$tag.tar.gz" . >/dev/null
+ver=$(get_version $src/konsole)
+tar -czvf "$dist/$name-konsole-$ver.tar.gz" . >/dev/null
+
 cd "$tmp/share/color-schemes"
-tar -czvf "$dist/$name-color-schemes-$tag.tar.gz" . >/dev/null
-for v in cherry{,-solid}; do
+ver=$(get_version $src/color-schemes)
+tar -czvf "$dist/$name-color-schemes-$ver.tar.gz" . >/dev/null
+
+for variant in cherry{,-solid}; do
   cd "$tmp/share/plasma/desktoptheme"
-  tar -czvf "$dist/$v-plasma-$tag.tar.gz" $v >/dev/null
+  ver=$(get_version $src/plasma/desktoptheme/$variant)
+  tar -czvf "$dist/$variant-plasma-$ver.tar.gz" $variant >/dev/null
 done
+
 cd "$tmp/share/plasma/look-and-feel"
-tar -czvf "$dist/$name-look-and-feel-$tag.tar.gz" . >/dev/null
+ver=$(get_version $src/plasma/look-and-feel/com.github.nullxception.cherry)
+tar -czvf "$dist/$name-look-and-feel-$ver.tar.gz" . >/dev/null
+
 cd "$tmp/share/wallpapers"
-tar -czvf "$dist/$name-wallpaper-$tag.tar.gz" . >/dev/null
+ver=$(get_version $src/wallpaper/cherry)
+tar -czvf "$dist/$name-wallpaper-$ver.tar.gz" . >/dev/null
 
 # Pack kvantum theme directly
 cd "$src/kvantum"
-tar -czvf "$dist/$name-kvantum-$tag.tar.gz" . >/dev/null
+ver=$(get_version $src/kvantum)
+tar -czvf "$dist/$name-kvantum-$ver.tar.gz" . >/dev/null
 
 # cleaning up
 rm -rf "$tmp"
