@@ -54,11 +54,12 @@ $ cp kitty/cherry.conf ~/.config/kitty/themes/
 $ kitty +kitten themes Cherry
 ```
 
-## Related stuff
+## Related
 
-There is also a cherry theme for VSCode/VSCodium, check it out 🚀
+There is also a cherry theme for other stuff, check it out 🚀
 
-https://github.com/nullxception/cherry-vscode
+* Firefox: https://addons.mozilla.org/en-US/firefox/addon/cherry3
+* VSCode: https://github.com/nullxception/cherry-vscode
 
 ## License
 
