@@ -1,13 +1,13 @@
 <p align="center"><img src="https://raw.githubusercontent.com/nullxception/cherry-kde-theme/main/cherry.png"/></p>
 <h2><p align="center">Cherry KDE Plasma</p></h2>
-<p align="center">Clean, Flat, <i>Fervent Tempo battlesuit-inspired</i> Theme for KDE Plasma Desktop</p>
+<p align="center">Clean, Flat, Δ Theme for KDE Plasma Desktop</p>
 <p align="center"><img src="https://raw.githubusercontent.com/nullxception/cherry-kde-theme/main/preview-full.png"/></p>
 <p align="center"><img src="https://raw.githubusercontent.com/nullxception/cherry-kde-theme/main/preview-variants.png"/></p>
 </center>
 
 ## Background
 
-Cherry is a theme inspired by Fervent Tempo battlesuit from a games called Honkai Impact 3.
+Cherry is a theme inspired by Δ (delta) battlesuit from Honkai Impact 3.
 
 This theme consist of several components including :
 
@@ -25,6 +25,7 @@ This theme consist of several components including :
 - Manual
 
   ```bash
+  $ git clone https://github.com/nullxception/cherry-kde-theme.git
   $ cd cherry-kde-theme
   $ ./install.sh
   ```
@@ -32,6 +33,10 @@ This theme consist of several components including :
 This theme uses [**Kvantum engine**](https://github.com/tsujan/Kvantum) for it's Application style.
 
 So in order to completely apply this theme, you have to open **Kvantum Manager** (command : `kvantummanager`), and then select **cherry** on **Change/Delete Theme** section.
+
+### Tips
+
+If you're using standard variant (non-solid), set your terminal emulator's background opacity to 0.85 to match titlebar's opacity.
 
 ### Layouts
 
