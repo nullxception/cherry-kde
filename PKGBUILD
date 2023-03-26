@@ -1,6 +1,6 @@
 pkgname=cherry-kde-theme
-pkgver=1.3.r3.g1cc6fb8
-pkgrel=1
+pkgver=1.6
+pkgrel=2
 pkgdesc="Clean, Flat, Fervent Tempo battlesuit-inspired Theme for Plasma Desktop"
 arch=('any')
 url="https://github.com/nullxception/cherry-kde-theme"
