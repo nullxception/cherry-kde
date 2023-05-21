@@ -50,7 +50,7 @@ After installing all of them, you can just re-apply the Global Theme to reload l
 
 Also, it's recommended that using Latte Dock for your task manager to get better setup!
 
-### Color theme for Kitty Terminal
+### Color scheme for Kitty Terminal
 
 You can copy the [cherry.conf](kitty/cherry.conf) into kitty theme dir, and then apply it as usual.
 
@@ -63,8 +63,12 @@ $ kitty +kitten themes Cherry
 
 There is also a cherry theme for other stuff, check it out 🚀
 
-* Firefox: https://addons.mozilla.org/en-US/firefox/addon/cherry3
-* VSCode: https://github.com/nullxception/cherry-vscode
+- **Firefox**
+
+  - [Cherry theme](https://addons.mozilla.org/en-US/firefox/addon/cherry-kde-theme) by [Daste](https://addons.mozilla.org/en-US/firefox/user/16594667)
+  - [Cherry 3.0 theme](https://addons.mozilla.org/en-US/firefox/addon/cherry3) by [Gotoro](https://addons.mozilla.org/en-US/firefox/user/17172197)
+
+- [**Cherry VSCode**](https://github.com/nullxception/cherry-vscode)
 
 ## License
 
