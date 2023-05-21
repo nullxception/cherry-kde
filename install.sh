@@ -1,111 +1,141 @@
 #!/bin/bash
-THEME_NAME=cherry
-SRC=$(realpath "$(dirname "$0")")
+theme_name=cherry
+theme_namespace=com.github.nullxception
+src=$(realpath "$(dirname "$0")")
 
-if [[ -z "$PREFIX" && $EUID -ne 0 ]]; then
-  PREFIX="$HOME/.local"
-elif [[ -z "$PREFIX" ]]; then
-  PREFIX=/usr
-fi
+install_aurorae() {
+  local dest="$PREFIX/share/aurorae/themes"
+  local variants=("solid" "square" "square-solid")
 
-# Destination directory
-AURORAE="$PREFIX/share/aurorae/themes"
-KONSOLE="$PREFIX/share/konsole"
-KVANTUM="$PREFIX/share/Kvantum"
-LOOKFEEL="$PREFIX/share/plasma/look-and-feel"
-PLASMA="$PREFIX/share/plasma/desktoptheme"
-SCHEMES="$PREFIX/share/color-schemes"
-WALLPAPER="$PREFIX/share/wallpapers"
-# Special Kvantum dest for user-specific install
-[[ $EUID -ne 0 ]] && KVANTUM="$HOME/.config/Kvantum"
+  mkdir -p "$dest"
 
-[[ ! -d ${AURORAE} ]] && mkdir -p ${AURORAE}
-[[ ! -d ${KVANTUM} ]] && mkdir -p ${KVANTUM}
-[[ ! -d ${KONSOLE} ]] && mkdir -p ${KONSOLE}
-[[ ! -d ${LOOKFEEL} ]] && mkdir -p ${LOOKFEEL}
-[[ ! -d ${PLASMA} ]] && mkdir -p ${PLASMA}
-[[ ! -d ${SCHEMES} ]] && mkdir -p ${SCHEMES}
-[[ ! -d ${WALLPAPER} ]] && mkdir -p ${WALLPAPER}
-
-in_aurorae() {
-  local name=${1}
-  local variants=("solid"
-                  "square"
-                  "square-solid")
-
-  [[ -d ${AURORAE}/${name} ]] && rm -rf ${AURORAE}/${name}
-  cp -r ${SRC}/aurorae/${name} ${AURORAE}
+  [[ -d "$dest/$theme_name" ]] && rm -rf "$dest/$theme_name"
+  cp -r "$src/aurorae/$theme_name" "$dest"
 
   for variant in "${variants[@]}"; do
-    [[ -d ${AURORAE}/${name}-${variant} ]] && rm -rf ${AURORAE}/${name}-${variant}
-    cp -r ${SRC}/aurorae/${name} ${AURORAE}/${name}-${variant}
-    cp -r ${SRC}/aurorae/${name}-${variant}/. ${AURORAE}/${name}-${variant}
-    rm ${AURORAE}/${name}-${variant}/${name}rc
+    [[ -d "$dest/${theme_name}-${variant}" ]] && rm -rf "$dest/${theme_name}-${variant}"
+    cp -r "$src/aurorae/$theme_name" "$dest/${theme_name}-${variant}"
+    cp -r "$src/aurorae/${theme_name}-${variant}/." "$dest/${theme_name}-${variant}"
+    rm "$dest/${theme_name}-${variant}/${theme_name}rc"
   done
 }
 
-in_kvantum() {
-  local name=${1}
+install_kvantum() {
+  local dest="$PREFIX/share/Kvantum"
   local variants=("solid")
 
-  [[ -d ${KVANTUM}/${name} ]] && rm -rf ${KVANTUM}/${name}
-  cp -r ${SRC}/kvantum/${name} ${KVANTUM}
+  # Destination directory
+  # Special Kvantum dest for user-specific install
+  [[ $EUID -ne 0 ]] && dest="$HOME/.config/Kvantum"
+
+  mkdir -p "$dest"
+
+  [[ -d "$dest/$theme_name" ]] && rm -rf "$dest/$theme_name"
+  cp -r "$src/kvantum/$theme_name" "$dest"
 
   for variant in "${variants[@]}"; do
-    [[ -d ${KVANTUM}/${name}-${variant} ]] && rm -rf ${KVANTUM}/${name}-${variant}
-    cp -r ${SRC}/kvantum/${name}-${variant} ${KVANTUM}
+    [[ -d "$dest/${theme_name}-${variant}" ]] && rm -rf "$dest/${theme_name}-${variant}"
+    cp -r "$src/kvantum/${theme_name}-${variant}" "$dest"
   done
 }
 
-in_plasma() {
-  local name=${1}
+install_plasma() {
+  local dest="$PREFIX/share/plasma/desktoptheme"
   local variants=("solid")
 
-  [[ -d ${PLASMA}/${name} ]] && rm -rf ${PLASMA}/${name}
-  cp -r ${SRC}/plasma/desktoptheme/${name} ${PLASMA}
-  cp -r ${SRC}/color-schemes/${name}.colors ${PLASMA}/${name}/colors
+  mkdir -p "$dest"
+
+  [[ -d "$dest/$theme_name" ]] && rm -rf "$dest/$theme_name"
+  cp -r "$src/plasma/desktoptheme/$theme_name" "$dest"
+  cp -r "$src/color-schemes/${theme_name}.colors" "$dest/$theme_name/colors"
 
   for variant in "${variants[@]}"; do
-    [[ -d ${PLASMA}/${name} ]] && rm -rf ${PLASMA}/${name}-${variant}
-    cp -r ${SRC}/plasma/desktoptheme/${name} ${PLASMA}/${name}-${variant}
-    cp -r ${SRC}/plasma/desktoptheme/${name}-${variant}/. ${PLASMA}/${name}-${variant}
+    [[ -d "$dest/$theme_name" ]] && rm -rf $dest/${theme_name}-${variant}
+    cp -r "$src/plasma/desktoptheme/$theme_name" "$dest/${theme_name}-${variant}"
+    cp -r "$src/plasma/desktoptheme/${theme_name}-${variant}/." "$dest/${theme_name}-${variant}"
 
-    if [[ -f ${SRC}/color-schemes/${name}-${variant}.colors ]]; then
-      cp -r ${SRC}/color-schemes/${name}-${variant}.colors ${PLASMA}/${name}/colors
+    if [[ -f "$src/color-schemes/${theme_name}-${variant}.colors" ]]; then
+      cp -r "$src/color-schemes/${theme_name}-${variant}.colors" "$dest/$theme_name/colors"
     fi
   done
 }
 
-in_global() {
-  local name=${1}
-  local domain=com.github.nullxception
+install_global() {
+  local dest="$PREFIX/share/plasma/look-and-feel"
+  mkdir -p "$dest"
 
-  [[ -d ${LOOKFEEL}/${domain}.${name} ]] && rm -rf ${LOOKFEEL}/${domain}.${name}
-  cp -r ${SRC}/plasma/look-and-feel/${domain}.${name} ${LOOKFEEL}
+  [[ -d "$dest/${theme_namespace}.${theme_name}" ]] && rm -rf "$dest/${theme_namespace}.$theme_name"
+  cp -r "$src/plasma/look-and-feel/${theme_namespace}.$theme_name" "$dest"
 }
 
-in_colors() {
-  local name=${1}
+install_colors() {
+  local konsole_dest="$PREFIX/share/konsole"
+  local scheme_dest="$PREFIX/share/color-schemes"
 
-  cp -r ${SRC}/color-schemes/${name}.colors ${SCHEMES}
-  cp -r ${SRC}/konsole/${name}.colorscheme ${KONSOLE}
+  mkdir -p "$konsole_dest"
+  mkdir -p "$scheme_dest"
+
+  cp -r "$src/color-schemes/${theme_name}.colors" "$scheme_dest"
+  cp -r "$src/konsole/${theme_name}.colorscheme" "$konsole_dest"
 }
 
-in_wallpaper() {
-  local name=${1}
+install_wallpaper() {
+  local dest="$PREFIX/share/wallpapers"
+  mkdir -p "$dest"
 
-  [[ -d ${WALLPAPER}/${name} ]] && rm -rf ${WALLPAPER}/${name}
-  cp -r ${SRC}/wallpaper/${name} ${WALLPAPER}
+  [[ -d "$dest/$theme_name" ]] && rm -rf "$dest/$theme_name"
+  cp -r "$src/wallpaper/$theme_name" "$dest"
 }
 
-echo "Installing ${THEME_NAME}"
-in_aurorae    "${THEME_NAME}"
-in_colors     "${THEME_NAME}"
-in_global     "${THEME_NAME}"
-in_kvantum    "${THEME_NAME}"
-in_plasma     "${THEME_NAME}"
-in_wallpaper  "${THEME_NAME}"
+main() {
+  if [[ -z "$PREFIX" && $EUID -ne 0 ]]; then
+    PREFIX="$HOME/.local"
+  elif [[ -z "$PREFIX" ]]; then
+    PREFIX=/usr
+  fi
 
-echo "Clearing KDE caches"
-find ~/.cache -type f -iname '*.kcache' -delete > /dev/null 2>&1
-find ~/.cache -type f -iname '*sma-svgel*' -delete > /dev/null 2>&1
+  echo "Installing ${theme_name} to $PREFIX"
+  install_aurorae
+  install_colors
+  install_global
+  install_kvantum
+  install_plasma
+  install_wallpaper
+
+  if [[ "$clear_cache" == "true" ]]; then
+    echo "Clearing KDE caches"
+    find ~/.cache -type f -iname '*.kcache' -delete >/dev/null 2>&1
+    find ~/.cache -type f -iname '*sma-svgel*' -delete >/dev/null 2>&1
+  fi
+}
+
+clear_cache=true
+
+parsed=$(getopt --options=p:,c: --longoptions=prefix:,clear-cache: --name "$0" -- "$@")
+if [ $? -ne 0 ]; then
+  echo 'Invalid argument, exiting.' >&2
+  exit 1
+fi
+
+eval set -- "$parsed"
+unset parsed
+while true; do
+  case "$1" in
+  "-p" | "--prefix")
+    PREFIX="$2"
+    shift 2
+    ;;
+  "-c" | "--clear-cache")
+    clear_cache="$2"
+    shift 2
+    ;;
+  "--")
+    shift
+    break
+    ;;
+  *) ;;
+
+  esac
+done
+
+main "$@"
