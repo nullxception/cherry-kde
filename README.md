@@ -20,7 +20,7 @@ This theme consist of several components including :
 
 ## Installation
 
-- Archlinux - [AUR](https://aur.archlinux.org/packages/cherry-kde-theme) by [RMTT](https://github.com/RMTT)
+- [Archlinux (AUR)](https://aur.archlinux.org/packages/cherry-kde-git)
 
 - Manual
 
