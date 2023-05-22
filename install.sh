@@ -2,10 +2,13 @@
 theme_name=cherry
 theme_namespace=com.github.nullxception
 src=$(realpath "$(dirname "$0")")
+components=(aurorae colors global kvantum plasma wallpaper)
 
 install_aurorae() {
   local dest="$PREFIX/share/aurorae/themes"
   local variants=("solid" "square" "square-solid")
+
+  echo "Installing ${theme_name}:aurorae"
 
   mkdir -p "$dest"
 
@@ -23,6 +26,8 @@ install_aurorae() {
 install_kvantum() {
   local dest="$PREFIX/share/Kvantum"
   local variants=("solid")
+
+  echo "Installing ${theme_name}:kvantum"
 
   # Destination directory
   # Special Kvantum dest for user-specific install
@@ -43,6 +48,8 @@ install_plasma() {
   local dest="$PREFIX/share/plasma/desktoptheme"
   local variants=("solid")
 
+  echo "Installing ${theme_name}:plasma"
+
   mkdir -p "$dest"
 
   [[ -d "$dest/$theme_name" ]] && rm -rf "$dest/$theme_name"
@@ -62,6 +69,9 @@ install_plasma() {
 
 install_global() {
   local dest="$PREFIX/share/plasma/look-and-feel"
+
+  echo "Installing ${theme_name}:global"
+
   mkdir -p "$dest"
 
   [[ -d "$dest/${theme_namespace}.${theme_name}" ]] && rm -rf "$dest/${theme_namespace}.$theme_name"
@@ -72,8 +82,9 @@ install_colors() {
   local konsole_dest="$PREFIX/share/konsole"
   local scheme_dest="$PREFIX/share/color-schemes"
 
-  mkdir -p "$konsole_dest"
-  mkdir -p "$scheme_dest"
+  echo "Installing ${theme_name}:colors"
+
+  mkdir -p "$konsole_dest" "$scheme_dest"
 
   cp -r "$src/color-schemes/${theme_name}.colors" "$scheme_dest"
   cp -r "$src/konsole/${theme_name}.colorscheme" "$konsole_dest"
@@ -81,6 +92,9 @@ install_colors() {
 
 install_wallpaper() {
   local dest="$PREFIX/share/wallpapers"
+
+  echo "Installing ${theme_name}:wallpaper"
+
   mkdir -p "$dest"
 
   [[ -d "$dest/$theme_name" ]] && rm -rf "$dest/$theme_name"
@@ -94,13 +108,14 @@ main() {
     PREFIX=/usr
   fi
 
-  echo "Installing ${theme_name} to $PREFIX"
-  install_aurorae
-  install_colors
-  install_global
-  install_kvantum
-  install_plasma
-  install_wallpaper
+  for fn in "${components[@]}"; do
+    if declare -F "install_${fn}" >/dev/null; then
+      install_${fn}
+    else
+      echo "components $fn cannot be found. exiting" >&2
+      exit 1
+    fi
+  done
 
   if [[ "$clear_cache" == "true" ]]; then
     echo "Clearing KDE caches"
@@ -111,7 +126,7 @@ main() {
 
 clear_cache=true
 
-parsed=$(getopt --options=p:,c: --longoptions=prefix:,clear-cache: --name "$0" -- "$@")
+parsed=$(getopt --options=p:,c:,s: --longoptions=prefix:,clear-cache:,components: --name "$0" -- "$@")
 if [ $? -ne 0 ]; then
   echo 'Invalid argument, exiting.' >&2
   exit 1
@@ -127,6 +142,10 @@ while true; do
     ;;
   "-c" | "--clear-cache")
     clear_cache="$2"
+    shift 2
+    ;;
+  "-s" | "--components")
+    IFS=',' read -ra components <<<"$2"
     shift 2
     ;;
   "--")
