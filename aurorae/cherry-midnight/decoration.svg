@@ -1,0 +1,95 @@
+<svg id="svg83" width="292.04" height="86.547" version="1.1" viewBox="0 0 292.04 86.547" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata id="metadata96">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs28">
+  <linearGradient id="linearGradient948">
+   <stop id="stop944" stop-opacity=".65" offset="0"/>
+   <stop id="stop946" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1951" x1="83.593" x2="83.593" y1="-970.4" y2="-955.4" gradientTransform="matrix(.71429 0 0 1 -317.71 1251.4)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient948"/>
+  <linearGradient id="linearGradient1000" x1="83.593" x2="83.593" y1="-970.4" y2="-958.4" gradientTransform="matrix(.71429 0 0 1 -317.71 1251.4)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient948"/>
+  <radialGradient id="radialGradient1904" cx="984" cy="905.36" r="8.5" gradientTransform="matrix(0,-1.4085,1.447,0,-1275.1,1556)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient948"/>
+  <linearGradient id="linearGradient1906" x1="83.593" x2="83.593" y1="-970.4" y2="-958.07" gradientTransform="matrix(.71429 0 0 .94444 -317.71 1197.5)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient948"/>
+  <radialGradient id="radialGradient1910" cx="984" cy="905.36" r="8.5" gradientTransform="matrix(.0035668 -1.7615 1.9964 .0040425 -1776 1899.6)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient948"/>
+  <linearGradient id="linearGradient1912" x1="83.593" x2="83.593" y1="-970.4" y2="-953.4" gradientTransform="matrix(.71429 0 0 .94444 -317.71 1197.5)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient948"/>
+ </defs>
+ <use id="mask-bottom" transform="rotate(180,249.04,43.547)" width="100%" height="100%" xlink:href="#mask-top"/>
+ <use id="mask-topright" transform="rotate(90 249.04 43.544)" width="100%" height="100%" xlink:href="#mask-topleft"/>
+ <use id="mask-bottomleft" transform="rotate(-90 249.04 43.547)" width="100%" height="100%" xlink:href="#mask-topleft"/>
+ <use id="mask-bottomright" transform="rotate(180 249.04 43.547)" width="100%" height="100%" xlink:href="#mask-topleft"/>
+ <use id="mask-right" transform="rotate(180 249.04 43.547)" width="100%" height="100%" xlink:href="#mask-left"/>
+ <rect id="mask-center" x="224.04" y="18.547" width="50" height="50"/>
+ <g id="mask-topleft" transform="matrix(1.0588 0 0 1.0588 206.04 .54708)">
+  <path id="shadow-topleft-7-6" transform="matrix(.94445 0 0 .94445 -16.056 -143.56)" d="m17 152v18h10c0-4.432 3.568-8 8-8v-10z" fill="none"/>
+  <path id="path63-5-2" transform="matrix(.94445 0 0 .94445 -16.056 -143.56)" d="m35 162c-4.432 0-8 3.568-8 8h8z"/>
+ </g>
+ <g id="mask-left" transform="matrix(1.0588 0 0 1 206.04 1.547)">
+  <rect id="rect31-1-5" transform="matrix(0,-1,-1,0,0,0)" x="-67" y="-9.4445" width="50" height="9.4444" fill="none"/>
+  <path id="path71-7-2" d="m9.4444 17v50h7.5556v-50z"/>
+ </g>
+ <g id="mask-top" transform="translate(207.04 1.547)">
+  <rect id="rect51-9-9" transform="scale(1,-1)" x="17" y="-9" width="50" height="10" fill="none"/>
+  <path id="path111-0-6" d="m17 9v8h50v-8z"/>
+ </g>
+ <use id="decoration-inactive-topright" transform="matrix(-1 0 0 1 290.01 -3.2e-7)" width="100%" height="100%" xlink:href="#decoration-inactive-topleft"/>
+ <use id="decoration-inactive-bottom" transform="rotate(180 145 43.004)" width="100%" height="100%" xlink:href="#decoration-inactive-top"/>
+ <use id="decoration-inactive-bottomright" transform="rotate(180 145.01 43.002)" width="100%" height="100%" xlink:href="#decoration-inactive-topleft"/>
+ <use id="decoration-inactive-bottomleft" transform="matrix(1 0 0 -1 .00037438 86.008)" width="100%" height="100%" xlink:href="#decoration-inactive-topleft"/>
+ <use id="decoration-inactive-right" transform="matrix(-1 0 0 1 290.01 -3.2e-7)" width="100%" height="100%" xlink:href="#decoration-inactive-left"/>
+ <rect id="decoration-inactive-center" x="120" y="18.004" width="50" height="50" fill="#101017" opacity=".95"/>
+ <g id="decoration-inactive-topleft" transform="matrix(1.0588 0 0 1.0588 102 .003812)">
+  <path id="path956" transform="matrix(.94445 0 0 .94445 -16.056 -143.56)" d="m17 152v18h10c0-4.432 3.568-8 8-8v-10z" fill="url(#radialGradient1904)" opacity=".25" stroke-width="1.0588"/>
+  <path id="path958" transform="matrix(.94445 0 0 .94445 -16.056 -143.56)" d="m35 162c-4.432 0-8 3.568-8 8h8z" color="#383c4a" fill="#101017" opacity=".95" stroke-width="1.1429"/>
+  <path id="path960" transform="matrix(.94445 0 0 .94445 -16.056 -143.56)" d="m35 162c-4.432 0-8.0005 3.568-8.0005 8 0 0 0.54213 2.9e-4 1 2.9e-4 0-4.4029 4.2661-7.0003 7.0004-7.0003z" color="#383c4a" fill="#fafafa" opacity=".1" stroke-width="1.1429"/>
+ </g>
+ <g id="decoration-inactive-left" transform="matrix(1.0588 0 0 1 102 1.0038)">
+  <g id="g948" transform="matrix(-1,0,0,1,298,-240)">
+   <rect id="rect944" transform="rotate(-90)" x="-307" y="288.56" width="50" height="9.4444" fill="url(#linearGradient1906)" opacity=".25" stroke-width=".97183"/>
+   <rect id="rect946" transform="translate(3,2)" x="278" y="257" width="7" height="1" fill-opacity="0"/>
+  </g>
+  <path id="path951" d="m9.4444 17v50h7.5556v-50z" color="#383c4a" fill="#101017" opacity=".95" stroke-width="1.0389"/>
+  <path id="rect1483-2" d="m9.4447 16.996h0.94447v50h-0.94447z" fill="#fafafa" opacity=".1" stroke-width=".77208"/>
+ </g>
+ <g id="decoration-inactive-top" transform="translate(103 1.0038)">
+  <g id="g990" transform="matrix(0,-1,-1,0,324,298)">
+   <rect id="rect986" transform="rotate(-90)" x="-307" y="289" width="50" height="10" fill="url(#linearGradient1000)" opacity=".25"/>
+   <rect id="rect988" transform="translate(3,2)" x="278" y="257" width="7" height="1" fill-opacity="0"/>
+  </g>
+  <path id="path992" d="m17 9v8h50v-8z" color="#383c4a" fill="#101017" opacity=".95" stroke-width="1.069"/>
+  <path id="path994" d="m17 9v1h50v-1z" color="#383c4a" fill="#fafafa" opacity=".1"/>
+ </g>
+ <use id="decoration-bottomright" transform="rotate(180 43.004 43.004)" width="100%" height="100%" xlink:href="#decoration-topleft"/>
+ <use id="decoration-bottom" transform="rotate(180 43.005 43.004)" width="100%" height="100%" xlink:href="#decoration-top"/>
+ <use id="decoration-bottomleft" transform="matrix(1 0 0 -1 -.00028562 86.008)" width="100%" height="100%" xlink:href="#decoration-topleft"/>
+ <use id="decoration-right" transform="matrix(-1 0 0 1 86.009 -3.2e-7)" width="100%" height="100%" xlink:href="#decoration-left"/>
+ <use id="decoration-topright" transform="matrix(-1 0 0 1 86.009 -3.2e-7)" width="100%" height="100%" xlink:href="#decoration-topleft"/>
+ <rect id="decoration-center" x="18.005" y="18.004" width="50" height="50" fill="#101017" opacity=".95"/>
+ <g id="decoration-topleft" transform="matrix(1.0588 0 0 1.0588 .004656 .003812)">
+  <path id="shadow-topleft-7" transform="matrix(.94445 0 0 .94445 -16.056 -143.56)" d="m17 152v18h10c0-4.432 3.568-8 8-8v-10z" fill="url(#radialGradient1910)" opacity=".5" stroke-width="1.0588"/>
+  <path id="path63-5" transform="matrix(.94445 0 0 .94445 -16.056 -143.56)" d="m35 162c-4.432 0-8 3.568-8 8h8z" color="#383c4a" fill="#101017" opacity=".95" stroke-width="1.1429"/>
+  <path id="path923" transform="matrix(.94445 0 0 .94445 -16.056 -143.56)" d="m35 162c-4.432 0-8 3.568-8 8 0 0 0.48245 2.9e-4 0.99989 2.9e-4 0-3.5719 3.2453-7.0003 7.0001-7.0003z" color="#383c4a" fill="#fafafa" opacity=".1" stroke-width="1.1429"/>
+ </g>
+ <g id="decoration-left" transform="matrix(1.0588 0 0 1 .004656 1.0038)">
+  <g id="shadow-left-3-9" transform="matrix(-1,0,0,1,298,-240)">
+   <rect id="rect31-1" transform="rotate(-90)" x="-307" y="288.56" width="50" height="9.4444" fill="url(#linearGradient1912)" opacity=".5" stroke-width=".97183"/>
+   <rect id="rect33-2" transform="translate(3,2)" x="278" y="257" width="7" height="1" fill-opacity="0"/>
+  </g>
+  <path id="path71-7" d="m9.4444 17v50h7.5556v-50z" color="#383c4a" fill="#101017" opacity=".95" stroke-width="1.0389"/>
+  <path id="rect1483" d="m9.444 17h0.94447v50h-0.94447z" fill="#fafafa" opacity=".1" stroke-width=".77208"/>
+ </g>
+ <g id="decoration-top" transform="translate(1.0047 1.0038)">
+  <g id="shadow-top-6-7" transform="matrix(0,-1,-1,0,324,298)">
+   <rect id="rect51-9" transform="rotate(-90)" x="-307" y="289" width="50" height="10" fill="url(#linearGradient1951)" opacity=".5"/>
+   <rect id="rect53-2" transform="translate(3,2)" x="278" y="257" width="7" height="1" fill-opacity="0"/>
+  </g>
+  <path id="path111-0" d="m17 9v8h50v-8z" color="#383c4a" fill="#101017" opacity=".95" stroke-width="1.069"/>
+  <path id="path943" d="m17 9v1h50v-1z" color="#383c4a" fill="#fafafa" opacity=".1"/>
+ </g>
+</svg>

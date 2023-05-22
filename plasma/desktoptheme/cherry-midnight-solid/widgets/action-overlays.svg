@@ -1,0 +1,58 @@
+<svg id="svg71" width="48" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata id="metadata77">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="remove-normal" transform="translate(0,-18)">
+  <rect id="rect2" y="34" width="16" height="16" opacity=".001"/>
+  <path id="path4" d="m15 42a7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7 7 7 0 0 1 7 7z" fill="#101017"/>
+  <rect id="rect6" transform="rotate(90)" x="41" y="-12" width="2" height="8" fill="#fafafa"/>
+ </g>
+ <g id="add-normal" transform="translate(0,-18)">
+  <rect id="rect9" y="18" width="16" height="16" opacity=".001"/>
+  <path id="path11" d="m15 26a7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7 7 7 0 0 1 7 7z" fill="#101017"/>
+  <rect id="rect13" x="7" y="22" width="2" height="8" fill="#fafafa"/>
+  <rect id="rect15" transform="rotate(90)" x="25" y="-12" width="2" height="8" fill="#fafafa"/>
+ </g>
+ <g id="open-normal" transform="translate(0,-18)">
+  <rect id="rect18" y="50" width="16" height="16" opacity=".001"/>
+  <path id="path20" d="m15 58a7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7 7 7 0 0 1 7 7z" fill="#101017"/>
+  <path id="path22" transform="matrix(1.0756 0 0 .77622 -.90682 26.622)" d="m8.281 36.559 3.719 6.4414h-7.438l1.8595-3.2207z" fill="#fafafa"/>
+ </g>
+ <g id="remove-hover" transform="translate(16,-18)">
+  <rect id="rect25" y="34" width="16" height="16" opacity=".001"/>
+  <path id="path27" d="m15 42a7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7 7 7 0 0 1 7 7z" fill="#4b4e55"/>
+  <rect id="rect29" transform="rotate(90)" x="41" y="-12" width="2" height="8" fill="#fafafa"/>
+ </g>
+ <g id="add-hover" transform="translate(16,-18)">
+  <rect id="rect32" y="18" width="16" height="16" opacity=".001"/>
+  <path id="path34" d="m15 26a7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7 7 7 0 0 1 7 7z" fill="#4b4e55"/>
+  <rect id="rect36" x="7" y="22" width="2" height="8" fill="#fafafa"/>
+  <rect id="rect38" transform="rotate(90)" x="25" y="-12" width="2" height="8" fill="#fafafa"/>
+ </g>
+ <g id="open-hover" transform="translate(16,-18)">
+  <rect id="rect41" y="50" width="16" height="16" opacity=".001"/>
+  <path id="path43" d="m15 58a7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7 7 7 0 0 1 7 7z" fill="#4b4e55"/>
+  <path id="path45" transform="matrix(1.0756 0 0 .77622 -.90682 26.622)" d="m8.281 36.559 3.719 6.4414h-7.438l1.8595-3.2207z" fill="#fafafa"/>
+ </g>
+ <g id="remove-pressed" transform="translate(32,-18)">
+  <rect id="rect48" y="34" width="16" height="16" opacity=".001"/>
+  <path id="path50" d="m15 42a7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7 7 7 0 0 1 7 7z" fill="#FF578B"/>
+  <rect id="rect52" transform="rotate(90)" x="41" y="-12" width="2" height="8" fill="#fafafa"/>
+ </g>
+ <g id="add-pressed" transform="translate(32,-18)">
+  <rect id="rect55" y="18" width="16" height="16" opacity=".001"/>
+  <path id="path57" d="m15 26a7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7 7 7 0 0 1 7 7z" fill="#FF578B"/>
+  <rect id="rect59" x="7" y="22" width="2" height="8" fill="#fafafa"/>
+  <rect id="rect61" transform="rotate(90)" x="25" y="-12" width="2" height="8" fill="#fafafa"/>
+ </g>
+ <g id="open-pressed" transform="translate(32,-18)">
+  <rect id="rect64" y="50" width="16" height="16" opacity=".001"/>
+  <path id="path66" d="m15 58a7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7 7 7 0 0 1 7 7z" fill="#FF578B"/>
+  <path id="path68" transform="matrix(1.0756 0 0 .77622 -.90682 26.622)" d="m8.281 36.559 3.719 6.4414h-7.438l1.8595-3.2207z" fill="#fafafa"/>
+ </g>
+</svg>

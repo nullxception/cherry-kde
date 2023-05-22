@@ -3,11 +3,17 @@ theme_name=cherry
 theme_namespace=com.github.nullxception
 src=$(realpath "$(dirname "$0")")
 components=(aurorae colors global kvantum plasma wallpaper)
-color_schemes=(Cherry)
+color_schemes=(Cherry CherryMidnight)
 
 install_aurorae() {
   local dest="$PREFIX/share/aurorae/themes"
-  local variants=("solid" "square" "square-solid")
+  local variants=(solid
+    square
+    square-solid
+    midnight
+    midnight-solid
+    midnight-square
+    midnight-square-solid)
 
   echo "Installing ${theme_name}:aurorae"
 
@@ -26,7 +32,7 @@ install_aurorae() {
 
 install_kvantum() {
   local dest="$PREFIX/share/Kvantum"
-  local variants=("solid")
+  local variants=(solid midnight midnight-solid)
 
   echo "Installing ${theme_name}:kvantum"
 
@@ -47,7 +53,7 @@ install_kvantum() {
 
 install_plasma() {
   local dest="$PREFIX/share/plasma/desktoptheme"
-  local variants=("solid")
+  local variants=(solid midnight midnight-solid)
 
   echo "Installing ${theme_name}:plasma"
 
@@ -61,7 +67,12 @@ install_plasma() {
     [[ -d "$dest/$theme_name" ]] && rm -rf $dest/${theme_name}-${variant}
     cp -r "$src/plasma/desktoptheme/$theme_name" "$dest/${theme_name}-${variant}"
     cp -r "$src/plasma/desktoptheme/${theme_name}-${variant}/." "$dest/${theme_name}-${variant}"
-    cp -r "$src/color-schemes/${color_schemes[0]}.colors" "$dest/$theme_name/colors"
+
+    if [[ "$variant" == "midnig"* ]]; then
+      cp -r "$src/color-schemes/${color_schemes[1]}.colors" "$dest/${theme_name}-${variant}/colors"
+    else
+      cp -r "$src/color-schemes/${color_schemes[0]}.colors" "$dest/${theme_name}-${variant}/colors"
+    fi
   done
 }
 
@@ -74,6 +85,9 @@ install_global() {
 
   [[ -d "$dest/${theme_namespace}.${theme_name}" ]] && rm -rf "$dest/${theme_namespace}.$theme_name"
   cp -r "$src/plasma/look-and-feel/${theme_namespace}.$theme_name" "$dest"
+
+  [[ -d "$dest/${theme_namespace}.${theme_name}midnight" ]] && rm -rf "$dest/${theme_namespace}.${theme_name}midnight"
+  cp -r "$src/plasma/look-and-feel/${theme_namespace}.${theme_name}midnight" "$dest"
 }
 
 install_colors() {
@@ -84,8 +98,12 @@ install_colors() {
 
   mkdir -p "$konsole_dest" "$scheme_dest"
 
-  cp -r "$src/color-schemes/${color_schemes[0]}.colors" "$scheme_dest"
+  for f in "${color_schemes[@]}"; do
+    cp -r "$src/color-schemes/${f}.colors" "$scheme_dest"
+  done
+
   cp -r "$src/konsole/${theme_name}.colorscheme" "$konsole_dest"
+  cp -r "$src/konsole/${theme_name}-midnight.colorscheme" "$konsole_dest"
 }
 
 install_wallpaper() {
