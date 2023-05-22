@@ -1,8 +1,8 @@
-<p align="center"><img src="https://raw.githubusercontent.com/nullxception/cherry-kde-theme/main/cherry.png"/></p>
-<h2><p align="center">Cherry KDE Plasma</p></h2>
-<p align="center">Clean, Flat, Δ Theme for KDE Plasma Desktop</p>
-<p align="center"><img src="https://raw.githubusercontent.com/nullxception/cherry-kde-theme/main/preview-full.png"/></p>
-<p align="center"><img src="https://raw.githubusercontent.com/nullxception/cherry-kde-theme/main/preview-variants.png"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/nullxception/cherry-kde/main/cherry.png"/></p>
+<h2><p align="center">Cherry KDE</p></h2>
+<p align="center">Clean, Flat, Δ Theme for Plasma Desktop</p>
+<p align="center"><img src="https://raw.githubusercontent.com/nullxception/cherry-kde/main/preview-full.png"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/nullxception/cherry-kde/main/preview-variants.png"/></p>
 </center>
 
 ## Background
@@ -25,8 +25,8 @@ This theme consist of several components including :
 - Manual
 
   ```bash
-  $ git clone https://github.com/nullxception/cherry-kde-theme.git
-  $ cd cherry-kde-theme
+  $ git clone https://github.com/nullxception/cherry-kde.git
+  $ cd cherry-kde
   $ ./install.sh
   ```
 
