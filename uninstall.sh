@@ -1,6 +1,7 @@
 #!/bin/bash
 
 THEME_NAME=cherry
+color_schemes=(Cherry)
 
 if [[ $EUID -ne 0 ]]; then
   PREFIX="$HOME/.local"
@@ -37,5 +38,5 @@ del ${KVANTUM}/${THEME_NAME}-solid
 del ${LOOKFEEL}/com.github.nullxception.${THEME_NAME}
 del ${PLASMA}/${THEME_NAME}
 del ${PLASMA}/${THEME_NAME}-solid
-del ${SCHEMES}/${THEME_NAME}.colors
+del ${SCHEMES}/${color_schemes[0]}.colors
 del ${WALLPAPER}/${THEME_NAME}

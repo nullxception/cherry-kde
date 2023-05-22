@@ -3,6 +3,7 @@ theme_name=cherry
 theme_namespace=com.github.nullxception
 src=$(realpath "$(dirname "$0")")
 components=(aurorae colors global kvantum plasma wallpaper)
+color_schemes=(Cherry)
 
 install_aurorae() {
   local dest="$PREFIX/share/aurorae/themes"
@@ -54,16 +55,13 @@ install_plasma() {
 
   [[ -d "$dest/$theme_name" ]] && rm -rf "$dest/$theme_name"
   cp -r "$src/plasma/desktoptheme/$theme_name" "$dest"
-  cp -r "$src/color-schemes/${theme_name}.colors" "$dest/$theme_name/colors"
+  cp -r "$src/color-schemes/${color_schemes[0]}.colors" "$dest/$theme_name/colors"
 
   for variant in "${variants[@]}"; do
     [[ -d "$dest/$theme_name" ]] && rm -rf $dest/${theme_name}-${variant}
     cp -r "$src/plasma/desktoptheme/$theme_name" "$dest/${theme_name}-${variant}"
     cp -r "$src/plasma/desktoptheme/${theme_name}-${variant}/." "$dest/${theme_name}-${variant}"
-
-    if [[ -f "$src/color-schemes/${theme_name}-${variant}.colors" ]]; then
-      cp -r "$src/color-schemes/${theme_name}-${variant}.colors" "$dest/$theme_name/colors"
-    fi
+    cp -r "$src/color-schemes/${color_schemes[0]}.colors" "$dest/$theme_name/colors"
   done
 }
 
@@ -86,7 +84,7 @@ install_colors() {
 
   mkdir -p "$konsole_dest" "$scheme_dest"
 
-  cp -r "$src/color-schemes/${theme_name}.colors" "$scheme_dest"
+  cp -r "$src/color-schemes/${color_schemes[0]}.colors" "$scheme_dest"
   cp -r "$src/konsole/${theme_name}.colorscheme" "$konsole_dest"
 }
 

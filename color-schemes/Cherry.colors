@@ -1,3 +1,11 @@
+[General]
+ColorScheme=Cherry
+Name=Cherry
+shadeSortColumn=true
+
+[KDE]
+contrast=0
+
 [ColorEffects:Disabled]
 Color=112,111,110
 ColorAmount=0
@@ -93,14 +101,6 @@ ForegroundNeutral=176,128,0
 ForegroundNormal=234,234,234
 ForegroundPositive=0,110,40
 ForegroundVisited=61,251,115
-
-[General]
-ColorScheme=cherry
-Name=cherry
-shadeSortColumn=true
-
-[KDE]
-contrast=0
 
 [WM]
 activeBackground=35,35,47
