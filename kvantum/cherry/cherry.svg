@@ -393,12 +393,12 @@
  <use id="button-focused-bottomright" transform="matrix(-1,0,0,1,136,0)" width="100%" height="100%" xlink:href="#button-focused-bottomleft"/>
  <use id="button-pressed-bottomright" transform="matrix(-1,0,0,1,226,0)" width="100%" height="100%" xlink:href="#button-pressed-bottomleft"/>
  <use id="button-toggled-topright" transform="matrix(-1,0,0,1,322,0)" width="100%" height="100%" xlink:href="#button-toggled-topleft"/>
- <path id="menu-normal" d="m110 556h48v48h-48z" fill="#23232f" fill-rule="evenodd" opacity=".85"/>
+ <path id="menu-normal" d="m110 556h48v48h-48z" fill="#23232f" fill-rule="evenodd" opacity=".95"/>
  <g id="menu-normal-left" transform="translate(-12.257,-147.75)">
-  <path id="menu-normal-left0" d="m116.26 703.75h6v48h-6z" fill="#23232f" fill-rule="evenodd" opacity=".85"/>
+  <path id="menu-normal-left0" d="m116.26 703.75h6v48h-6z" fill="#23232f" fill-rule="evenodd" opacity=".95"/>
  </g>
  <g id="menu-normal-topleft" transform="translate(-12.258,-148.75)">
-  <path id="path3597" d="m122.26 698.75c-3.3229 1e-3 -5.9977 2.6768-5.9977 6h6z" fill="#23232f" fill-rule="evenodd" opacity=".85"/>
+  <path id="path3597" d="m122.26 698.75c-3.3229 1e-3 -5.9977 2.6768-5.9977 6h6z" fill="#23232f" fill-rule="evenodd" opacity=".95"/>
  </g>
  <use id="menu-normal-top" transform="rotate(90,134,580)" width="450" height="1230" xlink:href="#menu-normal-left"/>
  <use id="menu-normal-topright" transform="rotate(90,134,580)" width="450" height="1230" xlink:href="#menu-normal-topleft"/>
@@ -1271,33 +1271,33 @@
   <rect id="rect1965" x="219" y="59" width="8" height="8" rx="0" ry="0" opacity="0" stroke-width="3" style="paint-order:fill markers stroke"/>
   <path id="path1967" d="m221 65h6v-6h-8v4c0 1.108 0.892 2 2 2z" fill="#fff" fill-rule="evenodd" opacity=".1" style="paint-order:fill markers stroke"/>
  </g>
- <path id="window-normal" d="m368.79 867.72h30v30h-30z" fill="#23232f" fill-rule="evenodd" opacity=".85" style="paint-order:normal"/>
- <path id="window-normal-inactive" d="m400.79 867.72h30v30h-30z" fill="#23232f" fill-rule="evenodd" opacity=".85" style="paint-order:normal"/>
- <path id="tooltip-normal" d="m468.19 624.5h48v48h-48z" fill="#2c2c3b" fill-rule="evenodd" opacity=".85"/>
+ <path id="window-normal" d="m368.79 867.72h30v30h-30z" fill="#23232f" fill-rule="evenodd" opacity=".95" style="paint-order:normal"/>
+ <path id="window-normal-inactive" d="m400.79 867.72h30v30h-30z" fill="#23232f" fill-rule="evenodd" opacity=".95" style="paint-order:normal"/>
+ <path id="tooltip-normal" d="m468.19 624.5h48v48h-48z" fill="#2c2c3b" fill-rule="evenodd" opacity=".95"/>
  <g id="g1051" transform="translate(-2,-20)">
   <g id="tooltip-normal-left" transform="translate(347.94,-59.251)">
-   <path id="tooltip-normal-left0" d="m116.26 703.75h6v48h-6z" fill="#2c2c3b" fill-rule="evenodd" opacity=".85"/>
+   <path id="tooltip-normal-left0" d="m116.26 703.75h6v48h-6z" fill="#2c2c3b" fill-rule="evenodd" opacity=".95"/>
   </g>
   <g id="tooltip-normal-topleft" transform="translate(347.94,-60.252)">
-   <path id="path3597-5" d="m122.26 698.75c-3.3229 1e-3 -5.9977 2.6768-5.9977 6h6z" fill="#2c2c3b" fill-rule="evenodd" opacity=".85"/>
+   <path id="path3597-5" d="m122.26 698.75c-3.3229 1e-3 -5.9977 2.6768-5.9977 6h6z" fill="#2c2c3b" fill-rule="evenodd" opacity=".95"/>
   </g>
   <g id="tooltip-normal-top" transform="rotate(90,349.85,872.1)">
-   <path id="path4216" d="m116.26 703.75h6v48h-6z" fill="#2c2c3b" fill-rule="evenodd" opacity=".85"/>
+   <path id="path4216" d="m116.26 703.75h6v48h-6z" fill="#2c2c3b" fill-rule="evenodd" opacity=".95"/>
   </g>
   <g id="tooltip-normal-topright" transform="rotate(90,350.35,872.6)">
-   <path id="path4212" d="m122.26 698.75c-3.3229 1e-3 -5.9977 2.6768-5.9977 6h6z" fill="#2c2c3b" fill-rule="evenodd" opacity=".85"/>
+   <path id="path4212" d="m122.26 698.75c-3.3229 1e-3 -5.9977 2.6768-5.9977 6h6z" fill="#2c2c3b" fill-rule="evenodd" opacity=".95"/>
   </g>
   <g id="tooltip-normal-right" transform="matrix(-1,0,0,1,640.45,-59.251)">
-   <path id="path4208" d="m116.26 703.75h6v48h-6z" fill="#2c2c3b" fill-rule="evenodd" opacity=".85"/>
+   <path id="path4208" d="m116.26 703.75h6v48h-6z" fill="#2c2c3b" fill-rule="evenodd" opacity=".95"/>
   </g>
   <g id="tooltip-normal-bottomright" transform="rotate(180,320.23,698.63)">
-   <path id="path4204" d="m122.26 698.75c-3.3229 1e-3 -5.9977 2.6768-5.9977 6h6z" fill="#2c2c3b" fill-rule="evenodd" opacity=".85"/>
+   <path id="path4204" d="m122.26 698.75c-3.3229 1e-3 -5.9977 2.6768-5.9977 6h6z" fill="#2c2c3b" fill-rule="evenodd" opacity=".95"/>
   </g>
   <g id="tooltip-normal-bottom" transform="rotate(-90,290.6,524.16)">
-   <path id="path4200" d="m116.26 703.75h6v48h-6z" fill="#2c2c3b" fill-rule="evenodd" opacity=".85"/>
+   <path id="path4200" d="m116.26 703.75h6v48h-6z" fill="#2c2c3b" fill-rule="evenodd" opacity=".95"/>
   </g>
   <g id="tooltip-normal-bottomleft" transform="rotate(-90,290.1,524.66)">
-   <path id="path4196" d="m122.26 698.75c-3.3229 1e-3 -5.9977 2.6768-5.9977 6h6z" fill="#2c2c3b" fill-rule="evenodd" opacity=".85"/>
+   <path id="path4196" d="m122.26 698.75c-3.3229 1e-3 -5.9977 2.6768-5.9977 6h6z" fill="#2c2c3b" fill-rule="evenodd" opacity=".95"/>
   </g>
  </g>
  <g id="tooltip-shadow-top" transform="translate(310.71,-263.08)" fill-rule="evenodd">

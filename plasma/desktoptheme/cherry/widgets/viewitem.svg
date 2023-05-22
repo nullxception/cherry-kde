@@ -10,37 +10,37 @@
  </metadata>
  <defs id="defs3">
   <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
-        color:#7B7C7E;
+      color:#7B7C7E;
       }
       .ColorScheme-Background{
-        color:#e4e6e8;
+      color:#e4e6e8;
       }
       .ColorScheme-Highlight{
-        color:#3DAEE6;
+      color:#3DAEE6;
       }
       .ColorScheme-ViewText {
-        color:#7B7C7E;
+      color:#7B7C7E;
       }
       .ColorScheme-ViewBackground{
-        color:#fafafa;
+      color:#fafafa;
       }
       .ColorScheme-ViewHover {
-        color:#3DAEE6;
+      color:#3DAEE6;
       }
       .ColorScheme-ViewFocus{
-        color:#1E92FF;
+      color:#1E92FF;
       }
       .ColorScheme-ButtonText {
-        color:#7B7C7E;
+      color:#7B7C7E;
       }
       .ColorScheme-ButtonBackground{
-        color:#e4e6e8;
+      color:#e4e6e8;
       }
       .ColorScheme-ButtonHover {
-        color:#3DAEE6;
+      color:#3DAEE6;
       }
       .ColorScheme-ButtonFocus{
-        color:#1E92FF;
+      color:#1E92FF;
       }</style>
  </defs>
  <rect id="hint-tile-center" x="49.93" y="-90.32" width="40" height="40" fill="#008000" opacity=".875"/>
@@ -65,14 +65,14 @@
   <g id="normal-bottom" transform="matrix(.36658 0 0 .5 79.277 -355.93)" opacity=".1">
    <g id="g20" fill="#333">
     <path id="path23" d="m190.13 845.86v4l130.98-0.0625v-3.9375z" fill-opacity=".078431" opacity=".82273"/>
-    <path id="path25" d="m190.14 849.86v1h131v-1z" fill-opacity=".15686" opacity=".85"/>
+    <path id="path25" d="m190.14 849.86v1h131v-1z" fill-opacity=".15686" opacity=".95"/>
     <path id="path27" d="m190.14 848.86v1h131v-1z" fill-opacity=".15686"/>
    </g>
    <rect id="rect29" transform="translate(-342.86,-17.143)" x="547" y="869" width="1" height="2" fill-opacity="0" opacity=".521"/>
   </g>
   <g id="normal-bottomleft" transform="matrix(.57143 0 0 .5 40.348 -355.93)" opacity=".1">
    <g id="g27" fill="#333">
-    <path id="path32" d="m188.67 850.86c-1.9482 0-3.5312-1.5884-3.5312-3.5312v-1.4688h1v1.4688c0 1.405 1.1159 2.5312 2.5312 2.5312h1.4688v1z" fill-opacity=".15686" opacity=".85"/>
+    <path id="path32" d="m188.67 850.86c-1.9482 0-3.5312-1.5884-3.5312-3.5312v-1.4688h1v1.4688c0 1.405 1.1159 2.5312 2.5312 2.5312h1.4688v1z" fill-opacity=".15686" opacity=".95"/>
     <path id="path34" d="m190.14 849.86v-4h-4v1.4688c0 1.405 1.1159 2.5312 2.5312 2.5312z" fill-opacity=".078431" opacity=".82273"/>
     <path id="path36" d="m188.74 849.86c-1.6608 0-2.6-1.1986-2.6-2.7v-1.3h1l-0.021 1.2937c-0.0208 1.2806 0.23073 1.7063 1.621 1.7063h1.4v1z" fill-opacity=".15686"/>
    </g>
@@ -81,7 +81,7 @@
   <g id="normal-left" transform="matrix(.57143 0 0 3.001 40.348 -2471.4)" opacity=".1">
    <g id="g34" fill="#333">
     <path id="path41" d="m186.14 829.86v16h4v-16z" fill-opacity=".078431" opacity=".82273"/>
-    <path id="path43" d="m185.14 829.86v16h1v-16z" fill-opacity=".15686" opacity=".85"/>
+    <path id="path43" d="m185.14 829.86v16h1v-16z" fill-opacity=".15686" opacity=".95"/>
     <path id="path45" d="m186.14 829.86v16h1v-16z" fill-opacity=".15686"/>
    </g>
    <rect id="rect47" x="183.14" y="834.86" width="2" height="3" fill-opacity="0" opacity=".521"/>
@@ -89,7 +89,7 @@
   <g id="normal-topleft" transform="matrix(.57143 0 0 .57143 40.348 -455.21)" opacity=".1">
    <g id="g41" fill="#333">
     <path id="path50" d="m186.14 829.86h4v-4h-1.4688c-1.405 0-2.5312 1.1159-2.5312 2.5312z" fill-opacity=".078431" opacity=".82273"/>
-    <path id="path52" d="m185.14 828.39c0-1.9482 1.5884-3.5312 3.5312-3.5312h1.4688v1h-1.4688c-1.405 0-2.5312 1.1159-2.5312 2.5312v1.4688h-1z" fill-opacity=".15686" opacity=".85"/>
+    <path id="path52" d="m185.14 828.39c0-1.9482 1.5884-3.5312 3.5312-3.5312h1.4688v1h-1.4688c-1.405 0-2.5312 1.1159-2.5312 2.5312v1.4688h-1z" fill-opacity=".15686" opacity=".95"/>
     <path id="path54" d="m186.14 829.86h1v-1c0-1.4154 0.59498-2 2-2h1v-1h-1.4688c-1.405 0-2.5312 1.1159-2.5312 2.5312z" fill-opacity=".15686"/>
    </g>
    <rect id="rect56" x="183.14" y="822.86" width="2" height="1.9999" fill-opacity="0" opacity=".521"/>
@@ -97,7 +97,7 @@
   <g id="normal-top" transform="matrix(.36658 0 0 .57143 79.298 -455.21)" opacity=".1">
    <g id="g48" fill="#333">
     <path id="path59" d="m190.14 825.86v4h131v-4z" fill-opacity=".078431" opacity=".82273"/>
-    <path id="path61" d="m190.14 824.86v1h131v-1z" fill-opacity=".15686" opacity=".85"/>
+    <path id="path61" d="m190.14 824.86v1h131v-1z" fill-opacity=".15686" opacity=".95"/>
     <path id="path63" d="m190.14 825.86v1h131v-1z" fill-opacity=".15686"/>
    </g>
    <rect id="rect65" x="200.14" y="822.86" width="3" height="1.9999" fill-opacity="0" opacity=".521"/>
@@ -105,7 +105,7 @@
   <g id="normal-topright" transform="matrix(.57143 0 0 .57143 13.491 -455.21)" opacity=".1">
    <g id="g55" fill="#333">
     <path id="path68" d="m321.14 825.86v4h4v-1.4688c0-1.405-1.1159-2.5312-2.5312-2.5312z" fill-opacity=".078431" opacity=".82273"/>
-    <path id="path70" d="m322.61 824.86c1.9482 0 3.5312 1.5884 3.5312 3.5312v1.4688h-1v-1.4688c0-1.405-1.1159-2.5312-2.5312-2.5312h-1.4688v-1z" fill-opacity=".15686" opacity=".85"/>
+    <path id="path70" d="m322.61 824.86c1.9482 0 3.5312 1.5884 3.5312 3.5312v1.4688h-1v-1.4688c0-1.405-1.1159-2.5312-2.5312-2.5312h-1.4688v-1z" fill-opacity=".15686" opacity=".95"/>
     <path id="path72" d="m325.14 829.86h-1v-1c0-1.4154-0.59498-2-2-2h-1v-1h1.4688c1.405 0 2.5312 1.1159 2.5312 2.5312z" fill-opacity=".15686"/>
    </g>
    <rect id="rect74" x="326.14" y="822.86" width="2" height="1.9999" fill-opacity="0" opacity=".521"/>
@@ -113,7 +113,7 @@
   <g id="normal-right" transform="matrix(.57143 0 0 3 13.491 -2470.6)" opacity=".1">
    <g id="g62" fill="#333">
     <path id="path77" d="m325.14 829.86v16h-4v-16z" fill-opacity=".078431" opacity=".82273"/>
-    <path id="path79" d="m326.14 829.86v16h-1v-16z" fill-opacity=".15686" opacity=".85"/>
+    <path id="path79" d="m326.14 829.86v16h-1v-16z" fill-opacity=".15686" opacity=".95"/>
     <path id="path81" d="m325.14 829.86v16h-1v-16z" fill-opacity=".15686"/>
    </g>
    <rect id="rect83" x="326.14" y="832.86" width="2" height="3" fill-opacity="0" opacity=".521"/>

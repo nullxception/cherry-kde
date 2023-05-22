@@ -46,7 +46,7 @@
  <rect id="decoration-inactive-center" x="120" y="18.004" width="50" height="50" fill="#23232f"/>
  <g id="decoration-inactive-topleft" transform="matrix(1.0588 0 0 1.0588 102 .003812)">
   <path id="path956" transform="matrix(.94445 0 0 .94445 -16.056 -143.56)" d="m17 152v18h10c0-2.2873-4.66e-4 -7.9998-4.66e-4 -7.9998s5.8558-1.6e-4 8.0005-1.6e-4v-10z" fill="url(#radialGradient1904)" opacity=".25" stroke-width="1.0588"/>
-  <path id="path958" transform="matrix(.94445 0 0 .94445 -16.056 -143.56)" d="m35 162h-8.0001v7.9998h8.0005z" color="#383c4a" fill="#23232f" opacity=".85" stroke-width="1.1429"/>
+  <path id="path958" transform="matrix(.94445 0 0 .94445 -16.056 -143.56)" d="m35 162h-8.0001v7.9998h8.0005z" color="#383c4a" fill="#23232f" opacity=".95" stroke-width="1.1429"/>
   <path id="path960" transform="matrix(.94445 0 0 .94445 -16.056 -143.56)" d="m35 162-8.0005 1.6e-4 -3.4e-5 7.9998s0.54218 2.9e-4 1 2.9e-4v-7.0001h7.0004z" color="#383c4a" fill="#fafafa" opacity=".1" stroke-width="1.1429"/>
  </g>
  <g id="decoration-inactive-left" transform="matrix(1.0588 0 0 1 102 1.0038)">
@@ -73,7 +73,7 @@
  <rect id="decoration-center" x="18.005" y="18.004" width="50" height="50" fill="#23232f"/>
  <g id="decoration-topleft" transform="matrix(1.0588 0 0 1.0588 .004656 .003812)">
   <path id="shadow-topleft-7" transform="matrix(.94445 0 0 .94445 -16.056 -143.56)" d="m17 152v18h10c0-2.2649-1.22e-4 -7.9998-1.22e-4 -7.9998s5.833-1.6e-4 8.0001-1.6e-4v-10z" fill="url(#radialGradient1910)" opacity=".5" stroke-width="1.0588"/>
-  <path id="path63-5" transform="matrix(.94445 0 0 .94445 -16.056 -143.56)" d="m35 162-8.0001 1.6e-4v7.9998h8.0001z" color="#383c4a" fill="#23232f" opacity=".85" stroke-width="1.1429"/>
+  <path id="path63-5" transform="matrix(.94445 0 0 .94445 -16.056 -143.56)" d="m35 162-8.0001 1.6e-4v7.9998h8.0001z" color="#383c4a" fill="#23232f" opacity=".95" stroke-width="1.1429"/>
   <path id="path923" transform="matrix(.94445 0 0 .94445 -16.056 -143.56)" d="m35 162-8.0001 1.6e-4 1.22e-4 7.9998s0.48245 2.9e-4 0.99989 2.9e-4l4e-6 -7.0001 7.0001-1.9e-4z" color="#383c4a" fill="#fafafa" opacity=".1" stroke-width="1.1429"/>
  </g>
  <g id="decoration-left" transform="matrix(1.0588 0 0 1 .004656 1.0038)">
