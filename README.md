@@ -5,24 +5,25 @@
 <p align="center"><img src="https://raw.githubusercontent.com/nullxception/cherry-kde/main/preview-variants.png"/></p>
 </center>
 
-## Background
-
 Cherry is a theme inspired by Δ (delta) battlesuit from Honkai Impact 3.
-
 This theme consist of several components including :
 
-- aurorae themes (regular, solid, square, square-solid)
+- aurorae themes
 - konsole and kitty colorscheme
-- kvantum theme (regular, solid)
+- kvantum theme
 - plasma colorscheme
 - plasma desktop theme
 - splash screen
+- wallpaper
 
 ## Installation
 
-- [Archlinux (AUR)](https://aur.archlinux.org/packages/cherry-kde-git)
+> Note: Due to the amount of variants on this theme, I decide to give up on
+> publishing this theme to the store.kde.org
 
-- Manual
+- [Arch User Repository](https://aur.archlinux.org/packages/cherry-kde-git)
+
+- GitHub
 
   ```bash
   $ git clone https://github.com/nullxception/cherry-kde.git
@@ -32,11 +33,32 @@ This theme consist of several components including :
 
 This theme uses [**Kvantum engine**](https://github.com/tsujan/Kvantum) for it's Application style.
 
-So in order to completely apply this theme, you have to open **Kvantum Manager** (command : `kvantummanager`), and then select **cherry** on **Change/Delete Theme** section.
+So in order to completely apply this theme, you have to set the theme on kvantum:
 
-### Tips
+**From terminal**
 
-If you're using standard variant (non-solid), set your terminal emulator's background opacity to 0.85 to match titlebar's opacity.
+```bash
+kvantummanager --set <theme-name> # available: cherry, cherry-solid, cherry-midnight, and cherry-midnight-solid
+```
+
+**From Kvantum Manager GUI**
+
+Open **Kvantum Manager**, then select the theme on **Change/Delete Theme** section.
+
+## Recommendation
+
+**Terminal Emulator**
+
+Cherry theme (non-solid variant) has background opacity set to 95%, you can match your term config for nicer setup.
+
+**Color scheme for Kitty Terminal**
+
+You can copy the configs inside of [kitty](kitty) directory into your kitty theme dir, and then apply it as usual.
+
+```bash
+$ cp kitty/*.conf ~/.config/kitty/themes/
+$ kitty +kitten themes Cherry
+```
 
 ### Layouts
 
@@ -49,15 +71,6 @@ If you use in-built layout (`Global Theme > Use desktop layout from theme`), it'
 After installing all of them, you can just re-apply the Global Theme to reload layout.
 
 Also, it's recommended that using Latte Dock for your task manager to get better setup!
-
-### Color scheme for Kitty Terminal
-
-You can copy the [cherry.conf](kitty/cherry.conf) into kitty theme dir, and then apply it as usual.
-
-```bash
-$ cp kitty/cherry.conf ~/.config/kitty/themes/
-$ kitty +kitten themes Cherry
-```
 
 ## Related
 
