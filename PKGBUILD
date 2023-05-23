@@ -20,7 +20,7 @@ pkgver() {
 }
 
 package_cherry-kde-git() {
-    optdepends=('kvantum-theme-cherry-git: Cherry theme for Kvantum Qt style (recommended)')
+    optdepends=('kvantum-theme-cherry-git: Cherry theme for Kvantum (recommended)')
 
     cd "$_pkgname"
 
@@ -32,6 +32,7 @@ package_cherry-kde-git() {
 
 package_kvantum-theme-cherry-git() {
     depends=(kvantum-qt5)
+    pkgdesc="Cherry theme for Kvantum"
 
     cd "$_pkgname"
 
