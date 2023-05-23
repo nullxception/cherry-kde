@@ -1,40 +1,31 @@
 #!/bin/bash
-theme_name=cherry
-theme_namespace=com.github.nullxception
 src=$(realpath "$(dirname "$0")")
 components=(aurorae colors global kvantum plasma wallpaper)
-color_schemes=(Cherry CherryMidnight)
 
 install_aurorae() {
   local dest="$PREFIX/share/aurorae/themes"
-  local variants=(solid
-    square
-    square-solid
-    midnight
-    midnight-solid
-    midnight-square
-    midnight-square-solid)
 
-  echo "Installing ${theme_name}:aurorae"
+  echo "Installing cherry:aurorae"
 
   mkdir -p "$dest"
 
-  [[ -d "$dest/$theme_name" ]] && rm -rf "$dest/$theme_name"
-  cp -r "$src/aurorae/$theme_name" "$dest"
+  for variant in cherry{,-solid,-square{,-solid},-midnight{,-solid,-square{,-solid}}}; do
+    if [[ -d "$dest/${variant}" ]]; then
+      rm -rf "$dest/${variant}"
+    fi
 
-  for variant in "${variants[@]}"; do
-    [[ -d "$dest/${theme_name}-${variant}" ]] && rm -rf "$dest/${theme_name}-${variant}"
-    cp -r "$src/aurorae/$theme_name" "$dest/${theme_name}-${variant}"
-    cp -r "$src/aurorae/${theme_name}-${variant}/." "$dest/${theme_name}-${variant}"
-    rm "$dest/${theme_name}-${variant}/${theme_name}rc"
+    cp -r "$src/aurorae/cherry" "$dest/${variant}"
+    cp -r "$src/aurorae/${variant}"/. "$dest/${variant}"
+    if [[ "$variant" != "cherry" ]]; then
+      rm "$dest/${variant}/cherryrc"
+    fi
   done
 }
 
 install_kvantum() {
   local dest="$PREFIX/share/Kvantum"
-  local variants=(solid midnight midnight-solid)
 
-  echo "Installing ${theme_name}:kvantum"
+  echo "Installing cherry:kvantum"
 
   # Destination directory
   # Special Kvantum dest for user-specific install
@@ -42,79 +33,78 @@ install_kvantum() {
 
   mkdir -p "$dest"
 
-  [[ -d "$dest/$theme_name" ]] && rm -rf "$dest/$theme_name"
-  cp -r "$src/kvantum/$theme_name" "$dest"
+  for variant in cherry{,-solid,-midnight{,-solid}}; do
+    if [[ -d "$dest/${variant}" ]]; then
+      rm -rf "$dest/${variant}"
+    fi
 
-  for variant in "${variants[@]}"; do
-    [[ -d "$dest/${theme_name}-${variant}" ]] && rm -rf "$dest/${theme_name}-${variant}"
-    cp -r "$src/kvantum/${theme_name}-${variant}" "$dest"
+    cp -r "$src/kvantum/${variant}" "$dest"
   done
 }
 
 install_plasma() {
   local dest="$PREFIX/share/plasma/desktoptheme"
-  local variants=(solid midnight midnight-solid)
 
-  echo "Installing ${theme_name}:plasma"
+  echo "Installing cherry:plasma"
 
   mkdir -p "$dest"
 
-  [[ -d "$dest/$theme_name" ]] && rm -rf "$dest/$theme_name"
-  cp -r "$src/plasma/desktoptheme/$theme_name" "$dest"
-  cp -r "$src/color-schemes/${color_schemes[0]}.colors" "$dest/$theme_name/colors"
+  for variant in cherry{,-solid,-midnight{,-solid}}; do
+    if [[ -d "$dest/${variant}" ]]; then
+      rm -rf "$dest/${variant}"
+    fi
 
-  for variant in "${variants[@]}"; do
-    [[ -d "$dest/$theme_name" ]] && rm -rf $dest/${theme_name}-${variant}
-    cp -r "$src/plasma/desktoptheme/$theme_name" "$dest/${theme_name}-${variant}"
-    cp -r "$src/plasma/desktoptheme/${theme_name}-${variant}/." "$dest/${theme_name}-${variant}"
+    cp -r "$src/plasma/desktoptheme/cherry" "$dest/${variant}"
+    cp -r "$src/plasma/desktoptheme/${variant}"/. "$dest/${variant}"
 
     if [[ "$variant" == "midnig"* ]]; then
-      cp -r "$src/color-schemes/${color_schemes[1]}.colors" "$dest/${theme_name}-${variant}/colors"
+      cp -r "$src/color-schemes/CherryMidnight.colors" "$dest/${variant}/colors"
     else
-      cp -r "$src/color-schemes/${color_schemes[0]}.colors" "$dest/${theme_name}-${variant}/colors"
+      cp -r "$src/color-schemes/Cherry.colors" "$dest/${variant}/colors"
     fi
   done
 }
 
 install_global() {
   local dest="$PREFIX/share/plasma/look-and-feel"
+  local namespace=com.github.nullxception
 
-  echo "Installing ${theme_name}:global"
+  echo "Installing cherry:global"
 
   mkdir -p "$dest"
 
-  [[ -d "$dest/${theme_namespace}.${theme_name}" ]] && rm -rf "$dest/${theme_namespace}.$theme_name"
-  cp -r "$src/plasma/look-and-feel/${theme_namespace}.$theme_name" "$dest"
-
-  [[ -d "$dest/${theme_namespace}.${theme_name}midnight" ]] && rm -rf "$dest/${theme_namespace}.${theme_name}midnight"
-  cp -r "$src/plasma/look-and-feel/${theme_namespace}.${theme_name}midnight" "$dest"
+  for variant in cherry{,midnight}; do
+    if [[ -d "$dest/${namespace}.${variant}" ]]; then
+      rm -rf "$dest/${namespace}.${variant}"
+    fi
+    cp -r "$src/plasma/look-and-feel/${namespace}.${variant}" "$dest"
+  done
 }
 
 install_colors() {
   local konsole_dest="$PREFIX/share/konsole"
   local scheme_dest="$PREFIX/share/color-schemes"
 
-  echo "Installing ${theme_name}:colors"
+  echo "Installing cherry:colors"
 
   mkdir -p "$konsole_dest" "$scheme_dest"
 
-  for f in "${color_schemes[@]}"; do
-    cp -r "$src/color-schemes/${f}.colors" "$scheme_dest"
-  done
+  cp -r "$src/color-schemes/Cherry.colors" "$scheme_dest"
+  cp -r "$src/color-schemes/CherryMidnight.colors" "$scheme_dest"
 
-  cp -r "$src/konsole/${theme_name}.colorscheme" "$konsole_dest"
-  cp -r "$src/konsole/${theme_name}-midnight.colorscheme" "$konsole_dest"
+  cp -r "$src/konsole/cherry.colorscheme" "$konsole_dest"
+  cp -r "$src/konsole/cherry-midnight.colorscheme" "$konsole_dest"
 }
 
 install_wallpaper() {
   local dest="$PREFIX/share/wallpapers"
 
-  echo "Installing ${theme_name}:wallpaper"
+  echo "Installing cherry:wallpaper"
 
   mkdir -p "$dest"
 
-  [[ -d "$dest/$theme_name" ]] && rm -rf "$dest/$theme_name"
-  cp -r "$src/wallpaper/$theme_name" "$dest"
+  [[ -d "$dest/cherry" ]] && rm -rf "$dest/cherry"
+  cp -r "$src/wallpaper/cherry" "$dest"
 }
 
 main() {
