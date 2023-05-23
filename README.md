@@ -21,7 +21,10 @@ This theme consist of several components including :
 > Note: Due to the amount of variants on this theme, I decide to give up on
 > publishing this theme to the store.kde.org
 
-- [Arch User Repository](https://aur.archlinux.org/packages/cherry-kde-git)
+- Arch Linux (AUR)
+
+  - [cherry-kde-git](https://aur.archlinux.org/packages/cherry-kde-git)
+  - [kvantum-theme-cherry-git](https://aur.archlinux.org/packages/kvantum-theme-cherry-git)
 
 - GitHub
 
