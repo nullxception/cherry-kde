@@ -1,7 +1,7 @@
 pkgbase=cherry-kde-git
 pkgname=(cherry-kde-git kvantum-theme-cherry-git)
 _pkgname=cherry-kde
-pkgver=1.6.r9.gd622329
+pkgver=2.0
 pkgrel=1
 pkgdesc="Clean, Flat, Δ Theme for KDE Plasma Desktop"
 arch=('any')
