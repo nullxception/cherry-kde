@@ -212,7 +212,7 @@
  <use id="button-focused-bottomright" transform="matrix(-1,0,0,1,136,0)" width="100%" height="100%" xlink:href="#button-focused-bottomleft"/>
  <rect id="expand-tbutton-normal" x="188" width="8" height="8"/>
  <g id="progress-normal" transform="matrix(1.5,0,0,1,18,-3)">
-  <rect id="rect1448" x="34" y="162" width="8" height="8" opacity=".3"/>
+  <rect id="rect1448" x="34" y="162" width="8" height="8" fill="#a3a3a3" opacity=".3"/>
  </g>
  <g id="g191" transform="translate(-2,-20)" fill="#ff578b">
   <rect id="progress-pattern-normal-top" x="32" y="167" width="12" height="12"/>
@@ -222,18 +222,20 @@
   <rect id="progress-pattern-normal-bottomleft" x="20" y="187" width="12" height="12"/>
   <rect id="progress-pattern-normal-bottomright" x="44" y="187" width="12" height="12"/>
  </g>
- <rect id="progress-normal-top" x="69" y="147" width="12" height="12" opacity=".3"/>
- <rect id="progress-normal-bottom" x="69" y="167" width="12" height="12" opacity=".3"/>
- <rect id="progress-normal-topleft" x="57" y="147" width="12" height="12" opacity=".3"/>
- <rect id="progress-normal-topright" x="81" y="147" width="12" height="12" opacity=".3"/>
- <rect id="progress-normal-bottomleft" x="57" y="167" width="12" height="12" opacity=".3"/>
- <rect id="progress-normal-bottomright" x="81" y="167" width="12" height="12" opacity=".3"/>
- <rect id="progress-pattern-disabled-top" x="108" y="147" width="12" height="12" opacity=".12"/>
- <rect id="progress-pattern-disabled-bottom" x="108" y="167" width="12" height="12" opacity=".12"/>
- <rect id="progress-pattern-disabled-topleft" x="96" y="147" width="12" height="12" opacity=".12"/>
- <rect id="progress-pattern-disabled-topright" x="120" y="147" width="12" height="12" opacity=".12"/>
- <rect id="progress-pattern-disabled-bottomleft" x="96" y="167" width="12" height="12" opacity=".12"/>
- <rect id="progress-pattern-disabled-bottomright" x="120" y="167" width="12" height="12" opacity=".12"/>
+ <g id="g192" fill="#a3a3a3">
+  <rect id="progress-normal-top" x="69" y="147" width="12" height="12" opacity=".3"/>
+  <rect id="progress-normal-bottom" x="69" y="167" width="12" height="12" opacity=".3"/>
+  <rect id="progress-normal-topleft" x="57" y="147" width="12" height="12" opacity=".3"/>
+  <rect id="progress-normal-topright" x="81" y="147" width="12" height="12" opacity=".3"/>
+  <rect id="progress-normal-bottomleft" x="57" y="167" width="12" height="12" opacity=".3"/>
+  <rect id="progress-normal-bottomright" x="81" y="167" width="12" height="12" opacity=".3"/>
+  <rect id="progress-pattern-disabled-top" x="108" y="147" width="12" height="12" opacity=".12"/>
+  <rect id="progress-pattern-disabled-bottom" x="108" y="167" width="12" height="12" opacity=".12"/>
+  <rect id="progress-pattern-disabled-topleft" x="96" y="147" width="12" height="12" opacity=".12"/>
+  <rect id="progress-pattern-disabled-topright" x="120" y="147" width="12" height="12" opacity=".12"/>
+  <rect id="progress-pattern-disabled-bottomleft" x="96" y="167" width="12" height="12" opacity=".12"/>
+  <rect id="progress-pattern-disabled-bottomright" x="120" y="167" width="12" height="12" opacity=".12"/>
+ </g>
  <g id="progress-pattern-normal" transform="matrix(1.5,0,0,1,-21,-3)">
   <rect id="progress-pattern-normal22" x="34" y="162" width="8" height="8" fill="#ff578b"/>
  </g>
@@ -244,21 +246,21 @@
   <rect id="rect1474" x="34" y="162" width="8" height="8" fill="#ff578b"/>
  </g>
  <g id="progress-normal-left" transform="matrix(1.5,0,0,1,6,-3)">
-  <rect id="rect1477" x="34" y="162" width="8" height="8" opacity=".3"/>
+  <rect id="rect1477" x="34" y="162" width="8" height="8" fill="#a3a3a3" opacity=".3"/>
  </g>
  <g id="progress-normal-right" transform="matrix(1.5,0,0,1,30,-3)">
-  <rect id="rect1480" x="34" y="162" width="8" height="8" opacity=".3"/>
+  <rect id="rect1480" x="34" y="162" width="8" height="8" fill="#a3a3a3" opacity=".3"/>
  </g>
  <g id="progress-pattern-disabled-left" transform="matrix(1.5,0,0,1,45,-3)">
-  <rect id="rect1483" x="34" y="162" width="8" height="8" opacity=".12"/>
+  <rect id="rect1483" x="34" y="162" width="8" height="8" fill="#a3a3a3" opacity=".12"/>
  </g>
  <g id="progress-pattern-disabled" transform="matrix(1.5,0,0,1,57,-3)">
-  <rect id="rect1486" x="34" y="162" width="8" height="8" opacity=".12"/>
+  <rect id="rect1486" x="34" y="162" width="8" height="8" fill="#a3a3a3" opacity=".12"/>
  </g>
  <g id="progress-pattern-disabled-right" transform="matrix(1.5,0,0,1,69,-3)">
-  <rect id="rect1489" x="34" y="162" width="8" height="8" opacity=".12"/>
+  <rect id="rect1489" x="34" y="162" width="8" height="8" fill="#a3a3a3" opacity=".12"/>
  </g>
- <g id="g219" transform="translate(-2,-20)" fill="#ff578b">
+ <g id="g219" transform="translate(-2,-20)" fill="#a3a3a3">
   <rect id="slider-toggled-topright" x="250" y="482" width="8" height="8"/>
   <rect id="slider-toggled-bottomright" x="250" y="498" width="8" height="8"/>
   <rect id="slider-toggled-topleft" x="242" y="482" width="8" height="8"/>
@@ -269,6 +271,19 @@
  </g>
  <g id="slider-toggled-left" transform="translate(206,308)">
   <rect id="rect1506" x="34" y="162" width="8" height="8" fill="#ff578b"/>
+ </g>
+ <rect id="slider-tick-normal" x="209.41" y="831.51" width="5" height="1" fill="#494957"/>
+ <g id="slider-normal-right" transform="translate(231.63,307.86)">
+  <rect id="rect1388" x="34" y="162" width="8" height="8" fill="#a3a3a3" opacity=".3"/>
+ </g>
+ <g id="g497" transform="translate(-2,-20)">
+  <rect id="slider-normal-topright" x="267.63" y="481.86" width="8" height="8" fill="#a3a3a3" opacity=".3"/>
+  <rect id="slider-normal-bottomright" x="267.63" y="497.86" width="8" height="8" fill="#a3a3a3" opacity=".3"/>
+  <rect id="slider-normal-topleft" x="259.63" y="481.86" width="8" height="8" fill="#a3a3a3" opacity=".3"/>
+  <rect id="slider-normal-bottomleft" x="259.63" y="497.86" width="8" height="8" fill="#a3a3a3" opacity=".3"/>
+ </g>
+ <g id="slider-normal-left" transform="translate(223.63,307.86)">
+  <rect id="rect1405" x="34" y="162" width="8" height="8" fill="#a3a3a3" opacity=".3"/>
  </g>
  <path id="toolbar-handle" d="m243 87a5 5 0 0 1-10 0 5 5 0 1 1 10 0z" fill="#36363c"/>
  <g id="checkbox-normal">
@@ -470,7 +485,6 @@
   <rect id="grip-focused" x="350" y="1112" width="10" height="10"/>
   <rect id="grip-pressed" x="365" y="1112" width="10" height="10"/>
  </g>
- <rect id="slider-tick-normal" x="209.41" y="831.51" width="5" height="1" fill="#494957"/>
  <rect id="grip-normal" x="280.41" y="812.51" width="10" height="10" opacity="0"/>
  <g id="g222" transform="translate(-.5873 -237.49)" opacity="0">
   <rect id="tab-normal" x="25" y="890" width="10" height="10"/>
@@ -574,18 +588,6 @@
   <rect id="rect1217" x="295" y="427" width="23" height="22" opacity=".005"/>
   <path id="path1219" d="m306 433c-2.7614 0-5 2.2386-5 5s2.2386 5 5 5c1.3405-2e-3 2.6239-0.54097 3.5625-1.498 4e-3 -2e-3 0.01-5e-3 0.0137-8e-3l3.4238-3.494-3.4004-3.4707c-2e-3 -2e-3 -6e-3 -3e-3 -8e-3 -6e-3 -0.94146-0.97319-2.2373-1.5229-3.5916-1.5233z" fill="#2c2c3b"/>
   <path id="path1221" d="m306 435c-1.6796 1e-3 -2.998 1.3201-2.998 3s1.3184 2.999 2.998 3c0.80472-2e-3 1.5735-0.32413 2.1367-0.89844a2.0002 2.0002 0 0 1 0.0664-0.0645l1.998-2.0371-1.998-2.0371a2.0002 2.0002 0 0 1-0.0664-0.0645c-0.56325-0.57431-1.332-0.89644-2.1367-0.89844z" fill="#101017"/>
- </g>
- <g id="slider-normal-right" transform="translate(231.63,307.86)">
-  <rect id="rect1388" x="34" y="162" width="8" height="8" opacity=".3"/>
- </g>
- <g id="g497" transform="translate(-2,-20)">
-  <rect id="slider-normal-topright" x="267.63" y="481.86" width="8" height="8" opacity=".3"/>
-  <rect id="slider-normal-bottomright" x="267.63" y="497.86" width="8" height="8" opacity=".3"/>
-  <rect id="slider-normal-topleft" x="259.63" y="481.86" width="8" height="8" opacity=".3"/>
-  <rect id="slider-normal-bottomleft" x="259.63" y="497.86" width="8" height="8" opacity=".3"/>
- </g>
- <g id="slider-normal-left" transform="translate(223.63,307.86)">
-  <rect id="rect1405" x="34" y="162" width="8" height="8" opacity=".3"/>
  </g>
  <g id="g507" transform="translate(-2,-20)" fill="#101017">
   <rect id="menubar-normal" x="289.05" y="584.57" width="20" height="20" opacity=".02"/>

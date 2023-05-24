@@ -50,7 +50,7 @@
  <g transform="translate(0 -904.36)">
   <rect id="hint-tile-center" y="904.36" width="4" height="4" fill="#ff2a2a"/>
   <rect id="hint-bar-size" x="6" y="904.36" width="6" height="6" fill="#ff2a2a"/>
-  <g>
+  <g fill="#a3a3a3">
    <path id="bar-inactive-bottomright" transform="translate(0 904.36)" d="m17 15v3c1.662 0 3-1.338 3-3h-3z" opacity=".35"/>
    <path id="bar-inactive-right" transform="translate(0 904.36)" d="m17 12v2h3v-2h-3z" opacity=".35"/>
    <path id="bar-inactive-topright" transform="translate(0 904.36)" d="m17 8v3h3c0-1.662-1.338-3-3-3z" opacity=".35"/>
