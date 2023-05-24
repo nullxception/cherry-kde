@@ -1,6 +1,7 @@
 <svg id="svg1172" width="144" height="126" version="1.0" viewBox="0 0 144 126" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs id="null">
-  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+  <style id="current-color-scheme" type="text/css">
+   .ColorScheme-Text {
  
        }
        .ColorScheme-Background {
@@ -41,7 +42,8 @@
        }
        .ColorScheme-PositiveText {
          color:#26ad5f;
-       }</style>
+       }
+  </style>
  </defs>
  <g id="focus-left" transform="matrix(-1,0,0,-1,36,50)">
   <rect id="rect4" class="ColorScheme-ButtonFocus" x="31" y="12" width="2" height="13" fill="#fff" opacity=".1"/>

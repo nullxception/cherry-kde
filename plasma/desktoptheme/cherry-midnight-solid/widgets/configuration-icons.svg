@@ -1,6 +1,7 @@
-<svg width="124" height="52" version="1.1" viewBox="0 0 32.808 13.758" xmlns="http://www.w3.org/2000/svg">
+<svg width="124" height="52" viewBox="0 0 32.808 13.758" xmlns="http://www.w3.org/2000/svg">
  <defs>
-  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+  <style id="current-color-scheme" type="text/css">
+   .ColorScheme-Text {
       color:#101017;
       stop-color:#101017;
       }
@@ -43,7 +44,8 @@
       .ColorScheme-ButtonFocus{
       color:#3daee9;
       stop-color:#3daee9;
-      }</style>
+      }
+  </style>
  </defs>
  <g id="menu" transform="translate(.52917 -249.37)">
   <rect x="-.52917" y="249.37" width="4.2333" height="4.2333" fill="none"/>
@@ -71,7 +73,7 @@
  </g>
  <g id="move" transform="matrix(.26458 0 0 .26458 -49.478 5.3)" enable-background="new">
   <path d="m253-4.5-3-3.5h2v-2h2v2h2z" fill="#e4e6e8"/>
-  <rect transform="matrix(0,1,1,0,0,0)" x="-20.019" y="245" width="16" height="16" color="#c1c1c1" enable-background="new" fill="none"/>
+  <rect transform="matrix(0,1,1,0,0,0)" x="-20.019" y="245" width="16" height="16" color="#c1c1c1" fill="none"/>
   <g fill="#e4e6e8">
    <path d="m253-19.5-3 3.5h2v2h2v-2h2z"/>
    <path d="m260.5-12-3.5-3v2h-2v2h2l-4e-5 2z"/>
@@ -107,7 +109,7 @@
   <path transform="matrix(-1,0,0,1,425,-717)" d="m146 600c-0.554 0-1 0.446-1 1v10c0 0.554 0.446 1 1 1h12c0.554 0 1-0.446 1-1v-10c0-0.554-0.446-1-1-1zm1 8h10v2h-10z" fill="#e4e6e8"/>
  </g>
  <g id="delete" transform="matrix(.26458 0 0 .26458 -112.18 -57.68)" enable-background="new">
-  <rect x="441" y="255.01" width="16" height="16" color="#000000" enable-background="new" fill="none"/>
+  <rect x="441" y="255.01" width="16" height="16" color="#000000" fill="none"/>
   <path transform="translate(14,174)" d="m429 86v9c5e-5 0.52358 0.47642 0.99995 1 1h9c0.52358-5e-5 0.99995-0.47642 1-1v-9z" color="#000000" enable-background="accumulate" fill="#e4e6e8" style="text-decoration-line:none;text-indent:0;text-transform:none"/>
   <path d="m442 258v1l13-3e-3 -2e-4 -0.99664c0-1-0.9998-1.0034-0.9998-1.0034h-3s0-1-1-1h-3c-1 0-1 1-1 1h-3s-1.0002 3e-3 -1.0002 1.0034z" color="#000000" enable-background="accumulate" fill="#e4e6e8" style="text-decoration-line:none;text-indent:0;text-transform:none"/>
  </g>

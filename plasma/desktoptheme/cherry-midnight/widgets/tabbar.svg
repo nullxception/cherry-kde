@@ -1,6 +1,7 @@
-<svg width="744.09" height="1052.4" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg width="744.09" height="1052.4" xmlns="http://www.w3.org/2000/svg">
  <defs>
-  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+  <style id="current-color-scheme" type="text/css">
+   .ColorScheme-Text {
       color:#101017;
       }
       .ColorScheme-Background{
@@ -29,7 +30,8 @@
       }
       .ColorScheme-ButtonFocus{
       color:#3daee9;
-      }</style>
+      }
+  </style>
  </defs>
  <rect id="hint-tile-center" x="-233.82" y="467.13" width="41.363" height="41.121" fill="#008000" opacity=".875"/>
  <g id="south-active-tab-top" transform="translate(236 72)">
@@ -77,7 +79,7 @@
  <rect id="west-active-tab-hint-top-margin" transform="rotate(90)" x="266.36" y="-213" width="6" height="5" fill="#4e9a06"/>
  <rect id="west-active-tab-hint-bottom-margin" transform="rotate(90)" x="360.36" y="-213" width="6" height="5" fill="#4e9a06"/>
  <g id="west-active-tab-right" transform="matrix(0 1 -1 0 579.36 236.36)" fill="#FF578B">
-  <rect class="ColorScheme-ButtonFocus" x="40" y="359.36" width="80" height="3" fill="#FF578B"/>
+  <rect class="ColorScheme-ButtonFocus" x="40" y="359.36" width="80" height="3"/>
  </g>
  <g id="west-active-tab-topright" transform="matrix(0 1 -1 0 579.36 236.36)">
   <rect x="30" y="359.36" width="10" height="3" fill="#e4e6e8" opacity=".01"/>

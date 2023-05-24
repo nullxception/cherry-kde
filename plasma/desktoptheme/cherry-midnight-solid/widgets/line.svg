@@ -1,6 +1,7 @@
 <svg width="47" height="45" version="1.0" xmlns="http://www.w3.org/2000/svg">
  <defs>
-  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+  <style id="current-color-scheme" type="text/css">
+   .ColorScheme-Text {
       color:#101017;
       }
       .ColorScheme-Background{
@@ -29,7 +30,8 @@
       }
       .ColorScheme-ButtonFocus{
       color:#3daee9;
-      }</style>
+      }
+  </style>
  </defs>
  <g transform="translate(-28,-14)">
   <g id="vertical-line" transform="translate(-4.9688 .40625)">

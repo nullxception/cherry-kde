@@ -1,15 +1,7 @@
 <svg id="svg176" width="257" height="161" version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
- <metadata id="metadata122">
-  <rdf:RDF>
-   <cc:Work rdf:about="">
-    <dc:format>image/svg+xml</dc:format>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:title/>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
  <defs id="defs3">
-  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+  <style id="current-color-scheme" type="text/css">
+   .ColorScheme-Text {
       color:#7B7C7E;
       }
       .ColorScheme-Background{
@@ -41,7 +33,8 @@
       }
       .ColorScheme-ButtonFocus{
       color:#1E92FF;
-      }</style>
+      }
+  </style>
  </defs>
  <rect id="hint-tile-center" x="49.93" y="-90.32" width="40" height="40" fill="#008000" opacity=".875"/>
  <path id="selected-center" class="ColorScheme-Highlight" d="m44 19v48h48v-48z" color="#3daee6" fill="#fff" opacity=".25"/>

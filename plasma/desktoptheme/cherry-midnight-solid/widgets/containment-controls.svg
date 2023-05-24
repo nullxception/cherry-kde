@@ -21,40 +21,40 @@
  </defs>
  <rect id="hint-stretch-borders" x="-10" width="5.221" height="5.403" fill="#023812" opacity=".65"/>
  <g id="north-center" transform="matrix(1,0,0,1.2,-152,-29.4)" stroke-width=".91287">
-  <path d="m264 112v5h5v-5z" fill="#FF578B" stroke-width=".91287"/>
+  <path d="m264 112v5h5v-5z" fill="#FF578B"/>
  </g>
  <g id="north-top" transform="translate(-152,-8)" fill="url(#i)">
   <path transform="translate(152,5)" d="m112 103v4h5v-4z" fill="url(#h)"/>
  </g>
  <g id="north-bottom" transform="matrix(1,0,0,1.5,-152,-63.5)" stroke-width=".8165">
-  <path transform="translate(152,3)" d="m112 114v4h5v-4z" fill="#FF578B" stroke-width=".8165"/>
+  <path transform="translate(152,3)" d="m112 114v4h5v-4z" fill="#FF578B"/>
  </g>
  <g id="south-center" transform="matrix(1,0,0,1.2,-165,-27.4)" stroke-width=".91287">
-  <path d="m264 112v5h5v-5z" fill="#FF578B" stroke-width=".91287"/>
+  <path d="m264 112v5h5v-5z" fill="#FF578B"/>
  </g>
  <g id="south-top" transform="matrix(1,0,0,1.5,-165,-62)" stroke-width=".8165">
-  <path transform="translate(165,5)" d="m99 103v4h5v-4z" fill="#FF578B" stroke-width=".8165"/>
+  <path transform="translate(165,5)" d="m99 103v4h5v-4z" fill="#FF578B"/>
  </g>
  <g id="south-bottom" transform="translate(-165,-3)" fill="url(#g)">
   <path transform="translate(165,3)" d="m99 114v4h5v-4h-5z" fill="url(#f)"/>
  </g>
  <g id="east-center" transform="matrix(0,-1,1.4,0,-62.8,334)" stroke-width=".84515">
-  <path d="m264 112v5h5v-5z" fill="#FF578B" stroke-width=".84515"/>
+  <path d="m264 112v5h5v-5z" fill="#FF578B"/>
  </g>
  <g id="east-left" transform="matrix(0,-1,1.5,0,-75,334)" stroke-width=".8165">
-  <path transform="rotate(90,158.5,175.5)" d="m91 65v5h4v-5h-3z" fill="#FF578B" stroke-width=".8165"/>
+  <path transform="rotate(90,158.5,175.5)" d="m91 65v5h4v-5h-3z" fill="#FF578B"/>
  </g>
  <g id="east-right" transform="matrix(0,-1,1,0,-15,334)">
   <path transform="matrix(0,1,-1,0,334,15)" d="m102 65v5h4v-5h-4z" fill="url(#c)"/>
  </g>
  <g id="west-center" transform="matrix(0,-1,1.2,0,-38.4,347)" stroke-width=".91287">
-  <path d="m264 112v5h5v-5z" fill="#FF578B" stroke-width=".91287"/>
+  <path d="m264 112v5h5v-5z" fill="#FF578B"/>
  </g>
  <g id="west-left" transform="matrix(0,-1,1,0,-17,347)" fill="url(#e)">
   <path transform="matrix(0,1,-1,0,347,17)" d="m91 78v5h4v-5h-4z" fill="url(#d)"/>
  </g>
  <g id="west-right" transform="matrix(0,-1,1.5,0,-72.5,347)" stroke-width=".8165">
-  <path transform="rotate(90,166,181)" d="m102 78v5h4v-5h-1z" fill="#FF578B" stroke-width=".8165"/>
+  <path transform="rotate(90,166,181)" d="m102 78v5h4v-5h-1z" fill="#FF578B"/>
  </g>
  <g id="vertical-centerindicator" transform="translate(1,15)">
   <rect x="11" y="32" width="42" height="1" opacity=".2"/>

@@ -1,14 +1,7 @@
 <svg id="svg226" width="121" height="56" version="1.1" viewBox="0 0 121 56" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
- <metadata id="metadata230">
-  <rdf:RDF>
-   <cc:Work rdf:about="">
-    <dc:format>image/svg+xml</dc:format>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
  <defs id="defs39">
-  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+  <style id="current-color-scheme" type="text/css">
+   .ColorScheme-Text {
       color:#101017;
       stop-color:#101017;
       }
@@ -51,7 +44,8 @@
       .ColorScheme-ButtonFocus{
       color:#3daee9;
       stop-color:#3daee9;
-      }</style>
+      }
+  </style>
   <linearGradient id="a">
    <stop id="stop16" offset="0"/>
    <stop id="stop18" stop-opacity="0" offset="1"/>

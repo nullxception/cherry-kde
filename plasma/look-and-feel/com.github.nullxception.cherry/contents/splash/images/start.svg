@@ -1,20 +1,13 @@
 <svg id="svg2" width="200" height="200" version="1.1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
- <metadata id="metadata21">
-  <rdf:RDF>
-   <cc:Work rdf:about="">
-    <dc:format>image/svg+xml</dc:format>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:title/>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
  <defs id="defs3051">
-  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+  <style id="current-color-scheme" type="text/css">
+   .ColorScheme-Text {
         color:#23232F;
-      }</style>
+      }
+  </style>
  </defs>
  <g id="start-here-kde" transform="matrix(5.5048 0 0 5.5048 -362.4 6.4188)">
   <path id="rect3343" d="m65.982-1.0183h36.332v36.332h-36.332z" fill="none"/>
-  <path id="path855" d="m84.004 5.3737a1.969 1.969 0 0 0-0.98942 0.26473l-8.3635 4.8288a1.969 1.969 0 0 0-0.98351 1.7052v9.452l4.3097-2.4891c0.82103-0.47402 1.8642-0.19395 2.3382 0.62708 0.47402 0.82103 0.19395 1.8627-0.62707 2.3368l-3.761 2.1711 7.0872 4.0923a1.969 1.969 0 0 0 1.9685 0l8.3635-4.8288a1.969 1.969 0 0 0 0.98498-1.7052v-3.4844l-4.9456 2.8559c-0.82103 0.47402-1.8627 0.19395-2.3367-0.62708-0.47402-0.82103-0.19543-1.8627 0.6256-2.3367l6.6568-3.8438v-2.2199a1.969 1.969 0 0 0-0.98498-1.7052l-1.859-1.0737-7.1005 4.1011c-0.82103 0.47402-1.8642 0.19395-2.3382-0.62708-0.47402-0.82103-0.19395-1.8627 0.62708-2.3367l5.3893-3.1132-3.0821-1.7792a1.969 1.969 0 0 0-0.97907-0.26473z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#efefef" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;paint-order:stroke fill markers;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+  <path id="path855" d="m84.004 5.3737a1.969 1.969 0 0 0-0.98942 0.26473l-8.3635 4.8288a1.969 1.969 0 0 0-0.98351 1.7052v9.452l4.3097-2.4891c0.82103-0.47402 1.8642-0.19395 2.3382 0.62708 0.47402 0.82103 0.19395 1.8627-0.62707 2.3368l-3.761 2.1711 7.0872 4.0923a1.969 1.969 0 0 0 1.9685 0l8.3635-4.8288a1.969 1.969 0 0 0 0.98498-1.7052v-3.4844l-4.9456 2.8559c-0.82103 0.47402-1.8627 0.19395-2.3367-0.62708-0.47402-0.82103-0.19543-1.8627 0.6256-2.3367l6.6568-3.8438v-2.2199a1.969 1.969 0 0 0-0.98498-1.7052l-1.859-1.0737-7.1005 4.1011c-0.82103 0.47402-1.8642 0.19395-2.3382-0.62708-0.47402-0.82103-0.19395-1.8627 0.62708-2.3367l5.3893-3.1132-3.0821-1.7792a1.969 1.969 0 0 0-0.97907-0.26473z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#efefef" image-rendering="auto" shape-rendering="auto" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;paint-order:stroke fill markers;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
  </g>
 </svg>

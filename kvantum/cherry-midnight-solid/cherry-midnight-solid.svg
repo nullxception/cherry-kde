@@ -1,12 +1,4 @@
 <svg id="svg1604" width="522.2" height="968.52" version="1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
- <metadata id="metadata1108">
-  <rdf:RDF>
-   <cc:Work rdf:about="">
-    <dc:format>image/svg+xml</dc:format>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
  <defs id="defs105">
   <linearGradient id="linearGradient2243">
    <stop id="stop61" stop-opacity=".6" offset="0"/>
@@ -426,8 +418,8 @@
  <g id="menu-shadow-topright" transform="translate(-37.75,-330.45)" fill-rule="evenodd">
   <g id="g3486">
    <g id="topright" transform="rotate(90,-355.88,520.57)" fill-rule="nonzero" shape-rendering="auto">
-    <path id="path3595" d="m-7 53.94h10c0-3.3137 2.6863-6 6-6v-10c-9.9412 1.2e-4 -16 6.059-16 16z" color="#000000" color-rendering="auto" fill="url(#radialGradient5669)" image-rendering="auto" opacity=".45" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
-    <path id="path4714-2" d="m9.0003 47.939a6 6 0 0 0-6 6h6z" color="#000000" color-rendering="auto" fill="#101017" image-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
+    <path id="path3595" d="m-7 53.94h10c0-3.3137 2.6863-6 6-6v-10c-9.9412 1.2e-4 -16 6.059-16 16z" color="#000000" color-rendering="auto" fill="url(#radialGradient5669)" image-rendering="auto" opacity=".45" style="isolation:auto;mix-blend-mode:normal"/>
+    <path id="path4714-2" d="m9.0003 47.939a6 6 0 0 0-6 6h6z" color="#000000" color-rendering="auto" fill="#101017" image-rendering="auto" style="isolation:auto;mix-blend-mode:normal"/>
    </g>
   </g>
  </g>
@@ -1311,8 +1303,8 @@
  <g id="tooltip-shadow-topright" transform="translate(312.71,-263.08)" fill-rule="evenodd">
   <g id="g3486-7">
    <g id="topright-0" transform="rotate(90,-355.88,520.57)" fill-rule="nonzero" shape-rendering="auto">
-    <path id="path3595-9" transform="rotate(-90,33.97,445.97)" d="m426 408v7a6 6 0 0 1 6 6h7c-1e-4 -8.0772-4.9229-13-13-13z" color="#000000" color-rendering="auto" fill="url(#radialGradient4124)" image-rendering="auto" opacity=".5" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
-    <path id="path4714-2-6" d="m9.0003 47.939a6 6 0 0 0-6 6h6z" color="#000000" color-rendering="auto" fill="#2c2c3b" image-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
+    <path id="path3595-9" transform="rotate(-90,33.97,445.97)" d="m426 408v7a6 6 0 0 1 6 6h7c-1e-4 -8.0772-4.9229-13-13-13z" color="#000000" color-rendering="auto" fill="url(#radialGradient4124)" image-rendering="auto" opacity=".5" style="isolation:auto;mix-blend-mode:normal"/>
+    <path id="path4714-2-6" d="m9.0003 47.939a6 6 0 0 0-6 6h6z" color="#000000" color-rendering="auto" fill="#2c2c3b" image-rendering="auto" style="isolation:auto;mix-blend-mode:normal"/>
    </g>
   </g>
  </g>
@@ -1348,24 +1340,24 @@
   <g id="tooltip-shadow-topleft" transform="matrix(-1,0,0,1,486.21,-243.08)">
    <g id="g4188">
     <g id="g4182" transform="rotate(90,-355.88,520.57)" fill-rule="nonzero" shape-rendering="auto">
-     <path id="path4174" transform="matrix(0,1,1,0,-412,-322.06)" d="m376 408c-8.077 0-13 4.9229-13 13h7a6 6 0 0 1 6-6z" color="#000000" color-rendering="auto" fill="url(#radialGradient4192)" image-rendering="auto" opacity=".5" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
-     <path id="path4178" d="m9.0003 47.939a6 6 0 0 0-6 6h6z" color="#000000" color-rendering="auto" fill="#2c2c3b" image-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
+     <path id="path4174" transform="matrix(0,1,1,0,-412,-322.06)" d="m376 408c-8.077 0-13 4.9229-13 13h7a6 6 0 0 1 6-6z" color="#000000" color-rendering="auto" fill="url(#radialGradient4192)" image-rendering="auto" opacity=".5" style="isolation:auto;mix-blend-mode:normal"/>
+     <path id="path4178" d="m9.0003 47.939a6 6 0 0 0-6 6h6z" color="#000000" color-rendering="auto" fill="#2c2c3b" image-rendering="auto" style="isolation:auto;mix-blend-mode:normal"/>
     </g>
    </g>
   </g>
   <g id="tooltip-shadow-bottomright" transform="matrix(1,0,0,-1,314.71,1577.8)">
    <g id="g4166">
     <g id="g4160" transform="rotate(90,-355.88,520.57)" fill-rule="nonzero" shape-rendering="auto">
-     <path id="path4152" transform="matrix(0,-1,-1,0,480,479.94)" d="m432 471a6 6 0 0 1-6 6v7c8.0771 0 13-4.9228 13-13z" color="#000000" color-rendering="auto" fill="url(#radialGradient4170)" image-rendering="auto" opacity=".5" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
-     <path id="path4156" d="m9.0003 47.939a6 6 0 0 0-6 6h6z" color="#000000" color-rendering="auto" fill="#2c2c3b" image-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
+     <path id="path4152" transform="matrix(0,-1,-1,0,480,479.94)" d="m432 471a6 6 0 0 1-6 6v7c8.0771 0 13-4.9228 13-13z" color="#000000" color-rendering="auto" fill="url(#radialGradient4170)" image-rendering="auto" opacity=".5" style="isolation:auto;mix-blend-mode:normal"/>
+     <path id="path4156" d="m9.0003 47.939a6 6 0 0 0-6 6h6z" color="#000000" color-rendering="auto" fill="#2c2c3b" image-rendering="auto" style="isolation:auto;mix-blend-mode:normal"/>
     </g>
    </g>
   </g>
   <g id="tooltip-shadow-bottomleft" transform="rotate(180,243.1,788.91)">
    <g id="g4144">
     <g id="g4138" transform="rotate(90,-355.88,520.57)" fill-rule="nonzero" shape-rendering="auto">
-     <path id="path4130" transform="rotate(90,401.03,78.97)" d="m363 471c1e-4 8.0772 4.9229 13 13 13v-7a6 6 0 0 1-6-6z" color="#000000" color-rendering="auto" fill="url(#radialGradient4148)" image-rendering="auto" opacity=".5" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
-     <path id="path4134" d="m9.0003 47.939a6 6 0 0 0-6 6h6z" color="#000000" color-rendering="auto" fill="#2c2c3b" image-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
+     <path id="path4130" transform="rotate(90,401.03,78.97)" d="m363 471c1e-4 8.0772 4.9229 13 13 13v-7a6 6 0 0 1-6-6z" color="#000000" color-rendering="auto" fill="url(#radialGradient4148)" image-rendering="auto" opacity=".5" style="isolation:auto;mix-blend-mode:normal"/>
+     <path id="path4134" d="m9.0003 47.939a6 6 0 0 0-6 6h6z" color="#000000" color-rendering="auto" fill="#2c2c3b" image-rendering="auto" style="isolation:auto;mix-blend-mode:normal"/>
     </g>
    </g>
   </g>
