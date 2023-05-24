@@ -17,18 +17,18 @@
  </g>
  <g id="remove-hover" transform="translate(16,-18)">
   <rect id="rect25" y="34" width="16" height="16" opacity=".005"/>
-  <path id="path27" d="m15 42a7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7 7 7 0 0 1 7 7z" fill="#4b4e55"/>
+  <path id="path27" d="m15 42a7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7 7 7 0 0 1 7 7z" fill="#343442"/>
   <rect id="rect29" transform="rotate(90)" x="41" y="-12" width="2" height="8" fill="#e3e3ff"/>
  </g>
  <g id="add-hover" transform="translate(16,-18)">
   <rect id="rect32" y="18" width="16" height="16" opacity=".005"/>
-  <path id="path34" d="m15 26a7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7 7 7 0 0 1 7 7z" fill="#4b4e55"/>
+  <path id="path34" d="m15 26a7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7 7 7 0 0 1 7 7z" fill="#343442"/>
   <rect id="rect36" x="7" y="22" width="2" height="8" fill="#e3e3ff"/>
   <rect id="rect38" transform="rotate(90)" x="25" y="-12" width="2" height="8" fill="#e3e3ff"/>
  </g>
  <g id="open-hover" transform="translate(16,-18)">
   <rect id="rect41" y="50" width="16" height="16" opacity=".005"/>
-  <path id="path43" d="m15 58a7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7 7 7 0 0 1 7 7z" fill="#4b4e55"/>
+  <path id="path43" d="m15 58a7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7 7 7 0 0 1 7 7z" fill="#343442"/>
   <path id="path45" transform="matrix(1.0756 0 0 .77622 -.90682 26.622)" d="m8.281 36.559 3.719 6.4414h-7.438l1.8595-3.2207z" fill="#e3e3ff"/>
  </g>
  <g id="remove-pressed" transform="translate(32,-18)">

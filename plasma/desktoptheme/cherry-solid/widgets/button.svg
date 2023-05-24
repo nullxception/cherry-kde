@@ -185,7 +185,7 @@
   <path id="path132-9" transform="matrix(1.25 0 0 1 -359 73)" d="m324-53v32h4v-32h-2z" fill="#e3e3ff" opacity=".15" stroke-width="1"/>
  </g>
  <rect id="toolbutton-hover-hint-left-margin" transform="rotate(-90)" x="-105" y="236" width="2" height="6" fill="#4e9a06"/>
- <g id="toolbutton-hover-bottom" transform="matrix(1 0 0 .85619 238 -775.88)" fill="#4b4e55" stroke-width="1.3236">
+ <g id="toolbutton-hover-bottom" transform="matrix(1 0 0 .85619 238 -775.88)" fill="#434352" stroke-width="1.3236">
   <g id="g141-0" transform="translate(-48,994.36)" stroke-width="1.3236">
    <path id="path137-6" transform="matrix(1 0 0 1.752 -276 87.039)" d="m329-20v4h32v-4z" fill="#e3e3ff" opacity=".15" stroke-width=".99999"/>
   </g>
@@ -226,7 +226,7 @@
   <path id="path132-9-1" transform="matrix(1.25 0 0 1 -427.75 73)" d="m379-53v32h4v-32h-2z" fill="#e3e3ff" opacity=".3" stroke-width="1"/>
  </g>
  <rect id="toolbutton-pressed-hint-left-margin" transform="rotate(-90)" x="-104" y="291" width="2" height="6" fill="#4e9a06"/>
- <g id="toolbutton-pressed-bottom" transform="matrix(1 0 0 .85619 293 -775.88)" fill="#4b4e55" stroke-width="1.3236">
+ <g id="toolbutton-pressed-bottom" transform="matrix(1 0 0 .85619 293 -775.88)" fill="#434352" stroke-width="1.3236">
   <g id="g141-0-9" transform="translate(-48,994.36)" stroke-width="1.3236">
    <path id="path137-6-4" transform="matrix(1 0 0 1.752 -331 87.039)" d="m384-20v4h32v-4z" fill="#e3e3ff" opacity=".3" stroke-width=".99999"/>
   </g>
