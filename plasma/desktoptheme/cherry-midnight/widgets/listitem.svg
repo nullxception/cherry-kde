@@ -43,49 +43,49 @@
  <rect id="normal-hint-bottom-margin" x="29" y="775" width="2" height="6" fill="#4e9a06"/>
  <rect id="normal-hint-right-margin" x="38" y="766" width="4" height="2" fill="#4e9a06"/>
  <g id="separator" transform="translate(11,704)" opacity="0">
-  <rect id="rect16" class="ColorScheme-ViewBackground" transform="scale(1,-1)" x="63" y="-49" width="40" height="1" color="#fafafa" opacity=".2"/>
+  <rect id="rect16" class="ColorScheme-ViewBackground" transform="scale(1,-1)" x="63" y="-49" width="40" height="1" color="#e3e3ff" opacity=".2"/>
   <rect id="rect18" class="ColorScheme-ViewText" transform="scale(1,-1)" x="63" y="-49" width="40" height="1" color="#101017" opacity="0"/>
  </g>
  <g id="g30" transform="translate(0,708)" fill="currentColor">
-  <path id="normal-center" class="ColorScheme-ViewBackground" d="m24 53v11h11v-11z" color="#fafafa" opacity=".01"/>
-  <path id="normal-right" class="ColorScheme-ViewBackground" d="m35 53v11h2c6.68e-4 -0.01835 0-0.03439 0-0.05288v-10.894c0-0.0185 6.68e-4 -0.03453 0-0.05288h-2z" color="#fafafa" opacity=".01"/>
-  <path id="normal-top" class="ColorScheme-ViewBackground" d="m24 51v2h11v-2c-0.0041-6.7e-4 0.0042 0 1e-6 0h-10.988c-4e-3 0-8e-3 -6.7e-4 -0.0119 0z" color="#fafafa" opacity=".01"/>
-  <path id="normal-left" class="ColorScheme-ViewBackground" d="m22 53c-6.7e-4 0.01835 0 0.03439 0 0.05288v10.894c0 0.0185-6.7e-4 0.03453 0 0.05288h2v-11h-2z" color="#fafafa" opacity=".01"/>
-  <path id="normal-bottom" class="ColorScheme-ViewBackground" d="m24 64v2h11v-1.9997z" color="#fafafa" opacity=".01"/>
-  <path id="normal-topleft" class="ColorScheme-ViewBackground" d="m22 51v2h1.9998v-2c-7.46e-4 -6.7e-4 7.63e-4 0 0 0h-1.9976c-7.28e-4 0-0.0015-6.7e-4 -0.0022 0z" color="#fafafa" opacity=".01"/>
-  <path id="normal-topright" class="ColorScheme-ViewBackground" d="m35 51.001v1.9997h1.9998v-1.9997c-7.46e-4 -6.7e-4 7.63e-4 0 0 0h-1.9976c-7.28e-4 0-0.0015-6.7e-4 -0.0022 0z" color="#fafafa" opacity=".01"/>
-  <path id="normal-bottomright" class="ColorScheme-ViewBackground" d="m35 64v1.9997h1.9998v-1.9997c-7.46e-4 -6.7e-4 7.63e-4 0 0 0h-1.9976c-7.28e-4 0-0.0015-6.7e-4 -0.0022 0z" color="#fafafa" opacity=".01"/>
-  <path id="normal-bottomleft" class="ColorScheme-ViewBackground" d="m22 64v1.9997h1.9998v-1.9997c-7.46e-4 -6.7e-4 7.63e-4 0 0 0h-1.9976c-7.28e-4 0-0.0015-6.7e-4 -0.0022 0z" color="#fafafa" opacity=".01"/>
+  <path id="normal-center" class="ColorScheme-ViewBackground" d="m24 53v11h11v-11z" color="#e3e3ff" opacity=".02"/>
+  <path id="normal-right" class="ColorScheme-ViewBackground" d="m35 53v11h2c6.68e-4 -0.01835 0-0.03439 0-0.05288v-10.894c0-0.0185 6.68e-4 -0.03453 0-0.05288h-2z" color="#e3e3ff" opacity=".02"/>
+  <path id="normal-top" class="ColorScheme-ViewBackground" d="m24 51v2h11v-2c-0.0041-6.7e-4 0.0042 0 1e-6 0h-10.988c-4e-3 0-8e-3 -6.7e-4 -0.0119 0z" color="#e3e3ff" opacity=".02"/>
+  <path id="normal-left" class="ColorScheme-ViewBackground" d="m22 53c-6.7e-4 0.01835 0 0.03439 0 0.05288v10.894c0 0.0185-6.7e-4 0.03453 0 0.05288h2v-11h-2z" color="#e3e3ff" opacity=".02"/>
+  <path id="normal-bottom" class="ColorScheme-ViewBackground" d="m24 64v2h11v-1.9997z" color="#e3e3ff" opacity=".02"/>
+  <path id="normal-topleft" class="ColorScheme-ViewBackground" d="m22 51v2h1.9998v-2c-7.46e-4 -6.7e-4 7.63e-4 0 0 0h-1.9976c-7.28e-4 0-0.0015-6.7e-4 -0.0022 0z" color="#e3e3ff" opacity=".02"/>
+  <path id="normal-topright" class="ColorScheme-ViewBackground" d="m35 51.001v1.9997h1.9998v-1.9997c-7.46e-4 -6.7e-4 7.63e-4 0 0 0h-1.9976c-7.28e-4 0-0.0015-6.7e-4 -0.0022 0z" color="#e3e3ff" opacity=".02"/>
+  <path id="normal-bottomright" class="ColorScheme-ViewBackground" d="m35 64v1.9997h1.9998v-1.9997c-7.46e-4 -6.7e-4 7.63e-4 0 0 0h-1.9976c-7.28e-4 0-0.0015-6.7e-4 -0.0022 0z" color="#e3e3ff" opacity=".02"/>
+  <path id="normal-bottomleft" class="ColorScheme-ViewBackground" d="m22 64v1.9997h1.9998v-1.9997c-7.46e-4 -6.7e-4 7.63e-4 0 0 0h-1.9976c-7.28e-4 0-0.0015-6.7e-4 -0.0022 0z" color="#e3e3ff" opacity=".02"/>
  </g>
- <path id="pressed-center" class="ColorScheme-ViewFocus" d="m20 718v11h11v-11z" color="#3daee9" fill="#fafafa" opacity=".1"/>
- <path id="pressed-right" class="ColorScheme-ViewFocus" d="m31 718v11h2c6.68e-4 -0.0184 0-0.0344 0-0.0529v-10.894c0-0.0185 6.68e-4 -0.0345 0-0.0529h-2z" color="#3daee9" fill="#fafafa" opacity=".1"/>
- <path id="pressed-top" class="ColorScheme-ViewFocus" d="m20 716v2h11v-2c-0.0041-6.7e-4 0.0045 0 3.01e-4 0h-10.988c-4e-3 0-8e-3 -6.7e-4 -0.0119 0z" color="#3daee9" fill="#fafafa" opacity=".1"/>
- <path id="pressed-left" class="ColorScheme-ViewFocus" d="m18 718c-6.7e-4 0.0184 0 0.0344 0 0.0529v10.894c0 0.0185-6.7e-4 0.0345 0 0.0529h2v-11h-2z" color="#3daee9" fill="#fafafa" opacity=".1"/>
- <path id="pressed-bottom" class="ColorScheme-ViewFocus" d="m20 729v2h11v-2z" color="#3daee9" fill="#fafafa" opacity=".1"/>
- <path id="pressed-topleft" d="m19 716c-0.55378 0-1 0.446-1 1v1h2v-2h-1z" color="#3daee9" fill="#fafafa" opacity=".1"/>
- <path id="section-center" class="ColorScheme-ViewBackground" d="m22 796v11h11v-11z" color="#fafafa" opacity="0"/>
- <path id="section-right" class="ColorScheme-ViewBackground" d="m33 796v11h2c6.68e-4 -0.018 0-0.034 0-0.053v-10.894c0-0.019 6.68e-4 -0.034 0-0.053z" color="#fafafa" opacity="0"/>
- <path id="section-top" class="ColorScheme-ViewBackground" d="m22 794v2h11v-2c-0.0041-7e-4 0.0042 0 1e-6 0h-10.988c-4e-3 0-8e-3 -7e-4 -0.0119 0z" color="#fafafa" opacity="0"/>
- <path id="section-left" class="ColorScheme-ViewBackground" d="m20 796c-6.7e-4 0.018 0 0.034 0 0.053v10.894c0 0.019-6.7e-4 0.034 0 0.053h2v-11z" color="#fafafa" opacity="0"/>
- <path id="section-bottom" class="ColorScheme-ViewBackground" d="m22 807v2h11v-1.9997z" color="#fafafa" opacity="0"/>
- <path id="section-topleft" class="ColorScheme-ViewBackground" d="m20 794v2h1.9998v-2c-7.46e-4 -7e-4 7.63e-4 0 0 0h-1.9976c-7.28e-4 0-0.0015-7e-4 -0.0022 0z" color="#fafafa" opacity="0"/>
- <path id="section-topright" class="ColorScheme-ViewBackground" d="m33 794v1.9997h1.9998v-1.9997c-7.46e-4 -7e-4 7.63e-4 0 0 0h-1.9976c-7.28e-4 0-0.0015-7e-4 -0.0022 0z" color="#fafafa" opacity="0"/>
- <path id="section-bottomright" class="ColorScheme-ViewBackground" d="m33 807v1.9997h1.9998v-1.9997c-7.46e-4 -7e-4 7.63e-4 0 0 0h-1.9976c-7.28e-4 0-0.0015-7e-4 -0.0022 0z" color="#fafafa" opacity="0"/>
- <path id="section-bottomleft" class="ColorScheme-ViewBackground" d="m20 807v1.9997h1.9998v-1.9997c-7.46e-4 -7e-4 7.63e-4 0 0 0h-1.9976c-7.28e-4 0-0.0015-7e-4 -0.0022 0z" color="#fafafa" opacity="0"/>
+ <path id="pressed-center" class="ColorScheme-ViewFocus" d="m20 718v11h11v-11z" color="#3daee9" fill="#e3e3ff" opacity=".1"/>
+ <path id="pressed-right" class="ColorScheme-ViewFocus" d="m31 718v11h2c6.68e-4 -0.0184 0-0.0344 0-0.0529v-10.894c0-0.0185 6.68e-4 -0.0345 0-0.0529h-2z" color="#3daee9" fill="#e3e3ff" opacity=".1"/>
+ <path id="pressed-top" class="ColorScheme-ViewFocus" d="m20 716v2h11v-2c-0.0041-6.7e-4 0.0045 0 3.01e-4 0h-10.988c-4e-3 0-8e-3 -6.7e-4 -0.0119 0z" color="#3daee9" fill="#e3e3ff" opacity=".1"/>
+ <path id="pressed-left" class="ColorScheme-ViewFocus" d="m18 718c-6.7e-4 0.0184 0 0.0344 0 0.0529v10.894c0 0.0185-6.7e-4 0.0345 0 0.0529h2v-11h-2z" color="#3daee9" fill="#e3e3ff" opacity=".1"/>
+ <path id="pressed-bottom" class="ColorScheme-ViewFocus" d="m20 729v2h11v-2z" color="#3daee9" fill="#e3e3ff" opacity=".1"/>
+ <path id="pressed-topleft" d="m19 716c-0.55378 0-1 0.446-1 1v1h2v-2h-1z" color="#3daee9" fill="#e3e3ff" opacity=".1"/>
+ <path id="section-center" class="ColorScheme-ViewBackground" d="m22 796v11h11v-11z" color="#e3e3ff" opacity="0"/>
+ <path id="section-right" class="ColorScheme-ViewBackground" d="m33 796v11h2c6.68e-4 -0.018 0-0.034 0-0.053v-10.894c0-0.019 6.68e-4 -0.034 0-0.053z" color="#e3e3ff" opacity="0"/>
+ <path id="section-top" class="ColorScheme-ViewBackground" d="m22 794v2h11v-2c-0.0041-7e-4 0.0042 0 1e-6 0h-10.988c-4e-3 0-8e-3 -7e-4 -0.0119 0z" color="#e3e3ff" opacity="0"/>
+ <path id="section-left" class="ColorScheme-ViewBackground" d="m20 796c-6.7e-4 0.018 0 0.034 0 0.053v10.894c0 0.019-6.7e-4 0.034 0 0.053h2v-11z" color="#e3e3ff" opacity="0"/>
+ <path id="section-bottom" class="ColorScheme-ViewBackground" d="m22 807v2h11v-1.9997z" color="#e3e3ff" opacity="0"/>
+ <path id="section-topleft" class="ColorScheme-ViewBackground" d="m20 794v2h1.9998v-2c-7.46e-4 -7e-4 7.63e-4 0 0 0h-1.9976c-7.28e-4 0-0.0015-7e-4 -0.0022 0z" color="#e3e3ff" opacity="0"/>
+ <path id="section-topright" class="ColorScheme-ViewBackground" d="m33 794v1.9997h1.9998v-1.9997c-7.46e-4 -7e-4 7.63e-4 0 0 0h-1.9976c-7.28e-4 0-0.0015-7e-4 -0.0022 0z" color="#e3e3ff" opacity="0"/>
+ <path id="section-bottomright" class="ColorScheme-ViewBackground" d="m33 807v1.9997h1.9998v-1.9997c-7.46e-4 -7e-4 7.63e-4 0 0 0h-1.9976c-7.28e-4 0-0.0015-7e-4 -0.0022 0z" color="#e3e3ff" opacity="0"/>
+ <path id="section-bottomleft" class="ColorScheme-ViewBackground" d="m20 807v1.9997h1.9998v-1.9997c-7.46e-4 -7e-4 7.63e-4 0 0 0h-1.9976c-7.28e-4 0-0.0015-7e-4 -0.0022 0z" color="#e3e3ff" opacity="0"/>
  <rect id="section-hint-top-margin" x="28" y="789" width="2" height="6" fill="#4e9a06"/>
  <rect id="section-hint-left-margin" x="10" y="803" width="4" height="2" fill="#4e9a06"/>
  <rect id="section-hint-right-margin" x="34.965" y="803" width="4" height="2" fill="#4e9a06"/>
  <rect id="section-hint-bottom-margin" x="29" y="808" width="2" height="6" fill="#4e9a06"/>
- <path id="pressed-topright" d="m33 717c0-0.55378-0.446-1-1-1h-1v2h2z" color="#3daee9" fill="#fafafa" opacity=".1"/>
- <path id="pressed-bottomleft" d="m19 731c-0.55378 0-1-0.446-1-1v-1h2v2z" color="#3daee9" fill="#fafafa" opacity=".1"/>
- <path id="pressed-bottomright" d="m33 730c0 0.55378-0.446 1-1 1h-1v-2h2z" color="#3daee9" fill="#fafafa" opacity=".1"/>
- <path id="hover-center" class="ColorScheme-ViewFocus" d="m55 718v11h11v-11z" color="#3daee9" fill="#fafafa" opacity=".05"/>
- <path id="hover-right" class="ColorScheme-ViewFocus" d="m66 718v11h2c6.69e-4 -0.0189 0-0.034 0-0.0529v-10.894c0-0.0189 6.69e-4 -0.034 0-0.0529h-2z" color="#3daee9" fill="#fafafa" opacity=".05"/>
- <path id="hover-top" class="ColorScheme-ViewFocus" d="m55 716v2h11v-2c-0.0042-6.8e-4 0.0045 0 2.99e-4 0h-10.988c-0.0042 0-0.0079-6.8e-4 -0.01172 0z" color="#3daee9" fill="#fafafa" opacity=".05"/>
- <path id="hover-left" class="ColorScheme-ViewFocus" d="m53 718c-6.69e-4 0.0189 0 0.034 0 0.0529v10.894c0 0.0189-6.69e-4 0.034 0 0.0529h2v-11h-2z" color="#3daee9" fill="#fafafa" opacity=".05"/>
- <path id="hover-bottom" class="ColorScheme-ViewFocus" d="m55 729v2h11v-2z" color="#3daee9" fill="#fafafa" opacity=".05"/>
- <path id="hover-topleft" d="m54 716c-0.55378 0-1 0.44599-1 0.99999v1h2v-2z" color="#3daee9" fill="#fafafa" opacity=".05"/>
- <path id="hover-topright" d="m68 717c0-0.55378-0.446-0.99999-1-0.99999h-1v2h2z" color="#3daee9" fill="#fafafa" opacity=".05"/>
- <path id="hover-bottomleft" d="m54 731c-0.55378 0-1-0.44598-1-0.99999v-1h2v2z" color="#3daee9" fill="#fafafa" opacity=".05"/>
- <path id="hover-bottomright" d="m68 730c0 0.55378-0.446 0.99999-1 0.99999h-1v-2h2z" color="#3daee9" fill="#fafafa" opacity=".05"/>
+ <path id="pressed-topright" d="m33 717c0-0.55378-0.446-1-1-1h-1v2h2z" color="#3daee9" fill="#e3e3ff" opacity=".1"/>
+ <path id="pressed-bottomleft" d="m19 731c-0.55378 0-1-0.446-1-1v-1h2v2z" color="#3daee9" fill="#e3e3ff" opacity=".1"/>
+ <path id="pressed-bottomright" d="m33 730c0 0.55378-0.446 1-1 1h-1v-2h2z" color="#3daee9" fill="#e3e3ff" opacity=".1"/>
+ <path id="hover-center" class="ColorScheme-ViewFocus" d="m55 718v11h11v-11z" color="#3daee9" fill="#e3e3ff" opacity=".05"/>
+ <path id="hover-right" class="ColorScheme-ViewFocus" d="m66 718v11h2c6.69e-4 -0.0189 0-0.034 0-0.0529v-10.894c0-0.0189 6.69e-4 -0.034 0-0.0529h-2z" color="#3daee9" fill="#e3e3ff" opacity=".05"/>
+ <path id="hover-top" class="ColorScheme-ViewFocus" d="m55 716v2h11v-2c-0.0042-6.8e-4 0.0045 0 2.99e-4 0h-10.988c-0.0042 0-0.0079-6.8e-4 -0.01172 0z" color="#3daee9" fill="#e3e3ff" opacity=".05"/>
+ <path id="hover-left" class="ColorScheme-ViewFocus" d="m53 718c-6.69e-4 0.0189 0 0.034 0 0.0529v10.894c0 0.0189-6.69e-4 0.034 0 0.0529h2v-11h-2z" color="#3daee9" fill="#e3e3ff" opacity=".05"/>
+ <path id="hover-bottom" class="ColorScheme-ViewFocus" d="m55 729v2h11v-2z" color="#3daee9" fill="#e3e3ff" opacity=".05"/>
+ <path id="hover-topleft" d="m54 716c-0.55378 0-1 0.44599-1 0.99999v1h2v-2z" color="#3daee9" fill="#e3e3ff" opacity=".05"/>
+ <path id="hover-topright" d="m68 717c0-0.55378-0.446-0.99999-1-0.99999h-1v2h2z" color="#3daee9" fill="#e3e3ff" opacity=".05"/>
+ <path id="hover-bottomleft" d="m54 731c-0.55378 0-1-0.44598-1-0.99999v-1h2v2z" color="#3daee9" fill="#e3e3ff" opacity=".05"/>
+ <path id="hover-bottomright" d="m68 730c0 0.55378-0.446 0.99999-1 0.99999h-1v-2h2z" color="#3daee9" fill="#e3e3ff" opacity=".05"/>
 </svg>

@@ -57,7 +57,7 @@
   <radialGradient id="radialGradient1374" cx="77" cy="12" r="6" gradientTransform="matrix(-3.5114e-7 -1.8333 1.8333 -3.5114e-7 55 153.17)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
   <radialGradient id="radialGradient1025" cx="19" cy="12" r="6" gradientTransform="matrix(2.5e-7 -1.8333 1.8333 2.5e-7 -3 46.833)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
  </defs>
- <rect id="hint-tile-center" y="-1.4648e-5" width="5" height="5" fill="#f60"/>
+ <rect id="hint-tile-center" y="-1.4648e-5" width="5" height="5" fill="#ff6600"/>
  <g id="shadow-top" transform="translate(58,-904.36)">
   <rect id="rect117" transform="matrix(0,-1,-1,0,0,0)" x="-916.36" y="-51" width="6" height="32" fill="none"/>
   <rect id="rect119" transform="matrix(0,-1,-1,0,0,0)" x="-910.36" y="-51" width="6" height="32" fill="url(#linearGradient1037)" opacity=".35"/>
@@ -82,10 +82,10 @@
   <rect id="rect213" x="19" y="916.36" width="32" height="32"/>
   <rect id="rect215" x="19" y="916.36" width="32" height="32"/>
  </g>
- <rect id="shadow-hint-top-margin" x="91" y="-1.4648e-5" width="4" height="12" fill="#f0f"/>
- <rect id="shadow-hint-bottom-margin" x="91" y="44" width="4" height="12" fill="#f0f"/>
- <rect id="shadow-hint-right-margin" transform="rotate(90)" x="26" y="-121" width="4" height="12" fill="#f0f"/>
- <rect id="shadow-hint-left-margin" transform="rotate(90)" x="26" y="-77" width="4" height="12" fill="#f0f"/>
+ <rect id="shadow-hint-top-margin" x="91" y="-1.4648e-5" width="4" height="12" fill="#ff00ff"/>
+ <rect id="shadow-hint-bottom-margin" x="91" y="44" width="4" height="12" fill="#ff00ff"/>
+ <rect id="shadow-hint-right-margin" transform="rotate(90)" x="26" y="-121" width="4" height="12" fill="#ff00ff"/>
+ <rect id="shadow-hint-left-margin" transform="rotate(90)" x="26" y="-77" width="4" height="12" fill="#ff00ff"/>
  <g id="shadow-topleft" transform="translate(58 -904.36)">
   <path id="path4828" transform="translate(-58 904.36)" d="m65 0v12h6c0-3.324 2.676-6 6-6v-6z" fill="url(#radialGradient1374)" fill-rule="evenodd" opacity=".35"/>
   <rect id="rect4834" transform="scale(-1,1)" x="-19" y="910.36" width="6" height="6" ry=".99998" fill="none"/>
@@ -121,10 +121,10 @@
   <rect id="rect106" x="19" y="916.36" width="32" height="32" fill="none"/>
   <rect id="rect108" class="ColorScheme-Background" x="19" y="916.36" width="32" height="32" color="#e4e6e8" fill="#101017" opacity=".75"/>
  </g>
- <rect id="hint-top-margin" x="33" y="-1.0352e-5" width="4" height="12" fill="#f0f"/>
- <rect id="hint-bottom-margin" x="33" y="44" width="4" height="12" fill="#f0f"/>
- <rect id="hint-right-margin" transform="rotate(90)" x="26" y="-63" width="4" height="12" fill="#f0f"/>
- <rect id="hint-left-margin" transform="rotate(90)" x="26" y="-19" width="4" height="12" fill="#f0f"/>
+ <rect id="hint-top-margin" x="33" y="-1.0352e-5" width="4" height="12" fill="#ff00ff"/>
+ <rect id="hint-bottom-margin" x="33" y="44" width="4" height="12" fill="#ff00ff"/>
+ <rect id="hint-right-margin" transform="rotate(90)" x="26" y="-63" width="4" height="12" fill="#ff00ff"/>
+ <rect id="hint-left-margin" transform="rotate(90)" x="26" y="-19" width="4" height="12" fill="#ff00ff"/>
  <use id="topright" transform="matrix(-1 0 0 1 70 0)" width="100%" height="100%" xlink:href="#topleft"/>
  <use id="bottomleft" transform="rotate(-90 35 28)" width="100%" height="100%" xlink:href="#topleft"/>
  <use id="bottomright" transform="rotate(180 35 28)" width="100%" height="100%" xlink:href="#topleft"/>
