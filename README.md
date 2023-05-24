@@ -75,14 +75,15 @@ After installing all of them, you can just re-apply the Global Theme to reload l
 
 Also, it's recommended that using Latte Dock for your task manager to get better setup!
 
-## Related
+## Implementations
 
-There is also a cherry theme for other stuff, check it out 🚀
+Check out other ports/implementations as well 🚀
 
 - **Firefox**
 
-  - [Cherry theme](https://addons.mozilla.org/en-US/firefox/addon/cherry-kde-theme) by [Daste](https://addons.mozilla.org/en-US/firefox/user/16594667)
-  - [Cherry 3.0 theme](https://addons.mozilla.org/en-US/firefox/addon/cherry3) by [Gotoro](https://addons.mozilla.org/en-US/firefox/user/17172197)
+  - [Cherry](https://addons.mozilla.org/en-US/firefox/addon/cherry-kde-theme) by [Daste](https://addons.mozilla.org/en-US/firefox/user/16594667)
+  - [Cherry 3.0](https://addons.mozilla.org/en-US/firefox/addon/cherry3) by [Gotoro](https://addons.mozilla.org/en-US/firefox/user/17172197)
+  - [Cherry Midnight](https://addons.mozilla.org/en-US/firefox/addon/cherry-midnight)
 
 - [**Cherry VSCode**](https://github.com/nullxception/cherry-vscode)
 
