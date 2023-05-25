@@ -7,18 +7,10 @@ install_aurorae() {
 
   echo "Installing cherry:aurorae"
 
-  mkdir -p "$dest"
+  install -dm0755 "$dest"
 
   for variant in cherry{,-solid,-square{,-solid},-midnight{,-solid,-square{,-solid}}}; do
-    if [[ -d "$dest/${variant}" ]]; then
-      rm -rf "$dest/${variant}"
-    fi
-
-    cp -r "$src/aurorae/cherry" "$dest/${variant}"
-    cp -r "$src/aurorae/${variant}"/. "$dest/${variant}"
-    if [[ "$variant" != "cherry" ]]; then
-      rm "$dest/${variant}/cherryrc"
-    fi
+    cp -rL "$src/aurorae/${variant}" "$dest"
   done
 }
 
@@ -31,14 +23,10 @@ install_kvantum() {
   # Special Kvantum dest for user-specific install
   [[ $EUID -ne 0 ]] && dest="$HOME/.config/Kvantum"
 
-  mkdir -p "$dest"
+  install -dm0755 "$dest"
 
   for variant in cherry{,-solid,-midnight{,-solid}}; do
-    if [[ -d "$dest/${variant}" ]]; then
-      rm -rf "$dest/${variant}"
-    fi
-
-    cp -r "$src/kvantum/${variant}" "$dest"
+    cp -rL "$src/kvantum/${variant}" "$dest"
   done
 }
 
@@ -47,21 +35,10 @@ install_plasma() {
 
   echo "Installing cherry:plasma"
 
-  mkdir -p "$dest"
+  install -dm0755 "$dest"
 
   for variant in cherry{,-midnight}; do
-    if [[ -d "$dest/${variant}" ]]; then
-      rm -rf "$dest/${variant}"
-    fi
-
-    cp -r "$src/plasma/desktoptheme/cherry" "$dest/${variant}"
-    cp -r "$src/plasma/desktoptheme/${variant}"/. "$dest/${variant}"
-
-    if [[ "$variant" == "midnig"* ]]; then
-      cp -r "$src/color-schemes/CherryMidnight.colors" "$dest/${variant}/colors"
-    else
-      cp -r "$src/color-schemes/Cherry.colors" "$dest/${variant}/colors"
-    fi
+    cp -rL "$src/plasma/desktoptheme/${variant}" "$dest"
   done
 }
 
@@ -71,13 +48,10 @@ install_global() {
 
   echo "Installing cherry:global"
 
-  mkdir -p "$dest"
+  install -dm0755 "$dest"
 
   for variant in cherry{,midnight}; do
-    if [[ -d "$dest/${namespace}.${variant}" ]]; then
-      rm -rf "$dest/${namespace}.${variant}"
-    fi
-    cp -r "$src/plasma/look-and-feel/${namespace}.${variant}" "$dest"
+    cp -rL "$src/plasma/look-and-feel/${namespace}.${variant}" "$dest"
   done
 }
 
@@ -87,7 +61,8 @@ install_colors() {
 
   echo "Installing cherry:colors"
 
-  mkdir -p "$konsole_dest" "$scheme_dest"
+  install -dm0755 "$konsole_dest"
+  install -dm0755 "$scheme_dest"
 
   cp -r "$src/color-schemes/Cherry.colors" "$scheme_dest"
   cp -r "$src/color-schemes/CherryMidnight.colors" "$scheme_dest"
@@ -101,10 +76,8 @@ install_wallpaper() {
 
   echo "Installing cherry:wallpaper"
 
-  mkdir -p "$dest"
-
-  [[ -d "$dest/cherry" ]] && rm -rf "$dest/cherry"
-  cp -r "$src/wallpaper/cherry" "$dest"
+  install -dm0755 "$dest"
+  cp -rL "$src/wallpaper/cherry" "$dest"
 }
 
 main() {
@@ -118,8 +91,7 @@ main() {
     if declare -F "install_${fn}" >/dev/null; then
       install_${fn}
     else
-      echo "components $fn cannot be found. exiting" >&2
-      exit 1
+      echo "components $fn cannot be found" >&2
     fi
   done
 
