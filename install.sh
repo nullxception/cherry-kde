@@ -49,7 +49,7 @@ install_plasma() {
 
   mkdir -p "$dest"
 
-  for variant in cherry{,-solid,-midnight{,-solid}}; do
+  for variant in cherry{,-midnight}; do
     if [[ -d "$dest/${variant}" ]]; then
       rm -rf "$dest/${variant}"
     fi
