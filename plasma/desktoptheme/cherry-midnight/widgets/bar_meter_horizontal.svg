@@ -6,8 +6,8 @@
       stop-color:#101017;
       }
       .ColorScheme-Background {
-      color:#e4e6e8;
-      stop-color:#e4e6e8;
+      color:#e3e3ff;
+      stop-color:#e3e3ff;
       }
       .ColorScheme-Highlight {
       color:#3daee9;
@@ -18,8 +18,8 @@
       stop-color:#101017;
       }
       .ColorScheme-ViewBackground {
-      color:#fafafa;
-      stop-color:#fafafa;
+      color:#e3e3ff;
+      stop-color:#e3e3ff;
       }
       .ColorScheme-ViewHover {
       color:#93cee9;
@@ -34,8 +34,8 @@
       stop-color:#101017;
       }
       .ColorScheme-ButtonBackground {
-      color:#e4e6e8;
-      stop-color:#e4e6e8;
+      color:#e3e3ff;
+      stop-color:#e3e3ff;
       }
       .ColorScheme-ButtonHover {
       color:#93cee9;
@@ -50,7 +50,7 @@
  <g transform="translate(0 -904.36)">
   <rect id="hint-tile-center" y="904.36" width="4" height="4" fill="#ff2a2a"/>
   <rect id="hint-bar-size" x="6" y="904.36" width="6" height="6" fill="#ff2a2a"/>
-  <g fill="#a3a3a3">
+  <g fill="#a3a3b7">
    <path id="bar-inactive-bottomright" transform="translate(0 904.36)" d="m17 15v3c1.662 0 3-1.338 3-3h-3z" opacity=".35"/>
    <path id="bar-inactive-right" transform="translate(0 904.36)" d="m17 12v2h3v-2h-3z" opacity=".35"/>
    <path id="bar-inactive-topright" transform="translate(0 904.36)" d="m17 8v3h3c0-1.662-1.338-3-3-3z" opacity=".35"/>

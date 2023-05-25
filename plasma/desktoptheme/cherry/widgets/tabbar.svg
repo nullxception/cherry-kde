@@ -5,13 +5,13 @@
         color:#23232F;
       }
       .ColorScheme-Background{
-        color:#e4e6e8;
+        color:#e3e3ff;
       }
       .ColorScheme-ViewText {
         color:#23232F;
       }
       .ColorScheme-ViewBackground{
-        color:#fafafa;
+        color:#e3e3ff;
       }
       .ColorScheme-ViewHover {
         color:#3daee9;
@@ -23,7 +23,7 @@
         color:#23232F;
       }
       .ColorScheme-ButtonBackground{
-        color:#e4e6e8;
+        color:#e3e3ff;
       }
       .ColorScheme-ButtonHover {
         color:#3daee9;
@@ -38,11 +38,11 @@
   <rect class="ColorScheme-ButtonFocus" x="40" y="359.36" width="80" height="3" fill="#FF578B"/>
  </g>
  <g id="south-active-tab-topleft" transform="translate(236 72)">
-  <rect x="30" y="359.36" width="10" height="3" fill="#e4e6e8" opacity=".02"/>
+  <rect x="30" y="359.36" width="10" height="3" fill="#e3e3ff" opacity=".02"/>
   <rect class="ColorScheme-ButtonFocus" x="33" y="359.36" width="7" height="3" fill="#FF578B"/>
  </g>
  <g id="south-active-tab-topright" transform="translate(236 72)">
-  <rect x="120" y="359.36" width="10" height="3" fill="#e4e6e8" opacity=".02"/>
+  <rect x="120" y="359.36" width="10" height="3" fill="#e3e3ff" opacity=".02"/>
   <rect class="ColorScheme-ButtonFocus" x="120" y="359.36" width="7" height="3" fill="#FF578B"/>
  </g>
  <rect id="south-active-tab-left" x="266" y="434.36" width="10" height="12" opacity="0"/>
@@ -82,11 +82,11 @@
   <rect class="ColorScheme-ButtonFocus" x="40" y="359.36" width="80" height="3"/>
  </g>
  <g id="west-active-tab-topright" transform="matrix(0 1 -1 0 579.36 236.36)">
-  <rect x="30" y="359.36" width="10" height="3" fill="#e4e6e8" opacity=".02"/>
+  <rect x="30" y="359.36" width="10" height="3" fill="#e3e3ff" opacity=".02"/>
   <rect class="ColorScheme-ButtonFocus" x="33" y="359.36" width="7" height="3" fill="#FF578B"/>
  </g>
  <g id="west-active-tab-bottomright" transform="matrix(0 1 -1 0 579.36 236.36)">
-  <rect x="120" y="359.36" width="10" height="3" fill="#e4e6e8" opacity=".02"/>
+  <rect x="120" y="359.36" width="10" height="3" fill="#e3e3ff" opacity=".02"/>
   <rect class="ColorScheme-ButtonFocus" x="120" y="359.36" width="7" height="3" fill="#FF578B"/>
  </g>
  <rect id="west-active-tab-hint-right-margin" transform="rotate(90)" x="320.6" y="-220" width="5" height="8" fill="#4e9a06"/>
@@ -105,20 +105,20 @@
  <rect id="north-focus-hint-bottom-margin" transform="scale(-1)" x="-318.76" y="-230.36" width="5" height="8" fill="#4e9a06"/>
  <rect id="north-focus-hint-top-margin" transform="scale(-1)" x="-318.76" y="-214.36" width="5" height="4" fill="#4e9a06"/>
  <g id="north-active-tab-bottomleft" transform="translate(243 -132)">
-  <rect x="30" y="359.36" width="10" height="3" fill="#e4e6e8" opacity=".02"/>
+  <rect x="30" y="359.36" width="10" height="3" fill="#e3e3ff" opacity=".02"/>
   <rect class="ColorScheme-ButtonFocus" x="33" y="359.36" width="7" height="3" fill="#FF578B"/>
  </g>
  <g id="north-active-tab-bottomright">
-  <rect x="363" y="227.36" width="10" height="3" fill="#e4e6e8" opacity=".02"/>
-  <rect x="363" y="227.36" width="10" height="3" fill="#e4e6e8" opacity=".02"/>
+  <rect x="363" y="227.36" width="10" height="3" fill="#e3e3ff" opacity=".02"/>
+  <rect x="363" y="227.36" width="10" height="3" fill="#e3e3ff" opacity=".02"/>
   <rect class="ColorScheme-ButtonFocus" x="363" y="227.36" width="7" height="3" fill="#FF578B"/>
  </g>
  <g id="east-active-tab-topleft" transform="matrix(0 1 -1 0 766.78 236.36)">
-  <rect x="30" y="359.36" width="10" height="3" fill="#e4e6e8" opacity=".02"/>
+  <rect x="30" y="359.36" width="10" height="3" fill="#e3e3ff" opacity=".02"/>
   <rect class="ColorScheme-ButtonFocus" x="33" y="359.36" width="7" height="3" fill="#FF578B"/>
  </g>
  <g id="east-active-tab-bottomleft" transform="matrix(0 1 -1 0 766.78 236.36)">
-  <rect x="120" y="359.36" width="10" height="3" fill="#e4e6e8" opacity=".02"/>
+  <rect x="120" y="359.36" width="10" height="3" fill="#e3e3ff" opacity=".02"/>
   <rect class="ColorScheme-ButtonFocus" x="120" y="359.36" width="7" height="3" fill="#FF578B"/>
  </g>
 </svg>

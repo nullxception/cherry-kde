@@ -5,13 +5,13 @@
         color:#23232F;
       }
       .ColorScheme-Background{
-        color:#e4e6e8;
+        color:#e3e3ff;
       }
       .ColorScheme-ViewText {
         color:#23232F;
       }
       .ColorScheme-ViewBackground{
-        color:#fafafa;
+        color:#e3e3ff;
       }
       .ColorScheme-ViewHover {
         color:#3daee9;
@@ -23,7 +23,7 @@
         color:#23232F;
       }
       .ColorScheme-ButtonBackground{
-        color:#e4e6e8;
+        color:#e3e3ff;
       }
       .ColorScheme-ButtonHover {
         color:#3daee9;

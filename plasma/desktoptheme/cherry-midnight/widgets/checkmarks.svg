@@ -6,8 +6,8 @@
       stop-color:#101017;
       }
       .ColorScheme-Background {
-      color:#e4e6e8;
-      stop-color:#e4e6e8;
+      color:#e3e3ff;
+      stop-color:#e3e3ff;
       }
       .ColorScheme-Highlight {
       color:#3daee9;
@@ -18,8 +18,8 @@
       stop-color:#101017;
       }
       .ColorScheme-ViewBackground {
-      color:#fafafa;
-      stop-color:#fafafa;
+      color:#e3e3ff;
+      stop-color:#e3e3ff;
       }
       .ColorScheme-ViewHover {
       color:#93cee9;
@@ -34,8 +34,8 @@
       stop-color:#101017;
       }
       .ColorScheme-ButtonBackground {
-      color:#e4e6e8;
-      stop-color:#e4e6e8;
+      color:#e3e3ff;
+      stop-color:#e3e3ff;
       }
       .ColorScheme-ButtonHover {
       color:#93cee9;

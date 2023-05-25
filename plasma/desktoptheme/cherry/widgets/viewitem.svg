@@ -5,7 +5,7 @@
       color:#7B7C7E;
       }
       .ColorScheme-Background{
-      color:#e4e6e8;
+      color:#e3e3ff;
       }
       .ColorScheme-Highlight{
       color:#3DAEE6;
@@ -14,7 +14,7 @@
       color:#7B7C7E;
       }
       .ColorScheme-ViewBackground{
-      color:#fafafa;
+      color:#e3e3ff;
       }
       .ColorScheme-ViewHover {
       color:#3DAEE6;
@@ -26,7 +26,7 @@
       color:#7B7C7E;
       }
       .ColorScheme-ButtonBackground{
-      color:#e4e6e8;
+      color:#e3e3ff;
       }
       .ColorScheme-ButtonHover {
       color:#3DAEE6;

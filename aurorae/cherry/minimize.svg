@@ -1,42 +1,45 @@
-<svg id="svg4306" width="22" height="22" enable-background="new" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
- <use id="use1002" transform="translate(28.476)" width="100%" height="100%" xlink:href="#g1000"/>
- <g id="active-center" transform="translate(-509.93 188.31)">
-  <g id="g4891-6-6" transform="translate(-781 -432.64)">
-   <ellipse id="path4068-7-5-9-6-7-2-4-9-7" cx="1302" cy="255" rx="8" ry="8" fill="#7f9bff"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg4306" width="40.25" height="84" enable-background="new" version="1.1" sodipodi:docname="minimize.svg" inkscape:version="1.2.2 (b0a8486541, 2022-12-01)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <defs id="defs32"/>
+ <sodipodi:namedview id="namedview30" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" showgrid="false" inkscape:zoom="3.523481" inkscape:cx="121.04507" inkscape:cy="48.389647" inkscape:window-width="1920" inkscape:window-height="1020" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="1" inkscape:current-layer="svg4306"/>
+ <use id="use1002" transform="translate(49.656,-2.67)" width="100%" height="100%" xlink:href="#g1000"/>
+ <g id="active-center" transform="translate(-488.75,185.64)">
+  <g id="g4891-6-6" transform="translate(-781,-432.64)">
+   <circle id="path4068-7-5-9-6-7-2-4-9-7" cx="1302" cy="255" fill="#7f9bff" r="8"/>
   </g>
   <rect id="rect17883-0-0-9" x="513" y="-185.64" width="16" height="16" fill="none"/>
  </g>
- <g id="hover-center" transform="translate(-509.93 232.31)">
-  <g id="g6282-3" transform="translate(-781 -432.64)">
-   <ellipse id="ellipse6256-6" cx="1302" cy="255" rx="8" ry="8" fill="#acb1bc" fill-opacity=".96838" opacity=".5"/>
+ <g id="hover-center" transform="translate(-488.75,229.64)">
+  <g id="g6282-3" transform="translate(-781,-432.64)">
+   <circle id="ellipse6256-6" cx="1302" cy="255" fill="#acacda" fill-opacity="0.96838" opacity="0.5" r="8"/>
    <g id="g6280-0" transform="translate(1294,247)" fill="#c0e3ff">
-    <g id="g6278-0" transform="translate(-81 -967)" fill="#c0e3ff">
-     <path id="path6276-2" d="m90.207 978.01h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138" fill="#e3e3ff" fill-rule="evenodd" opacity=".75"/>
+    <g id="g6278-0" transform="translate(-81,-967)" fill="#c0e3ff">
+     <path id="path6276-2" d="m 90.207,978.01 h -3.3951 c -0.45035,0 -0.81876,-0.36842 -0.81876,-0.81875 v -3.3951 l 4.2138,4.2138" fill="#e3e3ff" fill-rule="evenodd" opacity="0.75"/>
     </g>
    </g>
   </g>
   <rect id="rect6284-3" x="513" y="-185.64" width="16" height="16" fill="none"/>
  </g>
- <g id="pressed-center" transform="translate(-509.93 256.31)">
-  <g id="g6378-7" transform="translate(-781 -432.64)">
-   <ellipse id="ellipse6352-5" cx="1302" cy="255" rx="8" ry="8" fill="#7f9bff"/>
+ <g id="pressed-center" transform="translate(-488.75,253.64)">
+  <g id="g6378-7" transform="translate(-781,-432.64)">
+   <circle id="ellipse6352-5" cx="1302" cy="255" fill="#7f9bff" r="8"/>
    <g id="g6376-9" transform="translate(1294,247)" fill="#c0e3ff">
-    <g id="g6374-2" transform="translate(-81 -967)" fill="#c0e3ff">
-     <path id="path904" d="m90.207 978.01h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138" fill-rule="evenodd" fill="#e3e3ff"/>
+    <g id="g6374-2" transform="translate(-81,-967)" fill="#c0e3ff">
+     <path id="path904" d="m 90.207,978.01 h -3.3951 c -0.45035,0 -0.81876,-0.36842 -0.81876,-0.81875 v -3.3951 l 4.2138,4.2138" fill-rule="evenodd" fill="#e3e3ff"/>
     </g>
    </g>
   </g>
   <rect id="rect6380-3" x="513" y="-185.64" width="16" height="16" fill="none"/>
  </g>
- <g id="inactive-center" transform="translate(-509.93 209.31)">
-  <g id="g6472-9" transform="translate(-781 -432.64)">
-   <ellipse id="ellipse6448-4" cx="1302" cy="255" rx="8" ry="8" fill="#7f9bff"/>
+ <g id="inactive-center" transform="translate(-488.75,206.64)">
+  <g id="g6472-9" transform="translate(-781,-432.64)">
+   <circle id="ellipse6448-4" cx="1302" cy="255" fill="#7f9bff" r="8"/>
   </g>
   <rect id="rect6474-3" x="513" y="-185.64" width="16" height="16" fill="none"/>
  </g>
- <g id="deactivated-center" transform="translate(-534.18 209.31)">
-  <g id="g1055" transform="translate(-781 -432.64)">
-   <ellipse id="ellipse1033" cx="1302" cy="255" rx="8" ry="8" fill="#7f9bff"/>
+ <g id="deactivated-center" transform="translate(-513,206.64)">
+  <g id="g1055" transform="translate(-781,-432.64)">
+   <circle id="ellipse1033" cx="1302" cy="255" fill="#7f9bff" r="8"/>
   </g>
   <rect id="rect1057" x="513" y="-185.64" width="16" height="16" fill="none"/>
  </g>

@@ -6,8 +6,8 @@
       stop-color:#101017;
       }
       .ColorScheme-Background {
-      color:#e4e6e8;
-      stop-color:#e4e6e8;
+      color:#e3e3ff;
+      stop-color:#e3e3ff;
       }
       .ColorScheme-Highlight {
       color:#3daee9;
@@ -18,8 +18,8 @@
       stop-color:#101017;
       }
       .ColorScheme-ViewBackground {
-      color:#fafafa;
-      stop-color:#fafafa;
+      color:#e3e3ff;
+      stop-color:#e3e3ff;
       }
       .ColorScheme-ViewHover {
       color:#93cee9;
@@ -34,8 +34,8 @@
       stop-color:#101017;
       }
       .ColorScheme-ButtonBackground {
-      color:#e4e6e8;
-      stop-color:#e4e6e8;
+      color:#e3e3ff;
+      stop-color:#e3e3ff;
       }
       .ColorScheme-ButtonHover {
       color:#93cee9;
@@ -96,30 +96,30 @@
  <use id="shadow-bottomleft" transform="matrix(1 0 0 -1 -7e-6 56)" width="100%" height="100%" xlink:href="#shadow-topleft"/>
  <use id="shadow-bottomright" transform="rotate(180 93 28)" width="100%" height="100%" xlink:href="#shadow-topleft"/>
  <g id="top" transform="translate(4e-6,-904.36)">
-  <rect id="rect42" class="ColorScheme-Background" transform="matrix(0,-1,-1,0,0,0)" x="-916.36" y="-51" width="6" height="32" color="#e4e6e8" fill="#101017" opacity=".75"/>
+  <rect id="rect42" class="ColorScheme-Background" transform="matrix(0,-1,-1,0,0,0)" x="-916.36" y="-51" width="6" height="32" color="#e3e3ff" fill="#101017" opacity=".75"/>
   <rect id="rect44" transform="matrix(0,-1,-1,0,0,0)" x="-910.36" y="-51" width="6" height="32" fill="url(#linearGradient1037)" opacity=".35"/>
  </g>
  <g id="topleft" transform="translate(4e-6,-904.36)">
   <g id="g53" fill-rule="evenodd">
    <path id="path47" transform="translate(0,904.36)" d="m7 0v12h6c0-3.324 2.676-6 6-6v-6z" fill="url(#radialGradient1025)" opacity=".35"/>
   </g>
-  <path id="path55" transform="translate(0,904.36)" d="m19 6c-3.324 0-6 2.676-6 6h6v-5z" color="#e4e6e8" fill="#101017" opacity=".75"/>
+  <path id="path55" transform="translate(0,904.36)" d="m19 6c-3.324 0-6 2.676-6 6h6v-5z" color="#e3e3ff" fill="#101017" opacity=".75"/>
  </g>
  <g id="bottom" transform="translate(4e-6,-904.36)">
-  <rect id="rect69" class="ColorScheme-Background" transform="rotate(90)" x="948.36" y="-51" width="6" height="32" color="#e4e6e8" fill="#101017" opacity=".75"/>
+  <rect id="rect69" class="ColorScheme-Background" transform="rotate(90)" x="948.36" y="-51" width="6" height="32" color="#e3e3ff" fill="#101017" opacity=".75"/>
   <rect id="rect71" transform="rotate(90)" x="954.36" y="-51" width="6" height="32" fill="url(#linearGradient1043)" opacity=".35"/>
  </g>
  <g id="left" transform="translate(4e-6,-904.36)">
-  <rect id="rect96" class="ColorScheme-Background" transform="scale(-1,1)" x="-19" y="916.36" width="6" height="32" color="#e4e6e8" fill="#101017" opacity=".75"/>
+  <rect id="rect96" class="ColorScheme-Background" transform="scale(-1,1)" x="-19" y="916.36" width="6" height="32" color="#e3e3ff" fill="#101017" opacity=".75"/>
   <rect id="rect98" transform="scale(-1,1)" x="-13" y="916.36" width="6" height="32" fill="url(#linearGradient1045)" opacity=".35"/>
  </g>
  <g id="right" transform="translate(4e-6,-904.36)">
-  <rect id="rect101" class="ColorScheme-Background" x="51" y="916.36" width="6" height="32" color="#e4e6e8" fill="#101017" opacity=".75"/>
+  <rect id="rect101" class="ColorScheme-Background" x="51" y="916.36" width="6" height="32" color="#e3e3ff" fill="#101017" opacity=".75"/>
   <rect id="rect103" x="57" y="916.36" width="6" height="32" fill="url(#linearGradient1047)" opacity=".35"/>
  </g>
  <g id="center" transform="translate(4e-6,-904.36)">
   <rect id="rect106" x="19" y="916.36" width="32" height="32" fill="none"/>
-  <rect id="rect108" class="ColorScheme-Background" x="19" y="916.36" width="32" height="32" color="#e4e6e8" fill="#101017" opacity=".75"/>
+  <rect id="rect108" class="ColorScheme-Background" x="19" y="916.36" width="32" height="32" color="#e3e3ff" fill="#101017" opacity=".75"/>
  </g>
  <rect id="hint-top-margin" x="33" y="-1.0352e-5" width="4" height="12" fill="#ff00ff"/>
  <rect id="hint-bottom-margin" x="33" y="44" width="4" height="12" fill="#ff00ff"/>
