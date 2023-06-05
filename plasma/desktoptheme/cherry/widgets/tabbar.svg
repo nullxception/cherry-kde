@@ -2,13 +2,13 @@
  <defs>
   <style id="current-color-scheme" type="text/css">
    .ColorScheme-Text {
-        color:#23232F;
+        color:#1f1f2a;
       }
       .ColorScheme-Background{
         color:#e3e3ff;
       }
       .ColorScheme-ViewText {
-        color:#23232F;
+        color:#1f1f2a;
       }
       .ColorScheme-ViewBackground{
         color:#e3e3ff;
@@ -20,7 +20,7 @@
         color:#3daee9;
       }
       .ColorScheme-ButtonText {
-        color:#23232F;
+        color:#1f1f2a;
       }
       .ColorScheme-ButtonBackground{
         color:#e3e3ff;

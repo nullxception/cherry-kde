@@ -2,8 +2,8 @@
  <defs>
   <style id="current-color-scheme" type="text/css">
    .ColorScheme-Text {
-        color:#23232F;
-        stop-color:#23232F;
+        color:#1f1f2a;
+        stop-color:#1f1f2a;
       }
       .ColorScheme-Background {
         color:#e3e3ff;
@@ -14,8 +14,8 @@
         stop-color:#3daee9;
       }
       .ColorScheme-ViewText {
-        color:#23232F;
-        stop-color:#23232F;
+        color:#1f1f2a;
+        stop-color:#1f1f2a;
       }
       .ColorScheme-ViewBackground {
         color:#e3e3ff;
@@ -30,8 +30,8 @@
         stop-color:#3daee9;
       }
       .ColorScheme-ButtonText {
-        color:#23232F;
-        stop-color:#23232F;
+        color:#1f1f2a;
+        stop-color:#1f1f2a;
       }
       .ColorScheme-ButtonBackground {
         color:#e3e3ff;
@@ -50,21 +50,21 @@
  <g id="menu" transform="translate(.52917 -249.37)">
   <rect x="-.52917" y="249.37" width="4.2333" height="4.2333" fill="none"/>
   <rect x="-1.0174e-6" y="249.9" width="3.175" height="3.175" fill="none"/>
-  <path class="ColorScheme-Text" d="m4.5328e-8 250.17v0.52917h3.175v-0.52917zm0 1.0583v0.52917h3.175v-0.52917zm0 1.0583v0.52916h3.175v-0.52916z" color="#23232F" fill="#e3e3ff"/>
+  <path class="ColorScheme-Text" d="m4.5328e-8 250.17v0.52917h3.175v-0.52917zm0 1.0583v0.52917h3.175v-0.52917zm0 1.0583v0.52916h3.175v-0.52916z" color="#1f1f2a" fill="#e3e3ff"/>
  </g>
  <g id="collapse" transform="translate(.52917 -249.37)">
   <rect x="23.283" y="254.14" width="4.2333" height="4.2333" fill="none"/>
   <rect x="23.813" y="254.67" width="3.175" height="3.175" fill="none"/>
-  <path class="ColorScheme-Text" d="m24.606 254.67 0.79375 0.79375 0.79375-0.79375zm-1.0583 1.3229v0.52917h3.7042v-0.52917zm1.8521 1.0583-0.79375 0.79375h1.5875z" color="#23232F" fill="#e3e3ff"/>
+  <path class="ColorScheme-Text" d="m24.606 254.67 0.79375 0.79375 0.79375-0.79375zm-1.0583 1.3229v0.52917h3.7042v-0.52917zm1.8521 1.0583-0.79375 0.79375h1.5875z" color="#1f1f2a" fill="#e3e3ff"/>
  </g>
  <g id="return-to-source" transform="translate(.52917 -249.63)">
   <rect x="18.521" y="254.14" width="4.2333" height="4.2333" fill="none"/>
-  <path transform="matrix(.26458 0 0 .26458 -.52917 249.37)" d="m74 19c-0.554 0-1 0.44599-1 1v12c0 0.55401 0.446 1 1 1h12c0.554 0 1-0.44599 1-1v-12c0-0.55401-0.446-1-1-1zm4 2h4l-2 2zm-3 4h10v2h-10zm5 4 2 2h-4z" color="#23232F" fill="#e3e3ff"/>
+  <path transform="matrix(.26458 0 0 .26458 -.52917 249.37)" d="m74 19c-0.554 0-1 0.44599-1 1v12c0 0.55401 0.446 1 1 1h12c0.554 0 1-0.44599 1-1v-12c0-0.55401-0.446-1-1-1zm4 2h4l-2 2zm-3 4h10v2h-10zm5 4 2 2h-4z" color="#1f1f2a" fill="#e3e3ff"/>
  </g>
  <g id="restore" transform="translate(.52917 -249.37)">
   <rect x="28.046" y="254.14" width="4.2333" height="4.2333" fill="none"/>
   <rect x="28.575" y="254.67" width="3.175" height="3.175" fill="none"/>
-  <path class="ColorScheme-Text" d="m29.369 255.46 0.79376-0.79375 0.79374 0.79375zm-1.0583 0.52917v0.52917h3.7042v-0.52917zm1.8521 1.8521-0.79376-0.79375h1.5875z" color="#23232F" fill="#e3e3ff"/>
+  <path class="ColorScheme-Text" d="m29.369 255.46 0.79376-0.79375 0.79374 0.79375zm-1.0583 0.52917v0.52917h3.7042v-0.52917zm1.8521 1.8521-0.79376-0.79375h1.5875z" color="#1f1f2a" fill="#e3e3ff"/>
  </g>
  <g id="rotate" transform="matrix(.26458 0 0 .26458 -102.39 10.332)" enable-background="new">
   <path transform="translate(241,-473)" d="m192 435c-3.866 0-7 3.134-7 7s3.134 7 7 7c3.1748 0 5.8615-2.1032 6.7188-5h-2.1562c-0.77427 1.7595-2.5168 3-4.5625 3-2.7614 0-5-2.2386-5-5s2.2386-5 5-5c2.0457 0 3.7882 1.2405 4.5625 3h2.1562c-0.85721-2.8968-3.5439-5-6.7188-5z" fill="#e3e3ff"/>

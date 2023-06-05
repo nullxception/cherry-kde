@@ -5,13 +5,13 @@ Opacity=0.95
 ColorRandomization=false
 
 [Background]
-Color=35,35,47
+Color=313142
 
 [BackgroundFaint]
 Color=30,30,42
 
 [BackgroundIntense]
-Color=35,35,47
+Color=313142
 
 [Foreground]
 Color=189,195,199

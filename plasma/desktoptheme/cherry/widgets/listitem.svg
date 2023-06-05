@@ -2,13 +2,13 @@
  <defs id="defs3">
   <style id="current-color-scheme" type="text/css">
    .ColorScheme-Text {
-        color:#23232F;
+        color:#1f1f2a;
       }
       .ColorScheme-Background{
         color:#e3e3ff;
       }
       .ColorScheme-ViewText {
-        color:#23232F;
+        color:#1f1f2a;
       }
       .ColorScheme-ViewBackground{
         color:#e3e3ff;
@@ -20,7 +20,7 @@
         color:#3daee9;
       }
       .ColorScheme-ButtonText {
-        color:#23232F;
+        color:#1f1f2a;
       }
       .ColorScheme-ButtonBackground{
         color:#e3e3ff;
@@ -44,7 +44,7 @@
  <rect id="normal-hint-right-margin" x="38" y="766" width="4" height="2" fill="#4e9a06"/>
  <g id="separator" transform="translate(11,704)" opacity="0">
   <rect id="rect16" class="ColorScheme-ViewBackground" transform="scale(1,-1)" x="63" y="-49" width="40" height="1" color="#e3e3ff" opacity=".2"/>
-  <rect id="rect18" class="ColorScheme-ViewText" transform="scale(1,-1)" x="63" y="-49" width="40" height="1" color="#23232F" opacity="0"/>
+  <rect id="rect18" class="ColorScheme-ViewText" transform="scale(1,-1)" x="63" y="-49" width="40" height="1" color="#1f1f2a" opacity="0"/>
  </g>
  <g id="g30" transform="translate(0,708)" fill="currentColor">
   <path id="normal-center" class="ColorScheme-ViewBackground" d="m24 53v11h11v-11z" color="#e3e3ff" opacity=".02"/>

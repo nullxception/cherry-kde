@@ -1,18 +1,18 @@
 <svg id="svg71" width="48" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
  <g id="remove-normal" transform="translate(0,-18)">
   <rect id="rect2" y="34" width="16" height="16" opacity=".005"/>
-  <path id="path4" d="m15 42a7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7 7 7 0 0 1 7 7z" fill="#23232F"/>
+  <path id="path4" d="m15 42a7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7 7 7 0 0 1 7 7z" fill="#1f1f2a"/>
   <rect id="rect6" transform="rotate(90)" x="41" y="-12" width="2" height="8" fill="#e3e3ff"/>
  </g>
  <g id="add-normal" transform="translate(0,-18)">
   <rect id="rect9" y="18" width="16" height="16" opacity=".005"/>
-  <path id="path11" d="m15 26a7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7 7 7 0 0 1 7 7z" fill="#23232F"/>
+  <path id="path11" d="m15 26a7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7 7 7 0 0 1 7 7z" fill="#1f1f2a"/>
   <rect id="rect13" x="7" y="22" width="2" height="8" fill="#e3e3ff"/>
   <rect id="rect15" transform="rotate(90)" x="25" y="-12" width="2" height="8" fill="#e3e3ff"/>
  </g>
  <g id="open-normal" transform="translate(0,-18)">
   <rect id="rect18" y="50" width="16" height="16" opacity=".005"/>
-  <path id="path20" d="m15 58a7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7 7 7 0 0 1 7 7z" fill="#23232F"/>
+  <path id="path20" d="m15 58a7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7 7 7 0 0 1 7 7z" fill="#1f1f2a"/>
   <path id="path22" transform="matrix(1.0756 0 0 .77622 -.90682 26.622)" d="m8.281 36.559 3.719 6.4414h-7.438l1.8595-3.2207z" fill="#e3e3ff"/>
  </g>
  <g id="remove-hover" transform="translate(16,-18)">

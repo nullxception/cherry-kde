@@ -74,9 +74,9 @@ shadowless_popup=false
 drag_from_buttons=false
 
 [GeneralColors]
-window.color=#23232F
-base.color=#23232F
-alt.base.color=#23232F
+window.color=#1f1f2a
+base.color=#1f1f2a
+alt.base.color=#1f1f2a
 button.color=#2C2C3B
 light.color=#2C2C3B
 mid.light.color=#2C2C3B
