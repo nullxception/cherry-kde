@@ -41,7 +41,9 @@ So in order to completely apply this theme, you have to set the theme on kvantum
 **From terminal**
 
 ```bash
-kvantummanager --set <theme-name> # available: cherry, cherry-solid, cherry-midnight, and cherry-midnight-solid
+
+# available theme name: cherry, cherry-solid, cherry-midnight, and cherry-midnight-solid
+kvantummanager --set <theme-name>
 ```
 
 **From Kvantum Manager GUI**
@@ -54,13 +56,17 @@ Open **Kvantum Manager**, then select the theme on **Change/Delete Theme** secti
 
 Cherry theme (non-solid variant) has background opacity set to 95%, you can match your term config for nicer setup.
 
-**Color scheme for Kitty Terminal**
+**Kitty Terminal**
 
-You can copy the configs inside of [kitty](kitty) directory into your kitty theme dir, and then apply it as usual.
+Cherry theme is available on official [kitty-themes repository](https://github.com/kovidgoyal/kitty-themes). You can run themes kitten to select and apply it.
 
 ```bash
-$ cp kitty/*.conf ~/.config/kitty/themes/
-$ kitty +kitten themes Cherry
+# Open kitty theme selection
+# --cache-age=0 to force update theme index
+kitty +kitten themes --cache-age=0
+
+# or apply theme directly by passing the theme name
+kitty +kitten themes "Cherry Midnight"
 ```
 
 ### Layouts
