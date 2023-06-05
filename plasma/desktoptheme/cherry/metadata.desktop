@@ -3,7 +3,7 @@ Name=cherry
 X-KDE-PluginInfo-Author=nullxception
 X-KDE-PluginInfo-Email=enuma.alrizky@gmail.com
 X-KDE-PluginInfo-Name=cherry-plasma
-X-KDE-PluginInfo-Version=2.1
+X-KDE-PluginInfo-Version=2.2
 X-KDE-PluginInfo-Website=https://github.com/nullxception/cherry-kde
 X-KDE-PluginInfo-Category=
 X-KDE-PluginInfo-Depends=
@@ -17,7 +17,7 @@ intensity=0.4
 saturation=1.7
 
 [Wallpaper]
-defaultWallpaperTheme=cherry
+defaultWallpaperTheme=cherry-wallpaper
 defaultFileSuffix=.png
 defaultWidth=1920
 defaultHeight=1080
